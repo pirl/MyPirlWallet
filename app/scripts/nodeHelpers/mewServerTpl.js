@@ -1,6 +1,6 @@
 'use strict';
 var mewServer = function() {}
-mewServer.prototype.SERVERURL = "https://rpc.myetherwallet.com/api.mew";
+mewServer.prototype.SERVERURL = "https://wallrpc.pirl.io";
 mewServer.prototype.config = {
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
