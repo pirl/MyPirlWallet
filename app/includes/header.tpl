@@ -26,7 +26,7 @@
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-square.png" />
 <meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
-<meta property="og:description" content="MyPirlWallet is a free, open-source, client-side interface for generating Ethereum wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet." />
+<meta property="og:description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet." />
 
 </head>
 <body>

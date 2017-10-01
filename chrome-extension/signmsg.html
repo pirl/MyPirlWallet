@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>MyPirlWallet</title>
   <link rel="canonical" href="https://wallet.pirl.io" />
-  <meta name="description" content="MyPirlWallet is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Pirl blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.">
+  <meta name="description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; more. Interact with the Pirl blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/etherwallet-master.min.css">

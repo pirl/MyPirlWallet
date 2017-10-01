@@ -117,7 +117,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 MEW_Warning_1               : 'Always check the URL before accessing your wallet or creating a new wallet. Beware of phishing sites! ',
 
 /* Footer */
-FOOTER_1                    : 'Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.',
+FOOTER_1                    : 'Free, open-source, client-side interface for generating Pirl wallets &amp; more. Interact with the Pirl blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.',
 FOOTER_1b                   : 'Created by ',
 FOOTER_2                    : 'Donations greatly appreciated ',
 FOOTER_3                    : 'Client-side wallet generation by ',
