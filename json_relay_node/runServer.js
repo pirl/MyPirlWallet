@@ -7,7 +7,7 @@ var privateKey  = fs.readFileSync('/etc/ssl/private/ssl-cert-snakeoil.key', 'utf
 var certificate = fs.readFileSync('/etc/ssl/certs/ssl-cert-snakeoil.pem', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
 var app = express();
-app.use(vhost('rpc.myetherwallet.com', require('./index.js').app));
+app.use(vhost('rpc.pirl.io', require('./index.js').app));
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 httpServer.listen(80);
