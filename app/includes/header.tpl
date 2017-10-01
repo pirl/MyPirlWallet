@@ -34,7 +34,7 @@
 
 @@if (site === 'mew' ) {
   <div class="small announcement annoucement-danger">
-    <div class="container">Always check the URL and look for MyPirlWallet SSL Certificate up there. Look for https://wallet.pirl.io/. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener">Be safe &amp; secure</a>.</div>
+    <div class="container">Always check the URL and look for MyPirlWallet SSL Certificate up there. Look for https://wallet.pirl.io/. </div>
   </div>
 }
 
