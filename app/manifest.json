@@ -1,0 +1,23 @@
+{
+  "name": "MyPirlWallet",
+  "version": "3.10.4",
+  "manifest_version": 2,
+  "description": "mupirlwallet Chrome Extension",
+  "homepage_url": "https:/mupirlwallet.com",
+  "icons": {
+    "16": "images/icons/rsz_pirl.png",
+    "32": "images/icons/rsz_pirl.png",
+    "192": "images/icons/rsz_pirl.png"
+  },
+  "options_page": "cx-wallet.html",
+  "browser_action": {
+    "default_icon": "images/icons/rsz_pirl.png",
+    "default_title": "mupirlwallet CX",
+    "default_popup": "browser_action/browser_action.html"
+  },
+  "permissions": [
+    "storage",
+    "clipboardWrite"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self'"
+}
