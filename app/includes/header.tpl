@@ -15,13 +15,13 @@
 <link rel="manifest" href="images/fav/manifest.json">
 <link rel="mask-icon" href="images/fav/safari-pinned-tab.svg" color="#2f99b0">
 <link rel="shortcut icon" href="images/fav/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet &middot; Your Key to Ethereum">
-<meta name="application-name" content="MyEtherWallet">
+<meta name="apple-mobile-web-app-title" content="MyPirlWallet &middot; Your Key to Pirl">
+<meta name="application-name" content="MyPirlWallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
-<meta property="og:url" content="https://www.myetherwallet.com" />
-<meta property="og:title" content="MyEtherWallet.com  &middot; Your Key to Ethereum" />
+<meta property="og:url" content="https://wallet.pirl.io" />
+<meta property="og:title" content="mywallet.pirl.io  &middot; Your Key to Pirl" />
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-square.png" />
