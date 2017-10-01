@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>MyPirlWallet</title>
-<meta name="description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
+<meta name="description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.">
 <link rel="canonical" href="https://wallet.pirl.io" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
