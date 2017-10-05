@@ -109,6 +109,7 @@
     </span>
 
     <!-- Warning: The separators you see on the frontend are in styles/etherwallet-custom.less. If you add / change a node, you have to adjust these. Ping tayvano if you're not a CSS wizard -->
+<!--
     <span class="dropdown dropdown-node" ng-cloak>
       <a tabindex="0" aria-haspopup="true" aria-label="change node. current node {{curNode.name}} node by {{curNode.service}}" class="dropdown-toggle  btn btn-white" ng-click="dropdownNode = !dropdownNode">
         Network: {{curNode.name}} <small>({{curNode.service}})</small>
@@ -123,7 +124,7 @@
         <li><a ng-click="customNodeModal.open(); dropdownNode = !dropdownNode;"> Add Custom Node </a></li>
       </ul>
     </span>
-
+-->
     </div>
   </section>
 </section>

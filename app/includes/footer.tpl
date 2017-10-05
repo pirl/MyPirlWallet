@@ -44,10 +44,14 @@
 
     <section class="footer--righ">
 
+
       <p><a aria-label="website via my ether wallet dot com" href="https://wallet.pirl.io" target="_blank" rel="noopener" role="link" tabindex="0">
         wallet.pirl.io
       </a></p>
 
+      <p><a href="https://stats.pirl.io" target="_blank" rel="noopener" role="link" tabindex="0">
+        stats.pirl.io
+      </a></p>
       <p><a href="https://wallet.pirl.io/helpers.html" target="_blank" rel="noopener" role="link" tabindex="0">
         Unit Converters &amp; ENS Debugging
       </a></p>
