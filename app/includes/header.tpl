@@ -134,10 +134,10 @@
   <div class="nav-scroll">
     <ul class="nav-inner">
       @@if (site === 'mew' ) {
-        <li ng-repeat="tab in tabNames track by $index" class="nav-item {{tab.name}}" ng-if="tab.name != 'NAV_ENS'" ng-class="{active: $index==gService.currentTab}" ng-show="tab.mew" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
+        <li ng-repeat="tab in tabNames track by $index" class="nav-item {{tab.name}}" ng-if="tab.name != 'NAV_ENS' && tab.name != 'NAV_Swap'" ng-class="{active: $index==gService.currentTab}" ng-show="tab.mew" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
       }
       @@if (site === 'cx' ) {
-        <li ng-repeat="tab in tabNames track by $index" ng-if="tab.name != 'NAV_ENS'" class="nav-item {{tab.name}}" ng-class="{active: $index==gService.currentTab}" ng-show="tab.cx" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
+        <li ng-repeat="tab in tabNames track by $index" ng-if="tab.name != 'NAV_ENS' && tab.name != 'NAV_Swap'" class="nav-item {{tab.name}}" ng-class="{active: $index==gService.currentTab}" ng-show="tab.cx" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
       }
       <li class="nav-item help"><a href="https://myetherwallet.groovehq.com/help_center" target="_blank" rel="noopener">Help</a></li>
     </ul>
