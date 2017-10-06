@@ -66,15 +66,15 @@
       <tbody>
         <tr>
           <td translate="x_TxHash">TX Hash</td>
-          <td><a href="https://etherscan.io/tx/{{ txInfo.hash }}" target="_blank" rel="noopener"> {{ txInfo.hash }} </a></td>
+          <td><a href="https://explorer.pirl.io/#/tx/{{ txInfo.hash }}" target="_blank" rel="noopener"> {{ txInfo.hash }} </a></td>
         </tr>
         <tr>
           <td translate="OFFLINE_Step1_Label_1">From Address</td>
-          <td><a href="https://etherscan.io/address/{{ txInfo.from }}" target="_blank" rel="noopener"> {{ txInfo.from }} </a></td>
+          <td><!-- <a href="https://explorer.pirl.io/#/address/{{ txInfo.from }}" target="_blank" rel="noopener"> --> {{ txInfo.from }} <!-- </a> --></td>
         </tr>
         <tr>
           <td translate="OFFLINE_Step2_Label_1">To Address</td>
-          <td><a href="https://etherscan.io/address/{{ txInfo.to }}" target="_blank" rel="noopener"> {{ txInfo.to }} </a></td>
+          <td><!-- <a href="https://explorer.pirl.io/#/address/{{ txInfo.to }}" target="_blank" rel="noopener"> --> {{ txInfo.to }} <!-- </a> --></td>
         </tr>
         <tr>
           <td translate="SEND_amount_short">Amount</td>
