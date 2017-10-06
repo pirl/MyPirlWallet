@@ -56,10 +56,10 @@ var tabs = {
     cx: true
   },
   ens: {
-    id:7,
+    id: 7,
     name: "NAV_ENS",
     url: "ens",
-    mew: true,
+    mew: false,
     cx: true
   },
   txStatus: {
