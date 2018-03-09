@@ -4,10 +4,12 @@
   <section class="col-md-4 col-sm-6">
     <h4 translate="decrypt_Access" style="margin-top:0;"> Select the format of your private key: </h4>
 
+    <!--
     <label class="radio">
       <input aria-flowto="aria3" type="radio" aria-label="MetaMask / Mist" ng-model="walletType" value="metamask" />
       <span translate="x_MetaMask">MetaMask / Mist</span>
     </label>
+    -->
 
     <label class="radio" ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'">
       <input aria-flowto="aria2" type="radio" aria-label="Ledger Wallet hardware wallet" ng-model="walletType" value="ledger"/>
