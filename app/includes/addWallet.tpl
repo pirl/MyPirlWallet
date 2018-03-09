@@ -138,7 +138,7 @@
 
       <h5 translate="sidebar_TransHistory"> Transaction History: </h5>
       <ul class="account-info">
-        <li><a href="https://explorer.pirl.io/#/address/{{wallet.getAddressString()}}" target="_blank" rel="noopener">https://explorer.pirl.io/#/address/ {{wallet.getAddressString()}}</a></li>
+        <li><a href="https://poseidon.pirl.io/explorer/address/{{wallet.getAddressString()}}" target="_blank" rel="noopener">https://poseidon.pirl.io/explorer/address/ {{wallet.getAddressString()}}</a></li>
       </ul>
     </div>
 
