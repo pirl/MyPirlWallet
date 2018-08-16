@@ -13,11 +13,11 @@
 
       <p><span translate="FOOTER_1">Free, open-source, client-side interface for generating PIRL wallets &amp; more. Interact with the Pirl blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.</span></p>
 
-      <p><a aria-label="knowledge base" href="https://myetherwallet.github.io/knowledge-base/" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a aria-label="knowledge base" href="https://myetherwallet.github.io/knowledge-base/" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
         Knowledge Base
       </a></p>
 
-      <p><a data-target="#disclaimerModal" data-toggle="modal" target="_blank" rel="noopener" role="link" tabindex="0"  translate="FOOTER_4"> Disclaimer </a></p>
+      <p><a data-target="#disclaimerModal" data-toggle="modal" target="_blank" rel="noopener noreferrer" role="link" tabindex="0"  translate="FOOTER_4"> Disclaimer </a></p>
 
       <p ng-show="showBlocks">Latest Block#: {{currentBlockNumber}} </p>
 
@@ -69,19 +69,19 @@
         https://github.io/pirl
       </a></p>
 
-      <p><a aria-label="my ether wallet github" href="https://github.com/kvhnuke/etherwallet" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a aria-label="my ether wallet github" href="https://github.com/kvhnuke/etherwallet" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
         Github: Current Site &amp; CX
       </a></p>
 
-      <p><a aria-label="download & run locally" href="https://github.com/kvhnuke/etherwallet/releases/latest" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a aria-label="download & run locally" href="https://github.com/kvhnuke/etherwallet/releases/latest" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
         Github: Latest Release
       </a></p>
 
-      <p><a aria-label="my ether wallet chrome extension" href="https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a aria-label="my ether wallet chrome extension" href="https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
         MyEtherWallet Chrome Extension
       </a></p>
 
-      <p><a aria-label="Anti-Phishing chrome extension" href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn" target="_blank" rel="noopener" role="link" tabindex="0">
+      <p><a aria-label="Anti-Phishing chrome extension" href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
         EAL "Don't Get Phish'd" Chrome Extension
       </a></p>
 
