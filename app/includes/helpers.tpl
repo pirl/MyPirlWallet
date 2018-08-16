@@ -1,6 +1,6 @@
 <div class="" ng-controller="helpersCtrl">
-  <h1> Convert Ethererum Units (e.g. Ether <-> Wei) </h1>
-  <h2 class="p"> Ether Wei Converter </h2>
+  <h1> Convert Pirl Units (e.g. PIRL <-> Wei) </h1>
+  <h2 class="p"> Pilrl Wei Converter </h2>
   <section class="mono">
     <div class="input-group form-group">
       <input class="form-control" type="text" ng-model="units.wei" ng-change="convertUnit('wei')" />
@@ -202,7 +202,7 @@
   <br /><br /><br />
 
 
-  <h1> Ether Unit Reference Guide </h1>
+  <h1> PIRL Unit Reference Guide </h1>
   <table class="table table-striped mono">
     <tr>
       <td><strong>wei</strong></td>

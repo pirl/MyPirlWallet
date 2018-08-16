@@ -20,7 +20,7 @@
 - [Help Center: https://myetherwallet.groovehq.com/help_center](https://myetherwallet.groovehq.com/help_center)
 - [Github MEW Repo: https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet)
 - [Github MEW Org: https://github.com/MyEtherWallet](https://github.com/MyEtherWallet)
-- [Github Pages URL: https://kvhnuke.github.io/etherwallet/](https://kvhnuke.github.io/etherwallet/)
+- [Github Pages URL: https://https://github.io/pirl/](https://https://github.io/pirl/)
 - [Github Latest Releases: https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest)
 - [Github Anti-phish CX: https://github.com/409H/EtherAddressLookup](https://github.com/409H/EtherAddressLookup)
 - [Slack: https://myetherwallet.slack.com/ & https://myetherwallet.herokuapp.com/](https://myetherwallet.slack.com/ & https://myetherwallet.herokuapp.com/)
@@ -67,7 +67,7 @@
 ### Our Philosophy
 
  - **Empower the people**: Give people the ability to interact with the Ethereum blockchain easily, without having to run a full node.
- - **Make it easy & free**: Everyone should be able to create a wallet and send Ether & Tokens without additional cost.
+ - **Make it easy & free**: Everyone should be able to create a wallet and Send Pirl & Tokens without additional cost.
  - **People are the Priority**: People are the most important & their experience trumps all else. If monetization worsens the experience, we don't do it. (e.g. ads)
  - **A learning experience, too**: We want to educate about Ethereum, security, privacy, importance of controlling your own keys, how the blockchain works, and how Ethereum and blockchain technologies enable a better world.
  - **If it can be hacked, it will be hacked**: Never save, store, or transmit secret info, like passwords or keys.

@@ -502,7 +502,7 @@ HELP_3_Desc_8               : 'If you are planning on holding a large amount of 
 
 HELP_4_Title                : '4) How do I send Ether from one wallet to another? ',
 HELP_4_Desc_1               : 'If you plan to move a large amount of ether, you should test sending a small amount to your wallet first to ensure everything goes as planned. ',
-HELP_4_Desc_2               : 'Navigate to the "Send Ether & Tokens" page. ',
+HELP_4_Desc_2               : 'Navigate to the "Send Pirl & Tokens" page. ',
 HELP_4_Desc_3               : 'Select your wallet file -or- your private key and unlock your wallet. ',
 HELP_4_Desc_4               : 'If the wallet is encrypted, a text box will automatically appear. Enter the password. ',
 HELP_4_Desc_5               : 'Click the "Unlock Wallet" button. ',
@@ -515,7 +515,7 @@ HELP_4_Desc_12              : 'A pop-up will appear. Verify that the amount and 
 HELP_4_Desc_13              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
 
 HELP_4CX_Title              : '4) How do I send Ether using MyEtherWallet CX? ',
-HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Send Ether & Tokens" page. ',
+HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Send Pirl & Tokens" page. ',
 HELP_4CX_Desc_2             : 'QuickSend ',
 HELP_4CX_Desc_3             : 'Click the Chrome Extension Icon. ',
 HELP_4CX_Desc_4             : 'Click the "QuickSend" button. ',
@@ -526,7 +526,7 @@ HELP_4CX_Desc_8             : 'Click "Send Transaction". ',
 HELP_4CX_Desc_9             : 'Verify the address and the amount you are sending is correct. ',
 HELP_4CX_Desc_10            : 'Enter the password for that wallet. ',
 HELP_4CX_Desc_11            : 'Click "Send Transaction." ',
-HELP_4CX_Desc_12            : 'Using "Send Ether & Tokens" Page ',
+HELP_4CX_Desc_12            : 'Using "Send Pirl & Tokens" Page ',
 
 HELP_5_Title                : '5) How do I run MyEtherWallet.com offline/locally? ',
 HELP_5_Desc_1               : 'You can run MyEtherWallet.com on your computer instead of from the GitHub servers. You can generate a wallet completely offline and send transactions from the "Offline Transaction" page. ',
@@ -545,7 +545,7 @@ HELP_5CX_Desc_8             : 'The extension should now show up in your extensio
 
 HELP_7_Title                : '7) How do I send tokens & add custom tokens? ',
 HELP_7_Desc_0               : '[Ethplorer.io](https://ethplorer.io/) is a great way to explore tokens and find the decimals of a token. ',
-HELP_7_Desc_1               : 'Navigate to the "Send Ether & Tokens" page. ',
+HELP_7_Desc_1               : 'Navigate to the "Send Pirl & Tokens" page. ',
 HELP_7_Desc_2               : 'Unlock your wallet. ',
 HELP_7_Desc_3               : 'Enter the address you would like to send to in the "To Address:" field. ',
 HELP_7_Desc_4               : 'Enter the amount you would like to send. ',
@@ -572,7 +572,7 @@ HELP_8CX_Desc_1             : 'First, all data is saved on your computer, not ou
 HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with MyEtherWallet CX. That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets. ',
 HELP_8CX_Desc_3             : 'If for some reason MyEtherWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above. ',
 
-HELP_9_Title                : '9) Is the "Send Ether & Tokens" page offline? ',
+HELP_9_Title                : '9) Is the "Send Pirl & Tokens" page offline? ',
 HELP_9_Desc_1               : 'No. It needs the internet in order to get the current gas price, nonce of your account, and broadcast the transaction (aka "send"). However, it only sends the signed transaction. Your private key safely stays with you. We also now provide an "Offline Transaction" page so that you can ensure your private keys are on an offline/airgapped computer at all times. ',
 
 HELP_10_Title               : '10) How do I make an offline transaction? ',

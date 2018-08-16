@@ -131,20 +131,14 @@
       </ul>
       <h5 translate="sidebar_AccountBal">Account Balance:</h5>
       <ul class="account-info">
-        <li><strong>{{etherBalance}}</strong> ETH </li>
+        <li><strong>{{etherBalance}}</strong> PIRL </li>
       </ul>
       <h5 translate="sidebar_Equiv"> Equivalent Values: </h5>
-      <ul class="account-info">
-        <li><strong>{{usdBalance}}</strong> USD</li>
-        <li><strong>{{eurBalance}}</strong> EUR</li>
-        <li><strong>{{btcBalance}}</strong> BTC</li>
-      </ul>
 
-      <a ng-click="globalService.currentTab=globalService.tabs.swap.id" class="btn btn-primary btn-xs">Swap via Bity</a>
 
       <h5 translate="sidebar_TransHistory"> Transaction History: </h5>
       <ul class="account-info">
-        <li><a href="https://etherscan.io/address/{{wallet.getAddressString()}}" target="_blank" rel="noopener">https://etherscan.io/address/ {{wallet.getAddressString()}}</a></li>
+        <li><a href="https://explorer.pirl.io/#/address/{{wallet.getAddressString()}}" target="_blank" rel="noopener">https://explorer.pirl.io/#/address/ {{wallet.getAddressString()}}</a></li>
       </ul>
     </div>
 
@@ -210,7 +204,7 @@
                   <span ng-bind="HDWallet.defaultDPath"></span>
                 </label>
               </td>
-              <td> Jaxx, Metamask, Exodus, imToken &amp; TREZOR (ETH)</td>
+              <td> Jaxx, Metamask, Exodus, imToken &amp; TREZOR (PIRL)</td>
             </tr>
 
             <tr>
@@ -224,7 +218,7 @@
                   <span ng-bind="HDWallet.ledgerPath"></span>
                 </label>
               </td>
-              <td> Ledger (ETH)</td>
+              <td> Ledger (PIRL)</td>
             </tr>
 
             <tr>

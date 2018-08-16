@@ -38,7 +38,7 @@
               </td>
               <td>
                 <label>{{twallet.nick}}</label><small class="quicksend-address">{{twallet.addr}}</small></td>
-              <td>{{twallet.balanceR | number:2 | number}} ETH</td>
+              <td>{{twallet.balanceR | number:2 | number}} PIRL</td>
             </tr>
           </tbody>
         </table>
@@ -58,7 +58,7 @@
           <input class="form-control" type="text" placeholder="{{ 'SEND_amount_short' | translate }}" ng-model="tx.value" />
           <div class="radio">
             <label>
-              <input type="radio" name="currencyRadio" value="ether" ng-model="tx.unit" />Ether</label>
+              <input type="radio" name="currencyRadio" value="ether" ng-model="tx.unit" />PIRL</label>
             <label>
               <input type="radio" name="currencyRadio" value="finney" ng-model="tx.unit" />Finney</label>
             <label>

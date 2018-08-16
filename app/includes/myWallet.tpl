@@ -12,7 +12,7 @@
         <span class="mono small">{{twallet.addr}}</span>
       </td>
       <td width="500" class="chrome-tokens">
-        <h3 class="text-success point" ng-show="!showLongBal" ng-dblclick="showLongBal=!showLongBal" title="{{twallet.balance}} (Double-Click)" >{{twallet.balance|number}} ETH</h3>
+        <h3 class="text-success point" ng-show="!showLongBal" ng-dblclick="showLongBal=!showLongBal" title="{{twallet.balance}} (Double-Click)" >{{twallet.balance|number}} PIRL</h3>
         <h3 class="text-success point" ng-show="showLongBal" ng-dblclick="showLongBal=!showLongBal">{{twallet.balance }} ETH</h3>
         <span class="point" ng-repeat="token in twallet.tokens" ng-show="token.balance!=0 && token.balance!='loading'" ng-dblclick="showLongToken=!showLongToken" title="{{token.getBalance()}} (Double-Click)">
           <strong ng-show="!showLongToken">{{token.getBalance()|number}} </strong>
