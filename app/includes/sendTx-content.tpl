@@ -1,6 +1,19 @@
 <!-- Content -->
 <section class="col-sm-8">
-  <div class="block">
+  <div class="block" ng-show="wallet.type=='addressOnly'">
+    <div class="row form-group">
+      <h4>You cannot send with only your address. You must use one of the other options to unlock your wallet in order to send.</h4>
+      <h5> Helpful Resources / FAQs </h5>
+      <ul>
+        <li><a href="https://myetherwallet.github.io/knowledge-base/getting-started/accessing-your-new-eth-wallet.html" target="_blank" rel="noopener noreferrer">How to Access your Wallet</a></li>
+        <li><a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-eth-private-key.html" target="_blank" rel="noopener noreferrer">I lost my private key</a></li>
+        <li><a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html" target="_blank" rel="noopener noreferrer">My private key opens a different address</a></li>
+        <li><a href="https://myetherwallet.github.io/knowledge-base/migration/" target="_blank" rel="noopener noreferrer">Migrating to/from MyEtherWallet</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block" ng-hide="wallet.type=='addressOnly'">
 
     <!-- To Address -->
     <div class="row form-group">
@@ -22,7 +35,7 @@
         </a>
         <ul class="dropdown-menu dropdown-menu-right" ng-show="dropdownAmount && !tx.readOnly">
           <li><a ng-class="{true:'active'}[tx.sendMode=='ether']" ng-click="setSendMode('ether')">{{ajaxReq.type}}</a></li>
-          <li ng-repeat="token in wallet.tokenObjs track by $index" ng-show="token.balance!=0 && token.balance!='loading' || token.type!=='default' || tokenVisibility=='shown'">
+          <li ng-repeat="token in wallet.tokenObjs track by $index" ng-show="token.balance!=0 && token.balance!='loading' && token.balance.trim()!='Not a valid ERC-20 token' || token.type!=='default' || tokenVisibility=='shown'">
             <a ng-class="{true:'active'}[unitReadable == token.getSymbol()]" ng-click="setSendMode('token', $index, token.getSymbol())"> {{token.getSymbol()}} </a>
           </li>
 
@@ -35,7 +48,7 @@
     <!-- Gas Limit -->
     <div class="row form-group">
       <div class="col-sm-11 clearfix">
-        <a class="account-help-icon" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener">
+        <a class="account-help-icon" href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html" target="_blank" rel="noopener">
           <img src="images/icon-help.svg" class="help-icon" />
           <p class="account-help-text" translate="GAS_LIMIT_Desc"></p>
         </a>
@@ -79,7 +92,7 @@
       <!-- Nonce -->
       <div class="row form-group" ng-show="checkTxPage">
         <div class="col-sm-11 clearfix">
-          <a class="account-help-icon" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-nonce" target="_blank" rel="noopener">
+          <a class="account-help-icon" href="https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html" target="_blank" rel="noopener">
             <img src="images/icon-help.svg" class="help-icon" />
             <p class="account-help-text" translate="NONCE_Desc"></p>
           </a>
@@ -98,7 +111,7 @@
       <!-- Gas Price -->
       <div class="row form-group" ng-show="checkTxPage">
         <div class="col-sm-11 clearfix">
-          <a class="account-help-icon" href="https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas" target="_blank" rel="noopener">
+          <a class="account-help-icon" href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html" target="_blank" rel="noopener">
             <img src="images/icon-help.svg" class="help-icon" />
             <p class="account-help-text" translate="GAS_PRICE_Desc"></p>
           </a>
