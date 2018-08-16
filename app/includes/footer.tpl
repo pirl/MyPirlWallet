@@ -11,8 +11,6 @@
 
     <section class="footer--left">
 
-      <a href="/"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
-
       <p><span translate="FOOTER_1">Free, open-source, client-side interface for generating PIRL wallets &amp; more. Interact with the Pirl blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.</span></p>
 
       <p><a aria-label="knowledge base" href="https://myetherwallet.groovehq.com/help_center" target="_blank" rel="noopener" role="link" tabindex="0">
@@ -39,22 +37,33 @@
           <span translate="TranslatorName_4"></span>
           <span translate="TranslatorName_5"></span>
         </p>
+        <p><a aria-label="website via my ether wallet dot com" href="https://wallet.pirl.io" target="_blank" rel="noopener" role="link" tabindex="0">
+                wallet.pirl.io
+              </a></p>
+
+              <p><a href="https://stats.pirl.io" target="_blank" rel="noopener" role="link" tabindex="0">
+                stats.pirl.io
+              </a></p>
+              <p><a href="https://wallet.pirl.io/helpers.html" target="_blank" rel="noopener" role="link" tabindex="0">
+                Unit Converters &amp; ENS Debugging
+              </a></p>
+
+              <p><a href="https://wallet.pirl.io/signmsg.html" target="_blank" rel="noopener" role="link" tabindex="0">
+                Sign Message
+              </a></p>
+              <p><a href="https://minerpool.net/pools/pirlcoin/" target="_blank" rel="noopener" role="link" tabindex="0">
+                              Pools
+               </a></p>
+               <p><a href="https://forum.pirl.io/" target="_blank" rel="noopener" role="link" tabindex="0">
+                                             Forum
+                </a></p>
 
     </section>
 
     <section class="footer--righ">
 
-      <p><a aria-label="website via my ether wallet dot com" href="https://wallet.pirl.io" target="_blank" rel="noopener" role="link" tabindex="0">
-        wallet.pirl.io
-      </a></p>
 
-      <p><a href="https://wallet.pirl.io/helpers.html" target="_blank" rel="noopener" role="link" tabindex="0">
-        Unit Converters &amp; ENS Debugging
-      </a></p>
 
-      <p><a href="https://wallet.pirl.io/signmsg.html" target="_blank" rel="noopener" role="link" tabindex="0">
-        Sign Message
-      </a></p>
 
       <p><a aria-label="website via github URL" href="https://https://github.io/pirl/" target="_blank" rel="noopener" role="link" tabindex="0">
         https://github.io/pirl

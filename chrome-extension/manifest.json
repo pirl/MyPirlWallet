@@ -1,9 +1,9 @@
 {
   "name": "MyPirlWallet",
-  "version": "3.10.4",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "mupirlwallet Chrome Extension",
-  "homepage_url": "https:/mupirlwallet.com",
+  "homepage_url": "https:/mywallet.com",
   "icons": {
     "16": "images/icons/rsz_pirl.png",
     "32": "images/icons/rsz_pirl.png",

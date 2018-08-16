@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>MyPirlWallet</title>
-<meta name="description" content="MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.">
-<link rel="canonical" href="https://www.myetherwallet.com" />
+<meta name="description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.">
+<link rel="canonical" href="https://wallet.pirl.io" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
@@ -15,27 +15,26 @@
 <link rel="manifest" href="images/fav/manifest.json">
 <link rel="mask-icon" href="images/fav/safari-pinned-tab.svg" color="#2f99b0">
 <link rel="shortcut icon" href="images/fav/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet &middot; Your Key to Ethereum">
-<meta name="application-name" content="MyEtherWallet">
+<meta name="apple-mobile-web-app-title" content="MyPirlWallet &middot; Your Key to Pirl">
+<meta name="application-name" content="MyPirlWallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
-<meta property="og:url" content="https://www.myetherwallet.com" />
-<meta property="og:title" content="MyEtherWallet.com  &middot; Your Key to Ethereum" />
+<meta property="og:url" content="https://wallet.pirl.io" />
+<meta property="og:title" content="mywallet.pirl.io  &middot; Your Key to Pirl" />
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-square.png" />
 <meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
-<meta property="og:description" content="MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet." />
-<script type='application/ld+json'>{"@context":"http://schema.org","@type":"Organization","@id":"#organization","url":"https://www.myetherwallet.com/","name":"MyEtherWallet",
-"logo":"https://myetherwallet.com/images/myetherwallet-logo-banner.png","description": "MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.","sameAs":["https://www.myetherwallet.com/","https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm","https://www.facebook.com/MyEtherWallet/","https://twitter.com/myetherwallet","https://medium.com/@myetherwallet_96408","https://myetherwallet.groovehq.com/help_center","https://github.com/kvhnuke/etherwallet","https://github.com/MyEtherWallet","https://https://github.io/pirl/","https://github.com/kvhnuke/etherwallet/releases/latest","https://github.com/409H/EtherAddressLookup","https://myetherwallet.slack.com/","https://myetherwallet.herokuapp.com/","https://www.reddit.com/r/MyEtherWallet/","https://www.reddit.com/user/insomniasexx/","https://www.reddit.com/user/kvhnuke/","https://www.reddit.com/user/myetherwallet"]}</script>
+<meta property="og:description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet." />
+
 </head>
 <body>
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
 
 @@if (site === 'mew' ) {
   <div class="small announcement annoucement-danger">
-    <div class="container">Always check the URL and look for MyPirlWallet SSL Certificate up there. Look for https://wallet.pirl.io/. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener">Be safe &amp; secure</a>.</div>
+    <div class="container">Always check the URL and look for MyPirlWallet SSL Certificate up there. Look for https://wallet.pirl.io/. </div>
   </div>
 }
 
@@ -110,6 +109,7 @@
     </span>
 
     <!-- Warning: The separators you see on the frontend are in styles/etherwallet-custom.less. If you add / change a node, you have to adjust these. Ping tayvano if you're not a CSS wizard -->
+<!--
     <span class="dropdown dropdown-node" ng-cloak>
       <a tabindex="0" aria-haspopup="true" aria-label="change node. current node {{curNode.name}} node by {{curNode.service}}" class="dropdown-toggle  btn btn-white" ng-click="dropdownNode = !dropdownNode">
         Network: {{curNode.name}} <small>({{curNode.service}})</small>
@@ -124,7 +124,7 @@
         <li><a ng-click="customNodeModal.open(); dropdownNode = !dropdownNode;"> Add Custom Node </a></li>
       </ul>
     </span>
-
+-->
     </div>
   </section>
 </section>
@@ -134,10 +134,10 @@
   <div class="nav-scroll">
     <ul class="nav-inner">
       @@if (site === 'mew' ) {
-      <li ng-repeat="tab in tabNames track by $index" class="nav-item {{tab.name}}" ng-class="{active: $index==gService.currentTab}" ng-show="tab.mew" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
+        <li ng-repeat="tab in tabNames track by $index" class="nav-item {{tab.name}}" ng-if="tab.name != 'NAV_ENS' && tab.name != 'NAV_Swap'" ng-class="{active: $index==gService.currentTab}" ng-show="tab.mew" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
       }
       @@if (site === 'cx' ) {
-      <li ng-repeat="tab in tabNames track by $index" class="nav-item {{tab.name}}" ng-class="{active: $index==gService.currentTab}" ng-show="tab.cx" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
+        <li ng-repeat="tab in tabNames track by $index" ng-if="tab.name != 'NAV_ENS' && tab.name != 'NAV_Swap'" class="nav-item {{tab.name}}" ng-class="{active: $index==gService.currentTab}" ng-show="tab.cx" ng-click="tabClick($index)"> <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a></li>
       }
       <li class="nav-item help"><a href="https://myetherwallet.groovehq.com/help_center" target="_blank" rel="noopener">Help</a></li>
     </ul>
