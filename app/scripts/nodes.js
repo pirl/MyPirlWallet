@@ -6,7 +6,20 @@ nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
     ETH: "PIRL"
 };
-nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
+nodes.domainsaleNodeTypes = [nodes.nodeTypes.Ropsten]
+nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten]
+nodes.customNodeObj = {
+    'name': 'CUS',
+    'blockExplorerTX': '',
+    'blockExplorerAddr': '',
+    'type': nodes.nodeTypes.Custom,
+    'eip155': false,
+    'chainId': '',
+    'tokenList': [],
+    'abiList': [],
+    'service': 'Custom',
+    'lib': null
+};
 nodes.nodeList = {
     'eth_mew': {
         'name': 'PIRL',

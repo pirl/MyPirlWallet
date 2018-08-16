@@ -13,6 +13,34 @@
 
 module.exports = [
 {
+// Flixxo (FLIXX)
+to:         '0x876359dCb1745073909CC810311EC3f119e8D5E8',
+gasLimit:   200000,
+data:       '',
+msg:        'Flixxo token sale contract. Decentralized video distribution https://flixxo.com. Ends 11/24/2017'
+},
+{
+// FAKE Flixxo1
+to:         '0x16112015d50fac2d084e096feea0863800517f94',
+gasLimit:   -1,
+data:       '',
+msg:        '**** FAKE ADDRESS **** Phishing attempt!!! DO NOT USE! Flixxo copycat'
+}, 
+{
+// FAKE Flixxo2
+to:         '0x394f59e83D88469D3Ca3B8da15F31B73f27eadA7',
+gasLimit:   -1,
+data:       '',
+msg:        '**** FAKE ADDRESS **** Phishing attempt!!! DO NOT USE! Flixxo copycat'
+}, 
+{
+// Global Messaging Token (GMT)
+to:         '0xb3Bd49E28f8F832b8d1E246106991e546c323502',
+gasLimit:   200000,
+data:       '',
+msg:        'Starting Block: 4,427,945, End of 7ETH Cap: 4,430,049, End of 28ETH Cap: 4,431,102'
+},
+{
 // Vibehub (VIBEX) ICO Sale
 to:         '0x5454af9d2ba75a60fa5b0419c251810544cea21d',
 gasLimit:   200000,
