@@ -4,43 +4,43 @@ var pt = function() {}
 pt.code = 'pt';
 pt.data = {
 
-GEN_Help_0                      :  'Already have a wallet somewhere?',
-GEN_Help_MetaMask               :  'So easy! Keys stay in MetaMask, not on a phishing site! Try it today.',
+GEN_Help_0                      :  'Já possui uma carteira em outro lugar?',
+GEN_Help_MetaMask               :  'É fácil! Suas chaves ficam no MetaMask, e não num site de phishing! Experimente Hoje.',
 
-GEN_Warning_1                   :  '**Do not lose it!** It cannot be recovered if you lose it.',
-GEN_Warning_2                   :  '**Do not share it!** Your funds will be stolen if you use this file on a malicious/phishing site.',
-GEN_Warning_3                   :  '**Make a backup!** Secure it like the millions of dollars it may one day be worth.',
+GEN_Warning_1                   :  '**Não perca-a!** Ela não pode ser recuperada se você a perder.',
+GEN_Warning_2                   :  '**Não compartilhe-a!** Seus fundos serão roubados se você usar este arquivo em um  site malicioso/phishing.',
+GEN_Warning_3                   :  '**Fáca um Backup!** Mantenha-a segura da mesma forma que os milhões de dólares que ela poderá valer um dia.',
 
-GAS_Price_1                     : 'Not So Fast',
-GAS_Price_2                     : 'Fast',
+GAS_Price_1                     : 'Não tão rápido',
+GAS_Price_2                     : 'Rapido',
 GAS_Price_3                     : 'Fast AF',
 
 CONTRACT_Helper_1               :  'Please change the address to your own Multisig Contract Address.',
-CONTRACT_Warning_1              :  'You are about to **deploy a contract**.',
-CONTRACT_Warning_2              :  'It will be deployed on the following network:',
-CONTRACT_Warning_3              :  'You are about to **execute a function on contract**.',
+CONTRACT_Warning_1              :  'Você está prestes a **publicar um contrato**.',
+CONTRACT_Warning_2              :  'Ele será publicado na seguinte rede:',
+CONTRACT_Warning_3              :  'Você está prestes a **executar uma função no contrato**.',
 
-SEND_Helper_Contract            :  'In most cases you should leave this as 0.',
-SEND_ViewOnly                   :  'You cannot send with only your address. You must use one of the other options to unlock your wallet in order to send.',
-SEND_LoadTokens                 :  'Load Tokens',
+SEND_Helper_Contract            :  'Na maioria dos casos, você deve deixar isto como 0.',
+SEND_ViewOnly                   :  'Você não pode enviar apenas com seu endereço. Você precisa usar uma das outras opções para desbloquear sua carteira para poder enviar.',
+SEND_LoadTokens                 :  'Carregar Tokens',
 SEND_CustomAddrMsg              :  'A message regarding',
 
-SWAP_Warning_1                  :  'Warning! You do not have enough funds to complete this swap.',
-SWAP_Warning_2                  :  'Please add more funds to your wallet or access a different wallet.',
+SWAP_Warning_1                  :  'Atenção! Você não tem fundos suficientes para completar essa troca.',
+SWAP_Warning_2                  :  'Por favor, adicione mais fundos na sua carteira ou acesse uma outra carteira com fundos.',
 
-X_Advanced                      :  'Advanced Users Only.',
-X_HelpfulLinks                  :  'Helpful Links & FAQs',
-X_HelpfulLinks_1                :  'How to Access your Wallet',
-X_HelpfulLinks_2                :  'I lost my private key',
-X_HelpfulLinks_3                :  'My private key opens a different address',
-X_HelpfulLinks_4                :  'Migrating to/from MyEtherWallet',
-X_Network                       :  'Network', // aka "node" or "chain" - used in the dropdown in header
-X_Network_Custom                :  'Add Custom Network / Node',
+X_Advanced                      :  'Para Usuários Avançados.',
+X_HelpfulLinks                  :  'Links úteis & FAQs',
+X_HelpfulLinks_1                :  'Como Acessar sua Carteira',
+X_HelpfulLinks_2                :  'Eu perdi minha chave privada',
+X_HelpfulLinks_3                :  'Minha chave privada abre um endereço diferente',
+X_HelpfulLinks_4                :  'Migrando para/de MyEtherWallet',
+X_Network                       :  'Rede', // aka "node" or "chain" - used in the dropdown in header
+X_Network_Custom                :  'Adicionar Rede/Node customizado',
 
-DOMAIN_Buy                      :  'Buy the domain',
-DOMAIN_BuyItNow                 :  'Price to buy the domain immediately:',
-DOMAIN_bid                      :  'Bid for the domain',
-DOMAIN_bid_0                    :  'You are currently winning this auction with the highest bid. You can bid higher if you want, but it will delay the close of the auction for 24 hours.',
+DOMAIN_Buy                      :  'Comprar o domínio',
+DOMAIN_BuyItNow                 :  'Preço para comprar imediatamente o domínio:',
+DOMAIN_bid                      :  'Ofertar no domínio',
+DOMAIN_bid_0                    :  'Você está ganhando esta oferta com a maior aposta atualmente. Você pode fazer uma oferta maior se quiser, mas isso irá atrasar o fechamento do leilão por 24 horas.',
 DOMAIN_bid_1                    :  'Bid at least',
 DOMAIN_bid_2                    :  'on the domain.',
 DOMAIN_bid_3                    :  'You will win the domain if no higher bids are placed within the next 24 hours.',
@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -257,7 +257,7 @@ GEN_Help_20                 : 'Cold Storage',
 GET_ConfButton              : 'I understand. Continue.',
 GEN_Label_5                 : 'Save Your `Private Key`. ',
 GEN_Unlock                  : 'Unlock your wallet to see your address',
-GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `40 GWEI`.',
+GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GWEI`.',
 GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
 NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
 TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.myetherwallet.com/helpers.html)',
@@ -298,7 +298,7 @@ x_JsonDesc                  : 'Este é o descriptografado, formato JSON da sua c
 x_Keystore                  : 'Arquivo de armazenamento de chaves (UTC / JSON · Recomendado · Criptografado) ',
 x_Keystore2                 : 'Arquivo de armazenamento de chaves (UTC / JSON) ',
 x_KeystoreDesc              : 'Este arquivo de armazenamento de chaves corresponde ao formato usado pela Mist para que você possa facilmente importá-lo no futuro. É recomendado que o arquivo seja transferido e feito seu backup. ',
-x_MetaMask                  : 'Metamask / Mist ',
+x_MetaMask                  : 'MetaMask / Mist ',
 x_Mnemonic                  : 'Frase Mnemonic ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Senha ',
@@ -569,7 +569,7 @@ ERROR_6                     : 'Please enter a valid password. ', // 6
 ERROR_7                     : 'Please enter valid decimals     (Must be integer, 0-18). ', // 7
 ERROR_8                     : 'Please enter a valid gas limit  (Must be integer. Try 21000-4000000). ', // 8
 ERROR_9                     : 'Please enter a valid data value (Must be hex). ', // 9
-ERROR_10                    : 'Please enter a valid gas price. (Must be integer. Try 40 GWEI (20000000000 WEI)',
+ERROR_10                    : 'Please enter a valid gas price. (Must be integer. Try 20 GWEI (20000000000 WEI)',
 ERROR_11                    : 'Please enter a valid nonce      (Must be integer).', // 11
 ERROR_12                    : 'Invalid signed transaction. ', // 12
 ERROR_13                    : 'A wallet with this nickname already exists. ', // 13
@@ -636,8 +636,8 @@ Translator_Desc             : 'Thank you to our translators ',
 TranslatorName_1            : '[ Pedro "ShooterXD" Vieira ](https://www.myetherwallet.com/?gaslimit=21000&to=0x24eB7d82166361A8B69adE6FEA187Cb00FD7c7E1&value=1.0#send-transaction) ',
 TranslatorAddr_1            : '',
 /* Translator 1             : Insert Comments Here */
-TranslatorName_2            : '',
-TranslatorAddr_2            : '',
+TranslatorName_2            : '[ Marcos Faria Arruda ](https://www.jusadvisor.com)',
+TranslatorAddr_2            : 'https://www.jusadvisor.com',
 /* Translator 2             : Insert Comments Here */
 TranslatorName_3            : '',
 TranslatorAddr_3            : '',
@@ -827,7 +827,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : 'This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',

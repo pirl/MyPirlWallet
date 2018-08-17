@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -255,7 +255,7 @@ GEN_Help_20                 : 'Cold Storage',
 GET_ConfButton              : 'Ich verstehe. Weiter.',
 GEN_Label_5                 : 'Sichern Sie Ihren `Privaten Schlüssel`. ',
 GEN_Unlock                  : 'Entsperren Sie Ihr Wallet um Ihre Adresse zu sehen.',
-GAS_PRICE_Desc              : 'Der `Gas Preis` ist der Betrag, den Sie für eine Einheit `Gas` bezahlen. `Transaktionsgebühr = Gas Preis  * Gas Limit`. Dieser Betrag wird den Minern gezahlt, die Ihre Transaktion in einem Block einschließen. Je höher der Gas-Preis, desto schneller wird die Transaktion verarbeitet, aber desto teurer wird die Transaktionsgebühr. Der Standardwert ist `40 GWEI`.',
+GAS_PRICE_Desc              : 'Der `Gas Preis` ist der Betrag, den Sie für eine Einheit `Gas` bezahlen. `Transaktionsgebühr = Gas Preis  * Gas Limit`. Dieser Betrag wird den Minern gezahlt, die Ihre Transaktion in einem Block einschließen. Je höher der Gas-Preis, desto schneller wird die Transaktion verarbeitet, aber desto teurer wird die Transaktionsgebühr. Der Standardwert ist `41 GWEI`.',
 GAS_LIMIT_Desc              : 'Das Gas-Limit ist der Betrag an Gas, der mit Ihrer Transaktion mitgeschickt wird. `Transaktionsgebühr = Gas Preis  * Gas Limit`. Dieser Betrag wird den Minern gezahlt, die Ihre Transaktion in einem Block einschließen. Wenn Sie diese Zahl erhöhen, wird ihre Transaktion nicht schneller verarbeitet. Eine zu kleine Zahl kann jedoch bedeuten, dass die Transaktion nicht erfolgreich verarbeitet werden kann. Ein Anhaltspunkt: Eine einfache Überweisung benötigt ca. 21000 Gas, ein Token-Transfer etwa 200.000 Gas.',
 NONCE_Desc                  : 'Der `Nonce` ist die Zahl der Transaktionen, die von einer bestimmten Adresse aus gesendet wurden. Er stellt sicher, dass Transaktionen der Reihe nach und nicht doppelt ausgeführt werden können.',
 TXFEE_Desc                  : 'Die Transaktionsgebühr wird den Miner(n) bezahlt, die Ihre Transaktion in einen Block einschließen. Es wird durch `Gas-Limit` * `Gas-Preis` berechnet. [Du kannst GWEI -> ETH hier umwandeln](https://www.myetherwallet.com/helpers.html)',
@@ -295,7 +295,7 @@ x_JsonDesc                  : 'Dies ist die unverschlüsselte Version deines pri
 x_Keystore                  : 'Keystore File (UTC / JSON · Empfohlen · Verschlüsselt) ',
 x_Keystore2                 : 'Keystore File (UTC / JSON) ',
 x_KeystoreDesc              : 'Diese Keystore-Datei passt zu dem Format, das von Mist verwendet wird, sodass Sie diese Datei dort zukünftig einfach importieren kannst. Es ist empfehlenswert, diese Datei herunterzuladen und zu sichern. ',
-x_MetaMask                  : 'Metamask / Mist ',
+x_MetaMask                  : 'MetaMask / Mist ',
 x_Mnemonic                  : 'Mnemonic Phrase ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Passwort ',
@@ -545,7 +545,7 @@ ADD_Ledger_2_Exp            : 'Öffne das Expanse Programm (oder ein Vertragspro
 ADD_Ledger_2_Ubq            : 'Öffne das Ubiq Programm (oder ein Vertragsprogramm) ',
 ADD_Ledger_3                : 'Gehe sicher, dass Browser Support aktiviert ist. ',
 ADD_Ledger_4                : 'If no Browser Support is found in settings, verify that you have [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
-ADD_Ledger_0a               : 'You must access MyEtherWallet via a secure (SSL / HTTPS) connection to connect. ',
+ADD_Ledger_0a               : 'Please use MyEtherWallet on a secure (SSL / HTTPS) connection to connect. ',
 ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
@@ -572,7 +572,7 @@ ERROR_6                     : 'Bitte gebe eine gültige Passwort ein. ',
 ERROR_7                     : 'Bitte gebe eine gültige Betrag ein. (Must be integer. Try 0-18.) ', // 7
 ERROR_8                     : 'Bitte gebe eine gültige Gasverbrauch ein. (Must be integer. Try 21000-4000000.) ', // 8
 ERROR_9                     : 'Bitte gebe eine gültige Datenwert ein. (Must be hex.) ', // 9
-ERROR_10                    : 'Bitte gebe eine gültige Gasbetrag ein. (Must be integer. Try 40 GWEI / 20000000000 WEI.) ',
+ERROR_10                    : 'Bitte gebe eine gültige Gasbetrag ein. (Must be integer. Try 20 GWEI / 20000000000 WEI.) ',
 ERROR_11                    : 'Bitte gebe eine gültige Nonce ein. (Must be integer.) ', // 11
 ERROR_12                    : 'Ungültige unterzeichnete Transaktion. ',
 ERROR_13                    : 'Ein Wallet mit diesem Spitznamen existiert bereits. ',
@@ -830,7 +830,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : 'This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',

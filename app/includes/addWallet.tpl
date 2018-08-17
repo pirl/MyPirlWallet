@@ -127,10 +127,10 @@
 
 
 
-      <!-- Paste/Type Your Private Key -->
+      <!-- Paste Your Private Key -->
       <section ng-show="walletType=='pasteprivkey'">
         <h4 translate="ADD_Radio_3">
-          Paste / type your private key:
+          Paste your private key:
         </h4>
 
         <div class="form-group">
@@ -161,10 +161,10 @@
 
 
 
-      <!-- Paste/Type Your Mnemonic -->
+      <!-- Paste Your Mnemonic -->
       <section ng-show="walletType=='pastemnemonic'">
         <h4 translate="ADD_Radio_5">
-          Paste / type your mnemonic:
+          Paste your mnemonic:
         </h4>
         <div class="form-group">
           <textarea rows="4"
@@ -209,7 +209,7 @@
           </label>
           <input class="form-control"
                  type="text"
-                 placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8"
+                 placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D"
                  ng-model="addAccount.address"
                  ng-change="watchOnlyChange()"
                  ng-keyup="$event.keyCode == 13 && addWatchOnly()"/>

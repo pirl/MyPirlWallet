@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -257,7 +257,7 @@ GEN_Help_20                 : 'Cold Storage',
 GET_ConfButton              : 'I understand. Continue.',
 GEN_Label_5                 : 'Save Your `Private Key`. ',
 GEN_Unlock                  : 'Unlock your wallet to see your address',
-GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `40 GWEI`.',
+GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GWEI`.',
 GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
 NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
 TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.myetherwallet.com/helpers.html)',
@@ -298,7 +298,7 @@ x_JsonDesc                  : 'Tämä on salaamaton JSON tiedosto yksityisestä 
 x_Keystore                  : 'Avainsäilö Tiedosto (UTC / JSON · Suositeltu · Salattu) ',
 x_Keystore2                 : 'Avainsäilö Tiedosto (UTC / JSON) ',
 x_KeystoreDesc              : 'Tämä Avainsäilö tiedosto vastaa sitä tiedostoformaattia jota Mist käyttävät, joten voit helposti importata sen tulevaisuudessa. Se on suositeltu tiedostomuoto ladata ja varmuuskopioida. ',
-x_MetaMask                  : 'Metamask / Mist ',
+x_MetaMask                  : 'MetaMask / Mist ',
 x_Mnemonic                  : 'Mnemonic Phrase ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Salasana ',
@@ -352,7 +352,7 @@ ADD_Radio_2_alt             : 'Valitse Lompakko Tiedostosi ',
 ADD_Radio_2_short           : 'VALITSE LOMPAKKO TIEDOSTO... ',
 ADD_Radio_3                 : 'Liitä/Kirjoita Yksityinen Salausavaimesi ',
 ADD_Radio_4                 : 'Lisää Tili Jota Seurata ',
-ADD_Radio_5                 : 'Paste/Type Your Mnemonic ',
+ADD_Radio_5                 : 'Paste Your Mnemonic ',
 ADD_Radio_5_Path            : 'Select HD derivation path ',
 ADD_Radio_5_woTrezor        : '(Jaxx, Metamask, Exodus, imToken)',
 ADD_Radio_5_withTrezor      : '(Jaxx, Metamask, Exodus, imToken, TREZOR)',
@@ -553,7 +553,7 @@ ADD_Ledger_2_Exp            : 'Open the Expanse application (or a contract appli
 ADD_Ledger_2_Ubq            : 'Open the Ubiq application (or a contract application) ',
 ADD_Ledger_3                : 'Verify that Browser Support is enabled in Settings ',
 ADD_Ledger_4                : 'If no Browser Support is found in settings, verify that you have [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
-ADD_Ledger_0a               : 'You must access MyEtherWallet via a secure (SSL / HTTPS) connection to connect. ',
+ADD_Ledger_0a               : 'Please use MyEtherWallet on a secure (SSL / HTTPS) connection to connect. ',
 ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
@@ -585,7 +585,7 @@ ERROR_6                         :  '(error_07) Virheellinen salasana. Please ent
 ERROR_7                         :  '(error_08) Virheellinen summa. Please enter valid decimals (Must be an integer. Try 0-18.)', // 7
 ERROR_8                         :  '(error_09) Virheellinen gas raja.Please enter a valid gas limit  (Must be an integer. Try 21000-4000000.)', // 8
 ERROR_9                         :  '(error_10) Virheellinen tieto arvo.  Please enter a valid data value (Must be hex.)', // 9
-ERROR_10                        :  '(error_11) Virheellinen gasin määrä. Try 40 GWEI / 20000000000 WEI.) Please enter a valid gas price. (Must be an integer. Try 40 GWEI / 20000000000 WEI.)',
+ERROR_10                        :  '(error_11) Virheellinen gasin määrä. Try 20 GWEI / 20000000000 WEI.) Please enter a valid gas price. (Must be an integer. Try 20 GWEI / 20000000000 WEI.)',
 ERROR_11                        :  '(error_12) Virheellinen nonce. (Must be integer.) ',
 ERROR_12                        :  '(error_13) Virheellinen allekirjoitettu siirto. Invalid signed transaction.', // 12
 ERROR_13                        :  '(error_14) Lompakko tällä kutsumanimellä on jo olemassa. A wallet with this nickname already exists.', // 13
@@ -842,7 +842,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : 'This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',

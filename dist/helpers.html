@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" ng-app="mewApp">
 <head>
@@ -61,13 +60,13 @@
     
       <a class="brand" href="/" aria-label="Go to homepage">
         <img src="images/logo-myetherwallet.svg"   height="64px" width="245px" alt="MyEtherWallet" />
-        <p class="small visible-xs">3.11.0</p>
+        <p class="small visible-xs">3.11.3.3</p>
       </a>
     
     
     <div class="tagline">
 
-    <span class="hidden-xs">3.11.0</span>
+    <span class="hidden-xs">3.11.3.3</span>
 
     <span class="dropdown dropdown-lang" ng-cloak>
       <a tabindex="0"  aria-haspopup="true" aria-expanded="false" aria-label="change language. current language {{curLang}}" class="dropdown-toggle  btn btn-white" ng-click="dropdown = !dropdown">{{curLang}}<i class="caret"></i></a>
@@ -490,6 +489,28 @@
         Start Auction Data
       </label>
       <input class="form-control" type="text" ng-model="startAuctionData" readonly />
+      <p>
+        To:
+        <code>0x6090a6e47849629b7245dfa1ca21d94cd15878ef</code>
+        &nbsp;&middot;&nbsp;
+        Amount:
+        <code>0</code>
+        &nbsp;&middot;&nbsp;
+        Gas Limit:
+        <code>200000</code>
+        &nbsp;&middot;&nbsp;
+        Data:
+        <code>[ABOVE]</code>
+      </p>
+    </div>
+  </section>
+
+  <section class="row">
+    <div class="form-group col-xs-12">
+      <label>
+        Start Auction And Bid Data
+      </label>
+      <input class="form-control" type="text" ng-model="startAndBidAuctionData" readonly />
       <p>
         To:
         <code>0x6090a6e47849629b7245dfa1ca21d94cd15878ef</code>
@@ -1425,7 +1446,7 @@
                   Always check the URL: `https://www.myetherwallet.com`.
                 </li>
                 <li translate="ONBOARD_secure_1_content__4">
-                  Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.
+                  Always make sure the URL bar has `MYETHERWALLET LLC` in green.
                 </li>
                 <li translate="ONBOARD_secure_1_content__5">
                   Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.

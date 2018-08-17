@@ -5,35 +5,35 @@ ja.code = 'ja';
 ja.data = {
 
 GEN_Help_0                      :  'お財布をお持ちですか？', /*Already have a wallet somewhere?*/
-GEN_Help_MetaMask               :  'とでも簡単です！キーはフィッシングサイトではなく、メタマスク(Metamask)に残っています。すぐ試してください！', /*So easy! Keys stay in MetaMask, not on a phishing site! Try it today.*/
+GEN_Help_MetaMask               :  'とっても簡単です！キーはフィッシングサイトではなく、メタマスク(Metamask)に残っています。すぐ試してください！', /*So easy! Keys stay in MetaMask, not on a phishing site! Try it today.*/
 
-GEN_Warning_1                   :  '**これは絶対に失くさないでください！**　なくした場合には二度と戻ってきません。', /***Do not lose it!** It cannot be recovered if you lose it.*/
-GEN_Warning_2                   :  '**他人と共有しないでください**　悪意のあるサイトでこのファイルを使うと、あなたの資産を盗られてしまいます。', /***Do not share it!** Your funds will be stolen if you use this file on a malicious/phishing site.*/
-GEN_Warning_3                   :  '**バックアップを作成してください！**　いつの日か、億万単位の大金になるものと心得て安全を確保してください。', /***Make a backup!** Secure it like the millions of dollars it may one day be worth.*/
+GEN_Warning_1                   :  '**絶対に忘れないようにしてください！**　失くしてしまうと、回復できません。', /***Do not lose it!** It cannot be recovered if you lose it.*/
+GEN_Warning_2                   :  '**他人と共有しないでください**　悪意のあるサイトでこのファイルを使うと、あなたのお金が盗まれます。', /***Do not share it!** Your funds will be stolen if you use this file on a malicious/phishing site.*/
+GEN_Warning_3                   :  '**バックアップを作成してください！**　ゆくゆくは、数億円の大金になるものと心得て安全性を確保してください。', /***Make a backup!** Secure it like the millions of dollars it may one day be worth.*/
 
 GAS_Price_1                     : '普通',　/*Not So Fast*/
 GAS_Price_2                     : '迅速', /*Fast*/
-GAS_Price_3                     : '超迅速', /*Fast AF*/
+GAS_Price_3                     : '超速', /*Fast AF*/
 
 CONTRACT_Helper_1               :  'マルチシグのアドレスに変えてください', /*Please change the address to your own Multisig Contract Address.*/
-CONTRACT_Warning_1              :  'まもなく契約が送出されます。', /*You are about to **deploy a contract**.*/
+CONTRACT_Warning_1              :  'まもなく契約が展開されます。', /*You are about to **deploy a contract**.*/
 CONTRACT_Warning_2              :  '次のネットワークに展開されます：', /*It will be deployed on the following network:*/
 CONTRACT_Warning_3              :  'まもなく契約上の機能が実行されます。', /*You are about to **execute a function on contract**.*/
 
-SEND_Helper_Contract            :  'ほとんどの場合、0のままにしてください。', /*In most cases you should leave this as 0.*/
+SEND_Helper_Contract            :  'ほとんどの場合、0.のままにしておきます。', /*In most cases you should leave this as 0.*/
 SEND_ViewOnly                   :  '自分のアドレスを指定するだけでは送信できません。お財布を解錠する必要があります。', /*You cannot send with only your address. You must use one of the other options to unlock your wallet in order to send.*/
 SEND_LoadTokens                 :  'トークン読込', /*Load Tokens*/
 SEND_CustomAddrMsg              :  '対応するメッセージ', /*A message regarding*/
 
-SWAP_Warning_1                  :  '警告！交換に必要な資金が足りません。', /*Warning! You do not have enough funds to complete this swap.*/
+SWAP_Warning_1                  :  '警告！交換するためにに必要な金額が不足しています。', /*Warning! You do not have enough funds to complete this swap.*/
 SWAP_Warning_2                  :  '資金を追加するか、別のお財布をお使いください。',　/*Please add more funds to your wallet or access a different wallet.*/
 
-X_Advanced                      :  '熟練者限定。', /*Advanced Users Only.*/
+X_Advanced                      :  '熟練者向け。', /*Advanced Users Only.*/
 X_HelpfulLinks                  :  '役立つリンクとよくある問答集', /*Helpful Links & FAQs*/
 X_HelpfulLinks_1                :  'お財布の操作方法', /*How to Access your Wallet*/
 X_HelpfulLinks_2                :  '秘密鍵を紛失してしまいした', /*I lost my private key*/
 X_HelpfulLinks_3                :  '秘密鍵が別のアドレスを解錠しました', /*My private key opens a different address*/
-X_HelpfulLinks_4                :  'MyEtherWalletから、または宛へ移管中', /*Migrating to/from MyEtherWallet*/
+X_HelpfulLinks_4                :  'MyEtherWalletから、またはそれに向けて移管中', /*Migrating to/from MyEtherWallet*/
 X_Network                       :  'ノード', // aka "node" or "chain" - used in the dropdown in header  /*Network*/
 X_Network_Custom                :  'カスタムネットワークやノードを追加', /*Add Custom Network / Node*/
 
@@ -51,9 +51,9 @@ DOMAIN_Finish_2                 :  'このアドレスは、落札者、主催�
 DOMAIN_Finish_3                 :  '競売を終了する', /*Finish the auction*/
 DOMAIN_Finish_4                 :  '競売を終了して、落札者にドメインを移管し、主催者に落札金を渡す。', /*Finish the auction to allocate the domain to the winner and the funds to the seller.*/
 DOMAIN_Finish_5                 :  'ドメイン名がDomainsaleに移管されているか確認するために、自分のTXハッシュをクリックしてください。', /*Click your TX hash to see if you successfully transferred the domain to DomainSale.*/
-DOMAIN_offer_1                  :  'Incorrect Wallet',
-DOMAIN_offer_2                  :  'The wallet you unlocked does not own this name.',
-DOMAIN_offer_3                  :  'In order to offer this name, please unlock the wallet with address:',
+DOMAIN_offer_1                  :  'お財布が違います', /*Incorrect Wallet*/
+DOMAIN_offer_2                  :  'アンロックされたお財布にこの名前がありません。', /*The wallet you unlocked does not own this name.*/
+DOMAIN_offer_3                  :  'この名前を提供するにはこのアドレスのお財布をアンロック：', /*In order to offer this name, please unlock the wallet with address:*/
 DOMAIN_offer_4                  :  '募集価格：', /*Offer For Sale:*/
 DOMAIN_offer_5                  :  'ドメイン名を販売するために、以下のいずれか、あるいは双方の価格を設定してください。ドメイン名の供託金は落札者に、また落札額の10％は仲介者に支払われます。', /*Set either of both of the prices below to offer your domain for sale.  Remember that any funds you have locked in the domain\'s deed will go to the buyer and 10% of the funds when sold goes to referrers.*/
 DOMAIN_offer_7                  :  '変更後の募集価格：', /*Alter Your Offer for:*/
@@ -173,7 +173,7 @@ ONBOARD_secure_1_title          :  'オンライン詐欺から自分自身を�
 ONBOARD_secure_1_content__1     :  'オンライン詐欺師は、MyEtherWallet、EtherDelta、Paypalやあなたの金融機関のリンクが含まれた個人メッセージを送りつけてきますが、これは偽のサイトです。あなたの情報を盗み、そして資産を盗みます。', /*Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.*/
 ONBOARD_secure_1_content__2     :  '[EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)または[MetaMask](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige). のクローム拡張を使って、これらの悪意のサイトを遮断してください。', /*Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or  or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.*/
 ONBOARD_secure_1_content__3     :  'いつも、必ず、ＵＲＬ：「https://www.myetherwallet.com」を確認してください。', /*Always check the URL: `https://www.myetherwallet.com`.*/
-ONBOARD_secure_1_content__4     :  'ＵＲＬバーに、 `MYETHERWALLET LLC [US]`と緑色で表示されていることを必ず確認してください。', /**/
+ONBOARD_secure_1_content__4     :  'ＵＲＬバーに、 `MYETHERWALLET LLC`と緑色で表示されていることを必ず確認してください。', /**/
 ONBOARD_secure_1_content__5     :  'ｅメール、Slack、Reddit、Twitterやその他から送られてくるメッセージやリンクを信用しないでください。', /*Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.*/
 ONBOARD_secure_1_content__6     :  '情報を入力する前に、常に直接サイトを参照してから閲覧してください。ｅメールやメッセージのリンクを押してから情報を入力しないでください。', /*Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.*/
 ONBOARD_secure_1_content__7     :  '[AdBlockerを導入](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=ja)し、サーチエンジンの広告（例：グーグル）をクリックしないでください。', /*[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).*/
@@ -283,7 +283,7 @@ ERROR_6                     : '(error_07) 無効なパスワードです。 (Ple
 ERROR_7                     : '(error_08) 無効な総量です。 (Must be integer. Try 0-18.) (Please enter valid decimals     (Must be an integer. Try 0-18.)) ',
 ERROR_8                     : '(error_09) 無効なガスリミットです。 (Must be integer. Try 21000-4000000.) (Please enter a valid gas limit  (Must be an integer. Try 21000-4000000.)) ',
 ERROR_9                     : '(error_10) 無効なデータです。 (Must be hex.) (Please enter a valid data value (Must be hex.)) ',
-ERROR_10                    : '(error_11) 無効なガス総量です。 (Must be integer. Try 40 GWEI / 20000000000 WEI.) (Please enter a valid gas price. (Must be an integer. Try 40 GWEI / 20000000000 WEI.)) ',
+ERROR_10                    : '(error_11) 無効なガス総量です。 (Must be integer. Try 20 GWEI / 20000000000 WEI.) (Please enter a valid gas price. (Must be an integer. Try 20 GWEI / 20000000000 WEI.)) ',
 ERROR_11                    : '(error_12) 無効な nonce　です。 (Must be integer.) (Please enter a valid nonce (Must be an integer.)) ',
 ERROR_12                    : '(error_13) 無効な署名のトランザクションです。 (Invalid signed transaction.) ',
 ERROR_13                    : '(error_14) 同じニックネームのお財布が既にあります。 (A wallet with this nickname already exists.) ',
@@ -340,7 +340,7 @@ FOOTER_2                    : '投げ銭に感謝致します！: ',
 FOOTER_3                    : 'クライアントサイドお財布制作 ',
 FOOTER_4                    : '免責事項 ',
 
-GAS_PRICE_Desc              : 'ガス価格は、ガスの一単位にかかるの料金のことです。 「処理料金 = ガス価格 ＊ ガスリミット」で算出され、自分の処理をブロックに配置するためにマイナーに支払う手数料です。ガス価格が高いほど処理は早く行われますが、料金は高くなります。デファルトは 「40 GWEI」です。', /*Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `40 GWEI`.*/
+GAS_PRICE_Desc              : 'ガス価格は、ガスの一単位にかかるの料金のことです。 「処理料金 = ガス価格 ＊ ガスリミット」で算出され、自分の処理をブロックに配置するためにマイナーに支払う手数料です。ガス価格が高いほど処理は早く行われますが、料金は高くなります。デファルトは 「20 GWEI」です。', /*Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GWEI`.*/
 GAS_LIMIT_Desc              : 'ガスリミットは、その処理のために送出するガスの総量です。「処理料金 = ガス価格 ＊ ガスリミット」で算出され、自分の処理をブロックに配置するための料金として支払われます。 この数字を増やしても、自分の処理が早くなることはありません。ETHの送出 = 「２１０００」、トークンの送出 = ~「２０００００」が目安になります。', /*Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.*/
 /* Gen Wallet Updates */
 GEN_desc                    : '複数のお財布の作成をこのタブで行う事ができます： ',
@@ -412,9 +412,9 @@ NAV_CheckTxStatus           : '処理状況を確認',
 NAV_Contact                 : '連絡する ',
 NAV_Contracts               : '契約 ',
 NAV_DeployContract          : '契約を展開 ',
-NAV_DomainSale              : 'DomainSale',
-NAV_ENS                     : 'ENS',
-NAV_GenerateWallet_alt      : 'New Wallet ',
+NAV_DomainSale              : 'ドメイン販売', /*DomainSale*/
+NAV_ENS                     : 'ＥＮＳ',
+NAV_GenerateWallet_alt      : 'お財布の作成 ', /*New Wallet*/
 NAV_GenerateWallet          : 'お財布の作成 ',
 NAV_Help                    : 'ヘルプ ',
 NAV_InteractContract        : '契約を操作 ',
@@ -448,7 +448,7 @@ OFFLINE_Step2_Label_2       : '送出する値/総量 ',
 OFFLINE_Step2_Label_3       : 'ガス価格 ',
 OFFLINE_Step2_Label_3b      : 'これは、ステップ１でオンラインコンピューターに表示されたものです。 ',
 OFFLINE_Step2_Label_4       : 'ガスリミット ',
-OFFLINE_Step2_Label_4b      : 'デフォルトガスリミット値は21000です。契約や付加データーを送出する場合には、これらの値は　異なるものにする必要があります。使用されなかったガスは全て返却されます。 ',
+OFFLINE_Step2_Label_4b      : 'ガスリミットの既定値は21000です。契約や付加データーを送出する場合には、これらの値は　異なるものにする必要があります。使用されなかったガスは全て返却されます。 ',
 OFFLINE_Step2_Label_5       : 'Nonce ',
 OFFLINE_Step2_Label_5b      : 'これらは、ステップ１でオンラインコンピューターに表示されたものです。 ',
 OFFLINE_Step2_Label_6       : 'データ ',
@@ -498,7 +498,7 @@ SUCCESS_6                   : '接続完了しました ',
 SUCCESS_7                   : 'メッセージの署名が確認されました',
 
 SWAP_rates                  : "現在のレート ",
-SWAP_init_1                 : "これから両替で ",
+SWAP_init_1                 : "両替する ",
 SWAP_init_2                 : " を ", // "I want to swap my X ETH for X BTC"
 SWAP_init_CTA               : "次へ ", // or "Continue"
 SWAP_information            : "あなたの情報 ",
@@ -509,7 +509,7 @@ SWAP_rec_add                : "受け取りアドレス ",
 SWAP_start_CTA              : "交換開始 ",
 SWAP_ref_num                : "参照番号 ",
 SWAP_time                   : "送出するまでにあと、 ",
-SWAP_elapsed				        : "Time elapsed since sent ",
+SWAP_elapsed				        : "発注後の経過時間 ", /*Time elapsed since sent*/
 SWAP_progress_1             : "注文を開始しました ",
 SWAP_progress_2             : "到着待機中 ", // Waiting for your BTC...
 SWAP_progress_3             : "ETH受け取り完了 ", // ETH Received!
@@ -518,20 +518,20 @@ SWAP_progress_5             : "注文完了 ",
 SWAP_order_CTA              : "お送りいただきたいのは ", // Please send 1 ETH...
 SWAP_unlock                 : "このページから直接ETHあるいはトークンを送出するためには、お財布を解錠してください。",
 
-TOKEN_Addr                  : 'Token Contract アドレス： ',
+TOKEN_Addr                  : 'トークン契約アドレス： ',
 TOKEN_Symbol                : 'トークンシンボル： ',
 TOKEN_Dec                   : 'ケタ数： ',
 TOKEN_show                  : '全てのトークンを表示 ',
 TOKEN_hide                  : 'トークンを隠す ',
 
-TRANS_advanced              : '+Advanced: ガスあるいはデータを追加してください ',
+TRANS_advanced              : '+上級：ガスあるいはデータを追加してください ',
 TRANS_data                  : 'データ： ',
 TRANS_desc                  : 'トークンを送出するには「トークン送出」のタブを選択してください。 ',
 TRANS_gas                   : 'ガスリミット： ',
 TRANS_sendInfo              : '21000ガスを使用する標準トランザクションは、0.000441 ETHを消費します。迅速な処理を行うために、若干最小量よりも多めの0.000000021 ETHのガスを使用します。当サービスでは、トランザクション料金は徴収いたしません。 ',
 
 translate_version           : '0.5',
-Translator_Desc             : '日本語開発者をサポート： ',
+Translator_Desc             : '日本語開発者を支援する： ',
 TranslatorAddr_1            : '0xf991119Eea62Eee1a6fdaA7f621e91A42f325FcE ',
 TranslatorAddr_2            : '',
 TranslatorAddr_3            : '',
@@ -590,7 +590,7 @@ x_Keystore                  : 'Keystore ファイル (UTC / JSON · 推奨 · �
 x_Keystore2                 : 'Keystore ファイル (UTC / JSON) ',
 x_KeystoreDesc              : 'この Keystore / JSON ファイルは、後で容易にインポートするため、Mistで使われているフォーマットと一致させる必要があります。ダウンロードしてバックアップを取ることをおすすめします。 ',
 x_Ledger                    : 'Ledger Wallet ',
-x_MetaMask                  : 'Metamask / Mist ',
+x_MetaMask                  : 'MetaMask / Mist ',
 x_Mnemonic                  : 'ニーモニック文節 ',
 x_ParityPhrase              : 'パリティ文節 ',
 x_Password                  : 'パスワード ',
@@ -758,7 +758,7 @@ HELP_14_Desc_1              : 'While the mouse moving thing is clever and we und
 HELP_15_Title               : '15) Why hasn\'t the account I just created show up in the blockchain explorer? (ie: etherchain, etherscan) ',
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : 'This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',
 HELP_18_Title               : '18) Where is my geth wallet file? ',

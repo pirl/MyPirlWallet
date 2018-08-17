@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" ng-app="mewApp">
 <head>
@@ -61,13 +60,13 @@
     
       <a class="brand" href="/" aria-label="Go to homepage">
         <img src="images/logo-myetherwallet.svg"   height="64px" width="245px" alt="MyEtherWallet" />
-        <p class="small visible-xs">3.11.0</p>
+        <p class="small visible-xs">3.11.3.3</p>
       </a>
     
     
     <div class="tagline">
 
-    <span class="hidden-xs">3.11.0</span>
+    <span class="hidden-xs">3.11.3.3</span>
 
     <span class="dropdown dropdown-lang" ng-cloak>
       <a tabindex="0"  aria-haspopup="true" aria-expanded="false" aria-label="change language. current language {{curLang}}" class="dropdown-toggle  btn btn-white" ng-click="dropdown = !dropdown">{{curLang}}<i class="caret"></i></a>
@@ -541,13 +540,13 @@
       <br />
 
       <h1 translate="GEN_Label_5"> Save your Private Key</h1>
-      <input aria-label="{{'x_PrivKey'|translate}}" aria-describedby="x_PrivKeyDesc"
-             value="{{wallet.getPrivateKeyString()}}"
+      <textarea aria-label="{{'x_PrivKey'|translate}}"
+             aria-describedby="{{'x_PrivKeyDesc'|translate}}"
              class="form-control"
-             type="text"
              readonly="readonly"
-             style="max-width: 50rem;margin: auto;"/>
-
+             rows="3"
+             style="max-width: 50rem;margin: auto;"
+      >{{wallet.getPrivateKeyString()}}</textarea>
       <br />
 
       <a tabindex="0"
@@ -709,7 +708,7 @@
       <div class="account-help-icon">
         <img src="images/icon-help.svg" class="help-icon" />
         <p class="account-help-text" translate="x_PrintDesc">
-          ProTip: Click print and save this as a PDF, even if you do not own a printer!
+          ProTip: If you cannot print this right now, click "Print" and save it as a PDF until you are able to get it printed. Remove it from your computer afterwards!
         </p>
         <h5 translate="x_Print">
           Print Paper Wallet:
@@ -863,7 +862,7 @@
 
     <!-- To Address -->
     <div class="row form-group">
-      <address-field placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" var-name="tx.to"></address-field>
+      <address-field placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" var-name="tx.to"></address-field>
     </div>
 
 
@@ -1351,7 +1350,7 @@
 
     <input class="form-control"
            type="text"
-           placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8"
+           placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D"
            ng-model="tx.from"
            ng-change="validateAddress(tx.from,'')"
            ng-class="Validator.isValidAddress(tx.from) ? 'is-valid' : 'is-invalid'" />
@@ -1413,7 +1412,7 @@
       </label>
       <input class="form-control"
              type="text"
-             placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8"
+             placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D"
              ng-model="tx.to"
              ng-change="validateAddress(tx.to,'')"/>
     </section>
@@ -3041,7 +3040,7 @@
 
       <h5> Enter the address you would like this name to resolve to: </h5>
 
-      <input ng-model="newResolvedAddress" class="form-control" placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" ng-class="Validator.isValidAddress(tx.to) ? 'is-valid' : 'is-invalid'" />
+      <input ng-model="newResolvedAddress" class="form-control" placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" ng-class="Validator.isValidAddress(tx.to) ? 'is-valid' : 'is-invalid'" />
 
     </div>
 
@@ -4333,7 +4332,7 @@
       <div class="account-help-icon">
         <img src="images/icon-help.svg" class="help-icon" />
         <p class="account-help-text" translate="x_PrintDesc">
-          ProTip: Click print and save this as a PDF, even if you do not own a printer!
+          ProTip: If you cannot print this right now, click "Print" and save it as a PDF until you are able to get it printed. Remove it from your computer afterwards!
         </p>
         <h5 translate="x_Print">
           Print Paper Wallet:
@@ -4686,7 +4685,7 @@
 
     <!-- To Address -->
     <div class="row form-group">
-      <address-field placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" var-name="tx.to"></address-field>
+      <address-field placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" var-name="tx.to"></address-field>
     </div>
 
 
@@ -5299,15 +5298,6 @@
 </div>
 
 
-
-  <!--
-  <section class="loading-wrap" ng-hide="1==1">
-    <div class="loading">
-      <img src="images/loading.gif" />
-      <h1> Loading... </h1>
-  </section>
-  -->
-
 </section>
 
 <section class="pre-footer">
@@ -5810,7 +5800,7 @@
                   Always check the URL: `https://www.myetherwallet.com`.
                 </li>
                 <li translate="ONBOARD_secure_1_content__4">
-                  Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.
+                  Always make sure the URL bar has `MYETHERWALLET LLC` in green.
                 </li>
                 <li translate="ONBOARD_secure_1_content__5">
                   Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.

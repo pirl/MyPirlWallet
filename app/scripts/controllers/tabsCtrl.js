@@ -36,18 +36,21 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
     $scope.gasChanged = function() {
         globalFuncs.localStorage.setItem(gasPriceKey, $scope.gas.value);
         ethFuncs.gasAdjustment = $scope.gas.value;
-        $scope.gasPriceMsg = ethFuncs.gasAdjustment < 40 ? true : false
+        $scope.gasPriceMsg = ethFuncs.gasAdjustment < 41 ? true : false
     }
     var setGasValues = function() {
         $scope.gas = {
-            curVal: 40,
-            value: globalFuncs.localStorage.getItem(gasPriceKey, null) ? parseInt(globalFuncs.localStorage.getItem(gasPriceKey)) : 40,
-            max: 100,
-            min: 0.5,
-            step: 0.5
+            curVal: 41,
+            value: globalFuncs.localStorage.getItem(gasPriceKey, null) ? parseInt(globalFuncs.localStorage.getItem(gasPriceKey)) : 41,
+            max: 99,
+            min: 1,
+            step: 1
         }
+
+        var curNode = globalFuncs.localStorage.getItem('curNode', null);
+
         ethFuncs.gasAdjustment = $scope.gas.value;
-        $scope.gasPriceMsg = ethFuncs.gasAdjustment < 40 ? true : false
+        $scope.gasPriceMsg = ethFuncs.gasAdjustment < 41 ? true : false
     }
     setGasValues();
     $scope.gasChanged();
@@ -84,7 +87,7 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
         for (var attrname in $scope.curNode)
             if (attrname != 'name' && attrname != 'tokenList' && attrname != 'lib')
                 ajaxReq[attrname] = $scope.curNode[attrname];
-        globalFuncs.localStorage.setItem('curNode', JSON.stringify({
+            globalFuncs.localStorage.setItem('curNode', JSON.stringify({
             key: key
         }));
         if (nodes.ensNodeTypes.indexOf($scope.curNode.type) == -1) $scope.tabNames.ens.cx = $scope.tabNames.ens.mew = false;
@@ -96,10 +99,17 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
                 $scope.notifier.danger(globalFuncs.errorMsgs[32]);
             } else {
                 $scope.nodeIsConnected = true;
-                $scope.notifier.info( globalFuncs.successMsgs[5] + '— Now, check the URL: <strong>' + window.location.href + '.</strong> <br /> Network: <strong>' + $scope.nodeType + ' </strong> provided by <strong>' + $scope.nodeService + '.</strong>', 5000)
+                $scope.notifier.info( globalFuncs.successMsgs[5] + '<br /> URL: <strong>' + window.location.href + '</strong> <br /> Network: <strong>' + $scope.nodeType + ' </strong> provided by <strong>' + $scope.nodeService + '</strong>', 10000)
             }
         });
-        networkHasChanged && window.setTimeout(function() {location.reload() }, 250)
+        networkHasChanged && window.setTimeout(function() {
+            if (window.location.search.length > 0) {
+                window.location = window.location.href.replace(window.location.search, '');
+            } else {
+                window.location.reload();
+            }
+
+        }, 250)
     }
     $scope.checkNodeUrl = function(nodeUrl) {
         return $scope.Validator.isValidURL(nodeUrl);
@@ -109,7 +119,13 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
         if (node === JSON.stringify({"key":"eth_metamask"})) {
           node = JSON.stringify({"key":"eth_infura"})
         }
-       if (node == null) {
+
+        var requestedNetwork = globalFuncs.urlGet('network');
+        if (requestedNetwork && nodes.nodeList.hasOwnProperty(requestedNetwork)) {
+            node = JSON.stringify({ "key": requestedNetwork });
+        }
+
+        if (node == null) {
             $scope.changeNode($scope.defaultNodeKey);
         } else {
             node = JSON.parse(node);

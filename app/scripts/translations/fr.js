@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -295,7 +295,7 @@ x_Keystore                  : 'Fichier Keystore (UTC / JSON · Recommandé · Ch
 x_Keystore2                 : 'Fichier Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Ce fichier Keystore utilise le même format que Mist, vous pouvez donc facilement l\'importer plus tard dans ce client. C\'est le fichier que nous vous recommandons de télécharger et de garder en sécurité. ',
 x_Ledger                    : 'Ledger (Portefeuille matériel)',
-x_MetaMask                  : 'Metamask / Mist ',
+x_MetaMask                  : 'MetaMask / Mist ',
 x_Mnemonic                  : 'Phrase mnémonique ',
 x_ParityPhrase              : 'Phrase Parity ',
 x_Password                  : 'Mot de passe ',
@@ -429,7 +429,7 @@ TRANSModal_No               : 'Aïe ! Je comprends de moins en moins. Aidez-moi 
 /* Offline Transaction */
 OFFLINE_Title               : 'Générer et envoyer une transaction hors ligne',
 OFFLINE_Desc                : 'La génération d\'une transaction hors ligne s\'effectue en trois étapes. Les étapes 1 et 3 sont réalisées sur un ordinateur en ligne et l\'étape 2 sur un ordinateur déconnecté du réseau. Cela permet d\'isoler totalement vos clefs privées de toute machine connectée à Internet.',
-OFFLLINE_Step1_Title        : 'Étape 1 : Gérération de l\'information (ordinateur en ligne) ',
+OFFLLINE_Step1_Title        : 'Étape 1 : Génération de l\'information (ordinateur en ligne) ',
 OFFLINE_Step1_Button        : 'Générer l\'information',
 OFFLINE_Step1_Label_1       : 'Addresse d\'émission',
 OFFLINE_Step1_Label_2       : 'Note : Il s\'agit de l\'adresse de départ, pas de l\'adresse d\'arrivée. Le nonce est généré à partir du compte de l\'expéditeur. Si on utilise une machine déconnectée du réseau, cette adresse est celle du compte en _Cold Storage_.',
@@ -570,7 +570,7 @@ ERROR_6                     : '(error_07) Please enter a valid password. Veuille
 ERROR_7                     : '(error_08) Please enter valid decimals     (Must be an integer. Try 0-18.) Veuillez entrer un montant valide. (Must be integer. Try 0-18.) ', // 7
 ERROR_8                     : '(error_09) Please enter a valid gas limit  (Must be an integer. Try 21000-4000000.) Veuillez entrer une limite de Gas valide. (Must be integer. Try 21000-4000000.) ', // 8
 ERROR_9                     : '(error_10) Please enter a valid data value (Must be hex.) Veuillez entrer des donnnées valides (en héxadécimal).', // 9
-ERROR_10                    : '(error_11) Please enter a valid gas price. (Must be an integer. Try 40 GWEI / 20000000000 WEI.) Veuillez entrer un montant de Gas valide (une valeur entière. Essayez 20 Gwei, soit 20000000000 wei).',
+ERROR_10                    : '(error_11) Please enter a valid gas price. (Must be an integer. Try 20 GWEI / 20000000000 WEI.) Veuillez entrer un montant de Gas valide (une valeur entière. Essayez 20 Gwei, soit 20000000000 wei).',
 ERROR_11                    : '(error_12) Please enter a valid nonce (Must be an integer.) Veuillez entrer un nonce valide (nombre entier).', // 11
 ERROR_12                    : '(error_13) Invalid signed transaction. Transaction signée invalide.',
 ERROR_13                    : '(error_14) A wallet with this nickname already exists. Un portefeuille portant ce nom existe déjà.',
@@ -826,7 +826,7 @@ HELP_15_Title               : '15) Pourquoi le compte que je viens de créer n\'
 HELP_15_Desc_1              : 'Les comptes n\'apparaissent dans un explorateur de blockchain qu\'après une activité, comme par exemple, un envoi ou une réception d\'Ether.',
 
 HELP_16_Title               : '16) Comment puis-je vérifier le solde de mon compte ?',
-HELP_16_Desc_1              : 'Vous pouvez utiliser un explorateur de blockchain comme [etherscan.io](https://etherscan.io/). Collez votre adresse dans la barre de recherche et cela récupérera votre solde et l\'historique de vos transactions. Par exemple, voici ce que montre notre [compte de donations](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) sur etherscan.io',
+HELP_16_Desc_1              : 'Vous pouvez utiliser un explorateur de blockchain comme [etherscan.io](https://etherscan.io/). Collez votre adresse dans la barre de recherche et cela récupérera votre solde et l\'historique de vos transactions. Par exemple, voici ce que montre notre [compte de donations](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) sur etherscan.io',
 
 HELP_17_Title               : '17) Pourquoi mon solde n\'apparaît-il pas quand je déverrouille mon portefeuille ?',
 HELP_17_Desc_1              : 'C\'est probablement dû au fait que vous vous trouviez derrière un parefeu. L\'API que nous utilisons pour obtenir le solde et converir celui-ci est souvent bloquée par des parefeus pour des raisons diverses. Vous êtes toujours capable d\'envoyer des transactions mais il vous faut employer une autre méthode pour voir le solde, comme etherscan.io',

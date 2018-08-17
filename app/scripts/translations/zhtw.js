@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -298,7 +298,7 @@ x_JsonDesc                  : '這是未加密的JSON格式私鑰檔。這表示
 x_Keystore                  : 'Keystore 檔 (UTC / JSON · 推薦 · 經過加密) ',
 x_Keystore2                 : 'Keystore 檔 (UTC / JSON) ',
 x_KeystoreDesc              : '此Keystore檔和Mist錢包相容，因此你可以輕鬆地匯入錢包。我們推薦你下載並備份此檔案。 ',
-x_MetaMask                  : 'Metamask / Mist ',
+x_MetaMask                  : 'MetaMask / Mist ',
 x_Mnemonic                  : '助憶口令 ',
 x_ParityPhrase              : 'Parity口令 ',
 x_Password                  : '密碼 ',
@@ -351,7 +351,7 @@ MNEM_prev                   : '之前的地址 ',
 
 /* Hardware wallets */
 x_Ledger                    : 'Ledger Wallet 錢包',
-ADD_Ledger_0a               : 'You must access MyEtherWallet via a secure (SSL / HTTPS) connection to connect. ',
+ADD_Ledger_0a               : 'Please use MyEtherWallet on a secure (SSL / HTTPS) connection to connect. ',
 ADD_Ledger_1                : '連接至你的 Ledger Wallet ',
 ADD_Ledger_2                : '開啟基於以太坊開發的應用程式（或一個寫成合約的應用程式） ',
 ADD_Ledger_2_Exp            : '開打開基於Expanse（或合同書面申請）開發的應用程序 ',
@@ -558,7 +558,7 @@ ERROR_6                     : '無效的密碼。 ',
 ERROR_7                     : '無效的數量。(Must be integer. Try 0-18.) ', // 7
 ERROR_8                     : '無效的gas上限。(Must be integer. Try 21000-4000000.) ', // 8
 ERROR_9                     : '無效的data。(Must be hex.) ', // 9
-ERROR_10                    : '無效的gas數量。(Must be integer. Try 40 GWEI / 20000000000 WEI.)',
+ERROR_10                    : '無效的gas數量。(Must be integer. Try 20 GWEI / 20000000000 WEI.)',
 ERROR_11                    : '無效的nonce值。(Must be integer.)', // 11
 ERROR_12                    : '無效的已簽名交易。 ',
 ERROR_13                    : '已經有一個使用相同暱稱的錢包存在。 ',
@@ -814,7 +814,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : ' This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',

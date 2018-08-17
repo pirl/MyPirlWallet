@@ -277,6 +277,10 @@ a.footer__pill {
 
 
 .custom-token-fields {
+  label {
+    font-weight: 400;
+    font-size: 1rem;
+  }
   input {
     .input-sm();
     .mono {
@@ -380,6 +384,24 @@ a.footer__pill {
     width: 2em;
     height: 1em;
     background-image: url(../images/icon-protip.svg);
+    background-size: contain;
+    vertical-align: middle;
+    text-align: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-right: .5em solid transparent;
+  }
+}
+
+.u__download {
+  display: table;
+  margin-left: .5em;
+  &:before {
+    content: "";
+    display: table-cell;
+    width: 1.25em;
+    height: 1em;
+    background-image: url(../images/icon-external-link.svg);
     background-size: contain;
     vertical-align: middle;
     text-align: center;

@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -500,7 +500,7 @@ ERROR_6                         :  '(error_07) رمز عبور نامعتبر ا
 ERROR_7                         :  '(error_08) مقدار نامعتبر است. Please enter valid decimals     (Must be an integer. Try 0-18.)', // 7
 ERROR_8                         :  '(error_09) میزان حد سوخت نامعتبر است. Please enter a valid gas limit  (Must be an integer. Try 21000-4000000.)', // 8
 ERROR_9                         :  '(error_10) داده نامعتبر است. Please enter a valid data value (Must be hex.)', // 9
-ERROR_10                        :  '(error_11) میزان سوخت نامعتبر است. Please enter a valid gas price. (Must be an integer. Try 40 GWEI / 20000000000 WEI.)',
+ERROR_10                        :  '(error_11) میزان سوخت نامعتبر است. Please enter a valid gas price. (Must be an integer. Try 20 GWEI / 20000000000 WEI.)',
 ERROR_11                        :  '(error_12) تراکنش امضا شده نامعتبر است Please enter a valid nonce (Must be an integer.)', // 11
 ERROR_12                        :  '(error_13) قبلا کیف پولی با این نام ساخته شده است Invalid signed transaction.', // 12
 ERROR_13                        :  '(error_14) کیف پول پیدا نشد A wallet with this nickname already exists.', // 13
@@ -758,7 +758,7 @@ HELP_15_Title: 'سوال 15: چرا حسابی که همین الان ساخته
 HELP_15_Desc_1: 'HELP_15_Desc_1',
 
 HELP_16_Title: 'سوال 16: چگونه موجودی حساب خود را ببینم؟ ',
-HELP_16_Desc_1: 'برای این کار می توانید از یک مرورگر بلاکچین مثل  [etherscan.io](https://etherscan.io/) استفاده کنید. آدرس خود را در قسمت search (جستجو) وارد کنید و بعد می توانید آدرس و سابقه تراکنش های خود را مشاهده کنید. برای مثال حساب اهدایی ما [بدین صورت](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) است. ',
+HELP_16_Desc_1: 'برای این کار می توانید از یک مرورگر بلاکچین مثل  [etherscan.io](https://etherscan.io/) استفاده کنید. آدرس خود را در قسمت search (جستجو) وارد کنید و بعد می توانید آدرس و سابقه تراکنش های خود را مشاهده کنید. برای مثال حساب اهدایی ما [بدین صورت](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) است. ',
 
 HELP_17_Title: 'سوال 17: چرا زمانی که قفل کیف پول خود را باز می کنم موجودی من نمایش داده نمی شود؟ ',
 HELP_17_Desc_1: 'این موضوع احتمالا بخاطر این است که شما پشت یک firewall (دیوار آتشین) هستید. API که ما برای بدست آوردن موجودی استفاده می کنیم به دلایلی معمولا توسط فایر وال ها بلاک می شوند. شما همچنان می توانید تراکنش هایتان را ارسال کنید و برای دیدن موجودی خود تنها باید از راه دیگری (مثل etherscan.io) استفاده کنید. ',
