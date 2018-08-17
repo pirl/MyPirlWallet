@@ -25,6 +25,12 @@ gasLimit:   250000,
 data:       '',
 msg:        'STORM token sale: gamified micro-tasks - Earn anywhere, anytime, from any device. https://www.stormtoken.com, NOV 7, 2017'
 },{
+// RVL tokens
+to:         '0xDd64EF0c8a41d8a17F09ce2279D79b3397184A10',
+gasLimit:   200000,
+data:       '',
+msg:        'RVL token sale: PRE-ICO SUPER SALE, SHARING ECONOMY PIATTAFORM,  https://www.R-EVOLUTIONCOIN.COM.com, DIC 15, 2017'
+},{
 // Aigang (AIX) ICO Sale
 to:         ' 0xeA0c348A297084BFFbddad7f89216F24a2106E58',
 gasLimit:   300000,
@@ -210,4 +216,10 @@ to:         '0xd5E3036d5CE7eC222379D16f6ffC38C38c55BF7f',
 gasLimit:   200000,
 data:       '',
 msg:        'Ethereum High HIG is a robust and feather-light cryptocurrency designed to hedge the risk of your portfolio'
+},{
+// PIXEL Token Sale (PIXEL)
+to:         '0x7e7DC49715816d1f5712A1d7dFf083e4F9E588B6',
+gasLimit:   200000,
+data:       '',
+msg:        'PIXEL token sale contract. VR club franchise with neurointerfaces: https://vr-pixel.com. Ends 05.12.2017. Thank you for participating!'
 }]

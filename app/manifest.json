@@ -1,9 +1,9 @@
 {
   "name": "MyPirlWallet",
-  "version": "3.10.7.6",
+  "version": "3.10.9",
   "manifest_version": 2,
-  "description": "mupirlwallet Chrome Extension",
-  "homepage_url": "https:/mupirlwallet.com",
+  "description": "MyPirlWallet Chrome Extension",
+  "homepage_url": "https://MyPirlWallet.com",
   "icons": {
     "16": "images/icons/rsz_pirl.png",
     "32": "images/icons/rsz_pirl.png",
@@ -12,7 +12,7 @@
   "options_page": "cx-wallet.html",
   "browser_action": {
     "default_icon": "images/icons/rsz_pirl.png",
-    "default_title": "mupirlwallet CX",
+    "default_title": "MyPirlWallet CX",
     "default_popup": "browser_action/browser_action.html"
   },
   "permissions": [
