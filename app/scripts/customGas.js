@@ -7,6 +7,12 @@
 // http://www.tokensalecalendar.com/
 
 module.exports = [{
+// AX1 Mining token
+to:         '0x5de9f32b2665bb2cdc23bfb51b03e2a2985ecc87',
+gasLimit:   324741,
+data:       '',
+msg:        'You must have registered at https://ax1.io and followed the instructions to purchase tokens here.'
+},{
 // Accord (ARD) Token sale
 to:         '0x75aa7b0d02532f3833b66c7f0ad35376d373ddf8',
 gasLimit:   300000,
@@ -314,18 +320,6 @@ gasLimit:   200000,
 data:       '',
 msg:        ' Duty of Care VDOC token sale - https://dutyof.care/token-launch/'
 },{
-// GANA (GANA) Pre ICO
-to:         '0xf51397513C3516effeEF0e0f7332E05816135d01',
-gasLimit:   200000,
-data:       '',
-msg:        'GANA Pre ICO - Learning health with Cannabis - Official site https://ganacoin.io'
-},{
-// GANA (GANA) Public ICO
-to:         '0xCe2f65261858BDfC4Ac65BB166919b8D35A4C82f',
-gasLimit:   200000,
-data:       '',
-msg:        'GANA Public ICO - Learning health with Cannabis - Official site https://ganacoin.io'
-},{
 // APIS Token sale
 to:         '0x749e66e12c09E4105381e373c0E6CA0bCe573d36',
 gasLimit:   200000,
@@ -337,4 +331,10 @@ to:         '0xe933c0Cd9784414d5F278C114904F5A84b396919',
 gasLimit:   200000,
 data:       '',
 msg:        'WhoHas-Token Sale. Please register through our offical website: https://whohas.io/'
+},{
+// WHEN (￦) Token Sale
+to:         '0xf4fe95603881d0e07954fd7605e0e9a916e42c44',
+gasLimit:   200000,
+data:       '',
+msg:        'WHEN Token Sale. Join the future of person-to-person micro-contracts using the blockchain.: https://interface.whenhub.com/'
 }]
