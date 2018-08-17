@@ -33,6 +33,19 @@ nodes.nodeList = {
         'abiList': require('./abiDefinitions/ethAbi.json'),
         'service': 'MyPirlWallet',
         'lib': new nodes.customNode('https://wallrpc.pirl.io', '')
+    },
+    'pirl': {
+        'name': 'PIRL',
+        'blockExplorerTX': 'https://poseidon.pirl.io/explorer/transaction/[[txHash]]',
+        'blockExplorerAddr': 'https://poseidon.pirl.io/explorer/address/[[address]]',
+        'type': nodes.nodeTypes.PIRL,
+        'eip155': true,
+        'chainId': 3125659152,
+        'tokenList': require('./tokens/pirlTokens.json'),
+        'abiList': require('./abiDefinitions/pirlAbi.json'),
+        'estimateGas': true,
+        'service': 'pirl.io',
+        'lib': new nodes.customNode('https://wallrpc.pirl.io', '')
     }
 };
 
