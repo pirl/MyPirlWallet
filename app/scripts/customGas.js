@@ -3,279 +3,430 @@
 // 2. Add the gas limit users should use to send successfully (this avoids OOG errors)
 // 3. Add any data if applicable
 // 4. Add a message if you want.
-
-// Token Calendar:
+// Token Calendar: If you aren't on the above, you should get on it.
 // http://www.tokensalecalendar.com/
-// If you aren't on the above, you should get on it.
 
-//
-
-
-module.exports = [
- {
-  // Vibehub (VIBEX) ICO Sale
-  to:         '0x5454af9d2ba75a60fa5b0419c251810544cea21d',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'WeBetCrypto ICO Sale. Thank you for your support!'
+module.exports = [{
+// ORCA Alliance (ORCA) Token sale
+to:         '0xEDF19b437d1A67E18B15dd4a859dD52F9cfA012F',
+gasLimit:   110000,
+data:       '',
+msg:        'Thank you for buying ORCA Tokens! - Share ORCA with your friends (https://www.orcaalliance.eu).' 
+},
+{
+// Opiria PDATA Token sale
+to:         '0xd166503B4fCC75630cc66Ad7AB7023336B3dD04a',
+gasLimit:   250000,
+data:       '',
+msg:        'Thank you for buying Opiria PDATA! The future of personal data brokerage - share it with your friends: https://opiria.io' 
+},
+{
+// Depository Network (DEPO) Token sale
+to:         '0x4ee74a5f841c0aab0090ae21d4f9d8fca2aeea26',
+gasLimit:   300000,
+data:       '0xabacadae',
+msg:        'Depository Network (DEPO) Token sale - Sign Up at https://depository.network and buy your tokens.'
 },{
-  // Vibehub (VIBEX) ICO Sale
-  to:         '0x882448f83d90b2bf477af2ea79327fdea1335d93',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Vibehub ICO Sale. Thank you for your support!'
+// CryptFillCoin (CFC) Token sale
+to:         '0xC510840609575a10e893aF8b87A903865dF6677c',
+gasLimit:   210000,
+data:       '',
+msg:        'CryptFillCoin (CFC) token sale - Sign Up at https://cryptfillcoin.com and buy your tokens.'
+},{
+// MTC Mesh Network (MTC) Token sale
+to:         '0xdfdc0d82d96f8fd40ca0cfb4a288955becec2088',
+gasLimit:   60000,
+data:       '',
+msg:        'MTC Mesh Network (MTC) token sale - Sign Up at https://www.mtc.io/ and buy your tokens.'
+},{
+// Ethernet.Cash (ENC) Token sale
+to:         '0x039f5050de4908f9b5ddf40a4f3aa3f329086387',
+gasLimit:   299686,
+data:       '',
+msg:        'Ethernet.Cash (ENC) token sale - https://ethernet.cash get up to 50% bonus and 50% for your referral.'
+},{
+// Merculet (MVP) Token sale
+to:         '0x8a77e40936bbc27e80e9a3f526368c967869c86d',
+gasLimit:   210000,
+data:       '',
+msg:        'Merculet (MVP) token sale - You must have registered at https://merculet.io and followed the instructions to purchase tokens here.'
+},{
+// GIFcoin (GIF) Token sale
+to:         '0xFcD862985628b254061F7A918035B80340D045d3',
+gasLimit:   200000,
+data:       '',
+msg:        'GIFcoin (GIF) token sale - https://gifcoin.io - save your ETH wallet after purchase on the website to gain access to investors hub.'
+},{
+// AX1 Mining token
+to:         '0x5de9f32b2665bb2cdc23bfb51b03e2a2985ecc87',
+gasLimit:   324741,
+data:       '',
+msg:        'You must have registered at https://ax1.io and followed the instructions to purchase tokens here.'
+},{
+// Accord (ARD) Token sale
+to:         '0x75aa7b0d02532f3833b66c7f0ad35376d373ddf8',
+gasLimit:   300000,
+data:       '',
+msg:        ' Accord (ARD) ERC20 token sale - http://accordtoken.com'
+},{
+// DAV Token Sale
+to:         '0xBE2530028229198D2c383F2D3FB9f40EBf24dEed',
+gasLimit:   300000,
+data:       '',
+msg:        'DAV Token Sale - Must register on https://dav.network/ first to participate'
+},{
+// Primalbase Token (PBT)
+to:         '0xF4c07b1865bC326A3c01339492Ca7538FD038Cc0',
+gasLimit:   100000,
+data:       '',
+msg:        ''
+},{
+// BTQ Token Sale
+to:         '0x16B0E62aC13a2fAeD36D18bce2356d25Ab3CfAD3',
+gasLimit:   200000,
+data:       '',
+msg:        'BTQ ICO ends February 1, 2018. btc btq is your exclusive bitcoin boutique and world\'s premier cryptocurrency lifestyle brand. https://thebtcbtq.com/btq'
+},{
+// EPX Token Sale
+to:         '0x5A8658dE344972fC8b6b6a01Cd87a64bc7420A38',
+gasLimit:   200000,
+data:       '',
+msg:        'ethPoker.io EPX token sale - https://ethPoker.io'
+},{
+// ARXT Token Sale
+to:         '0xb65E16b44A80C9c44aDdD56a5014CbA2814a82D1',
+gasLimit:   200000,
+data:       '',
+msg:        'Assistive Reality ARXT token sale - https://aronline.io'
+},{
+// STC Token Sale
+to:         '0x8d040556214125F3fE7d8B22cF17c364603A6035',
+gasLimit:   400000,
+data:       '',
+msg:        'STC Token Sale - https://dimensions.network'
+},{
+// MNT Token Sale
+to:         '0xA9877b1e05D035899131DBd1e403825166D09f92',
+gasLimit:   200000,
+data:       '',
+msg:        'MNT Token Sale - http://mnt.coinjoker.com'
+},{
+// J8T Token Sale
+to:         '0xa76ea481aebdd5703e476cfcb2315d4e014232c1',
+gasLimit:   200000,
+data:       '',
+msg:        'J8T Token Sale - https://jet8.io/token - JET8 · Democratizing influence'
+},{
+// PUC Token Sale
+to:         '0xEf6B4cE8C9Bc83744fbcdE2657b32eC18790458A',
+gasLimit:   930000,
+data:       '',
+msg:        'PUC Token Sale - http://price-s.info'
+},{
+// DIVX Token Sale
+to:         '0x13f11C9905A08ca76e3e853bE63D4f0944326C72',
+gasLimit:   300000,
+data:       '0xb4427263',
+msg:        'DIVX Token Sale - www.diviproject.org'
+},{
+// NOX Token Sale
+to:         '0x4b0712de9b75bc68a566215acca876ea5e55c172',
+gasLimit:   114293,
+data:       '',
+msg:        'NOX Token Sale'
+},{
+// GEE Token Sale
+to:         '0xF5DFFdEAEA54bB56156B47de1C7b4346c7dBa69C',
+gasLimit:   180000,
+data:       '',
+msg:        'GEE Token Sale'
+},{
+// STORM tokens
+to:         '0xc88c7e1AEbd89187d13bD42e1ff814d32f492BF6',
+gasLimit:   250000,
+data:       '',
+msg:        'STORM token sale: gamified micro-tasks - Earn anywhere, anytime, from any device. https://www.stormtoken.com, NOV 7, 2017'
+},{
+// RVL tokens
+to:         '0xDd64EF0c8a41d8a17F09ce2279D79b3397184A10',
+gasLimit:   200000,
+data:       '',
+msg:        'RVL token sale: PRE-ICO SUPER SALE, SHARING ECONOMY PIATTAFORM,  https://www.R-EVOLUTIONCOIN.COM.com, DIC 15, 2017'
+},{
+// Aigang (AIX) ICO Sale
+to:         ' 0xeA0c348A297084BFFbddad7f89216F24a2106E58',
+gasLimit:   300000,
+data:       '',
+msg:        'Aigang token sale contract. Autonomous insurance network - fully automated insurance for IoT devices and a platform for insurance innovation built around data: https://aigang.network . Ends 12/15/2017'
+},{
+// Confideal (CDL)
+to:         '0x17681500757628C7AA56d7E6546E119f94Dd9479',
+gasLimit:   170000,
+data:       '',
+msg:        'Confideal token sale. Confideal is a platform for making deals. https://confideal.io, ends Jan 31, 2018'
+},{
+// Vibehub (VIBEX) ICO Sale
+to:         '0x5454af9d2ba75a60fa5b0419c251810544cea21d',
+gasLimit:   200000,
+data:       '',
+msg:        'WeBetCrypto ICO Sale. Thank you for your support!'
+},{
+// Vibehub (VIBEX) ICO Sale
+to:         '0x882448f83d90b2bf477af2ea79327fdea1335d93',
+gasLimit:   200000,
+data:       '',
+msg:        'Vibehub ICO Sale. Thank you for your support!'
+},{
+// Trade.io (TIO) ICO Sale
+to:         '0xdea6d29da64bba5ab86a7424ca894756e7ae8ed3',
+gasLimit:   200000,
+data:       '',
+msg:        'Trade.io ICO Sale. Thank you for your support!'
+},{
+// Substratum (SUB) Network ICO Sale
+to:         '0xaf518d65f84e4695a4da0450ec02c1248f56b668',
+gasLimit:   200000,
+data:       '',
+msg:        'Substratum Network ICO Sale. Thank you for your support!'
+},{
+// YUPIE (YUPIE)
+to:         '0x0F33bb20a282A7649C7B3AFf644F084a9348e933',
+gasLimit:   400000,
+data:       '',
+msg:        'YUPIE (YUPIE) ICO'
+},{
+// horizonstate.com Horizon State Token Sale
+to:         '0xbD2ED3E85faa3433c068c7B3f9C8C7d839CE88d7',
+gasLimit:   69153,
+data:       '',
+msg:        'Horizon State Token Sale. Thank you for your support. '
+},{
+// DataBrokerDAO
+to:         '0x439b54caf661c21e6b231d972d7eaa98f199590f',
+gasLimit:   200000,
+data:       '',
+msg:        'DataBrokerDAO. https://databrokerdao.com'
+},{
+// BattleDrome
+to:         '0xeaAf270436a0ed397ED23BBF64DF7b1DCAfF142F',
+gasLimit:   85000,
+data:       '',
+msg:        'BattleDrome ICO/Crowdsale. Thanks for your support!'
+},{
+// Simple Token (ST)
+to:         '0x58b7056DeB51eD292614F0DA1E94E7e9c589828d',
+gasLimit:   150000,
+data:       '',
+msg:        'Simple Token — the cryptocurrency that powers digital communities.'
+},{
+// SunContract
+to:         '0x5fb3D432bae33FCd418edE263D98D7440E7fA3ea',
+gasLimit:   200000,
+data:       '',
+msg:        'SunContract ICO address - suncontract.org'
+},{
+// NVC
+to:         '0xd88755197e107603C139df6E709ed09EEC6b6bB3',
+gasLimit:   200000,
+data:       '',
+msg:        'NVC Fund'
+},{
+// Ohni
+to:         '0x2a8a7afa955d8616e2e60e454e5a9c6b6c0a60fc',
+gasLimit:   200000,
+data:       '',
+msg:        'OHNI ICO. Restoration of our communities!'
+},{
+// Easy Homes Token (EHT)
+to:         '0xf9F0FC7167c311Dd2F1e21E9204F87EBA9012fB2',
+gasLimit:   200000,
+data:       '',
+msg:        'Easy Homes ICO. Thank you!'
+},{
+// Mitrav (MTR) ICO Sale
+to:         '0x7FC408011165760eE31bE2BF20dAf450356692Af',
+gasLimit:   200000,
+data:       '',
+msg:        'Mitrav ICO Sale. Thank you for your support!'
+},{
+// WinBitcoin (WBC) ICO Sale
+to:         '0xA5DD8cDe486436F0Cfd62652952E1fcEC5A61CAe',
+gasLimit:   300000,
+data:       '',
+msg:        'WinBitcoin ICO Sale. Thank you for your support!'
+},{
+// BMCHAIN ICO
+to:         '0x19d7a9ad3b49252fd2ef640d0e43dfd651168499',
+gasLimit:   100000,
+data:       '',
+msg:        'BMChain ICO - Platform of digital reputation - Official site https://bmchain.io'
+},{
+// TBOT Token Sale
+to:         '0xAFe60511341a37488de25Bef351952562E31fCc1',
+gasLimit:   200000,
+data:       '',
+msg:        'Tbot ICO Sale.'
+},{
+// Zeus exchange token sale
+to:         '0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1',
+gasLimit:   200000,
+data:       '',
+msg:        'Zeus Exchange - The First Hybrid Trading Platform for Traditional Stock Investors and Crypto Traders. Official site https://zeus.exchange'
+},{
+// Game Token Sale
+to:         '0xB70835D7822eBB9426B56543E391846C107bd32C',
+gasLimit:   200000,
+data:       '',
+msg:        'Game Token Sale'
+},{
+// Rebellious Token
+to:         '0x5f53f7a8075614b699baad0bc2c899f4bad8fbbf',
+gasLimit:   200000,
+data:       '',
+msg:        'Rebellious Token'
+},{
+// Ethereum High Token Sale
+to:         '0xd5E3036d5CE7eC222379D16f6ffC38C38c55BF7f',
+gasLimit:   200000,
+data:       '',
+msg:        'Ethereum High HIG is a robust and feather-light cryptocurrency designed to hedge the risk of your portfolio'
+},{
+// REAL CHAIN TOKEN!
+to:         '0x2a3Aa9ECA41E720Ed46B5A70D6C37EfA47f768Ac',
+gasLimit:   200000,
+data:       '',
+msg:        'REAL CHAIN TOKEN!'
+},{
+// Artex Token Sale (ARX)
+to:         '0x7705FaA34B16EB6d77Dfc7812be2367ba6B0248e',
+gasLimit:   200000,
+data:       '',
+msg:        'Artex - Art Provenance Blockchain. Official site https://artex.global'
 },
 {
-  // Substratum (SUB) Network ICO Sale
-  to:         '0xaf518d65f84e4695a4da0450ec02c1248f56b668',
-  gasLimit:   200000,
+// Sirin Token Sale (SRN)
+to:         '0x29AfA3443f752eb29d814d9042Fd88A4a2dc0F1e',
+gasLimit:   200000,
+data:       '',
+msg:        'SIRIN LABS official crowdsale address. Official website https://sirinlabs.com'
+},{
+// TRV Token Sale
+to:         '0xA671f2914Ba0e73979FFc47cD350801d1714b18f',
+gasLimit:   150000,
+data:       '',
+msg:        'TRV Ongoing Sale.'
+},{
+// TWN Token Sale
+to:         '0xdee3bfae40ac2ae9c69ebf30ecaf67a499a9dd5e',
+gasLimit:   150000,
+data:       '',
+msg:        'The World News Pre-ICO.'
+},{
+// Bitlle Token Sale (BTL)
+to:         '0x92685E93956537c25Bb75D5d47fca4266dd628B8',
+gasLimit:   200000,
+data:       '',
+msg:        'Bitlle Token. Official website https://bitlle.com'
+},{
+// LEDU Token Sale (LiveEdu.tv)
+to:         '0x2097175d0abb8258f2468E3487F8db776E29D076',
+gasLimit:   200000,
+data:       '',
+msg:        'LiveEdu LEDU token sale. Official website: https://tokensale.liveedu.tv/'
+},{
+// HEdpAY (Hdp.ф) Sale (hedpay.com)
+to:         '0x4F8B6cA78711207E1B281DB63e8d6EAA1ce2F63E',
+gasLimit:   230000,
+data:       '',
+msg:        'HEdpAY (Hdp.ф) sale. Official sale website: https://ibiginvestments.com/hedpay'
+},{
+// COPYTRACK (CPY) Token Sale
+to:         '0xF04436B2eDaa1B777045E1EEFc6DBA8bD2aEbAB8',
+gasLimit:   150000,
+data:       '',
+msg:        'COPYTRACK (CPY) Token Sale. Official sale website: https://copytrack.io'
+},{
+// DoBetAcceptBet (DCA) Token Sale
+to:         '0x386Faa4703a34a7Fdb19Bec2e14Fd427C9638416',
+gasLimit:   150000,
+data:       '',
+msg:        'DoBetAcceptBet (DCA) Token Sale. Official sale website: https://dobetacceptbet.com'
+},{
+// LATOKEN (LA) Token Sale
+to:         '0xE50365f5D679CB98a1dd62D6F6e58e59321BcdDf',
+gasLimit:   150000,
+data:       '',
+msg:        'LATOKEN (LA). Official sale website: https://latoken.com'
+},{
+// LALA World (LALA) Token Sale
+to:         '0xfD107B473AB90e8Fbd89872144a3DC92C40Fa8C9',
+gasLimit:   200000,
+data:       '',
+msg:        'LALA World Token (LALA) Token Sale. Official sale website: https://lalaworld.io'
+},{
+// Digital Asset Exchange Token (DAXT) Token Sale
+to:         '0x61725f3db4004afe014745b21dab1e1677cc328b',
+gasLimit:   200000,
+data:       '',
+msg:        'Digital Asset Exchange Token (DAXT) Token Sale. Official sale website: https://www.daxt.io'
+},{
+// Duty of Care (VDOC) Token sale
+to:         '0xe8DB4ceA1f7ad7Ba22F3DbbAb55A336545701d96',
+gasLimit:   200000,
+data:       '',
+msg:        ' Duty of Care VDOC token sale - https://dutyof.care/token-launch/'
+},{
+// APIS Token sale
+to:         '0x749e66e12c09E4105381e373c0E6CA0bCe573d36',
+gasLimit:   200000,
+data:       '',
+msg:        ' APIS token sale - https://apisplatform.io'
+},{
+// WhoHas (WHO) Token Sale
+to:         '0xe933c0Cd9784414d5F278C114904F5A84b396919',
+gasLimit:   200000,
+data:       '',
+msg:        'WhoHas-Token Sale. Please register through our official website: https://whohas.io/'
+},{
+// WHEN (￦) Token Sale
+to:         '0xf4fe95603881d0e07954fd7605e0e9a916e42c44',
+gasLimit:   200000,
+data:       '',
+msg:        'WHEN Token Sale. Join the future of person-to-person micro-contracts using the blockchain.: https://interface.whenhub.com/'
+},{
+// AIgatha (ATH) Token Sale
+to:         '0x1543d0F83489e82A1344DF6827B23d541F235A50',
+gasLimit:   200000,
+data:       '',
+msg:        'AIgatha (ATH) Token Sale. Official sale website: https://aigatha.com'
+},{
+// GANA (GANA) Token Sale
+to:         '0xFc543bA94943DA77236D38D1CBE6Bd9C7B945dfC',
+gasLimit:   250000,
+data:       '',
+msg:        'GANA Token Sale. Green And Nature Association. - https://ganacoin.io/'
+},{
+// OS.University (EDU) Token Sale
+to:         '0x94d313feaee495466a23d97c87690ae33c0f0af6',
+gasLimit:   200000,
+data:       '',
+msg:        'EDU Token Sale by OS.University - https://os.university/'
+},{
+  // Brickblock (BBK) Token sale
+  to:         '0x4a6058666cf1057eac3cd3a5a614620547559fc9',
+  gasLimit:   210000,
   data:       '',
-  msg:        'Substratum Network ICO Sale. Thank you for your support!'
-},
-{
-  // CryptoMart
-  to:         '0x96028Fc22499A7Bad7727baB017eC2352308C15a',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'CryptoMart ICO | 25/082017-25/09/2017'
-},
-{
-  // YUPIE (YUPIE)
-  to:         '0x0F33bb20a282A7649C7B3AFf644F084a9348e933',
-  gasLimit:   400000,
-  data:       '',
-  msg:        'YUPIE (YUPIE) ICO'
-},
-{
-  // Atlant.io ATLANT ICO Sale
-  to:         '0xF46ede17c0bAb20d87Cd079a2632f71433A407b9',
-  gasLimit:   150000,
-  data:       '',
-  msg:        'ATLANT ICO Sale. Thank you for your support. '
-},
-{
-  // DCORP
-  to:         '0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8',
-  gasLimit:   21000,
-  data:       '',
-  msg:        'Thank you for your donation! TO THE MOON! 🌝'
-},
-{
-  // District0x
-  to:         '0xF8094e15c897518B5Ac5287d7070cA5850eFc6ff',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'district0x. WEBSITE: contribution.district0x.io STARTS: Tue, 18 Jul 2017 08:00:00 REMEMBER: Use gas price of 50 GWEI (look in header) ENS: district0x.eth'
-},
-{
-  // DataBrokerDAO
-  to:         '0x8aec8f09a840faea966f4b0e29a497d8f5b5a6b4',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'DataBrokerDAO. https://databrokerdao.com'
-},
-{
-  // BattleDrome
-  to:         '0xeaAf270436a0ed397ED23BBF64DF7b1DCAfF142F',
-  gasLimit:   85000,
-  data:       '',
-  msg:        'BattleDrome ICO/Crowdsale. Thanks for your support!'
-},
-{
-  // OpenANX
-  to:         '0xd6Cd31F283d24cfb442cBA1Bcf42290c07C15792',
-  gasLimit:   150000,
-  data:       '',
-  msg:        'Kyber Network. Starts September 15, 2017.'
-},
-{
-  // Adchain
-  to:         '0x0000',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Adchain. Starts June 26, 2017.'
-},
-{
-  // LookRev
-  to:         '0x21ae23b882a340a22282162086bc98d3e2b73018',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'LookRev. ICO Starts August 30, 2017.'
-},
-{
-  // OmiseGo
-  to:         '0x0000',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'OmiseGo. Starts June 27, 2017.'
-},
-{
-  // Nimiq
-  to:         '0xcfb98637bcae43C13323EAa1731cED2B716962fD',
-  gasLimit:   300000,
-  data:       '0xb4427263',
-  msg:        'Nimiq. Starts June 28, 2017 at block 3,942,670.'
-},
-{
-  // Santiment
-  to:         '0x0000',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Santiment. Starts June 30, 2017.'
-},
-{
-  // iDice
-  to:         '0x5a84969bb663fb64F6d015DcF9F622Aedc796750',
-  gasLimit:   -1,
-  data:       '',
-  msg:        'iDice. *** Reminder: Always do your due diligence & understand risks before sending. - MEW ***'
-},
-{
-  // Moeda
-  to:         '0x4870E705a3def9DDa6da7A953D1cd3CCEDD08573',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Moeda. Ends at block 4,111,557.'
-},
-{
-  // FAKE STATUS
-  to:         '0xc9f32ce1127e44c51cbd182d6364f3d707fd0d47',
-  gasLimit:   -1,
-  data:       '',
-  msg:        '⚠ DO NOT SEND. THIS IS *** NOT *** THE ADDRESS FOR STATUS!!'
-},
-{
-  // SunContract
-  to:         '0x5fb3D432bae33FCd418edE263D98D7440E7fA3ea',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'SunContract ICO address - suncontract.org'
-},
-{
-  // SoerenGelderCom
-  to:         '0x08FF699987510D299Eca5cfE258B19d7F4d53ae9',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'The above address was preICO-adress valid til 23rd of July 2017! Greets from Soeren Gelder'
-},
-  {
-  // SoerenGelderCom
-  to:         '0xA64AD5dA94137327F0895AC8C3A10924af73400d',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'SGelderGER (symbol: GELD) coin ICO starts 07th of August 2017'
-},
-  {
-  // BlockCAT Token Sale
-  to:         '0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8',
-  gasLimit:   200000,
-  data:       '0xb4427263',
-  msg:        'The BlockCAT Token Sale (CAT) starts July 15th, 2017 on Ethereum block number 4027470.'
-},
-{
-  // NVC
-  to:         '0xd88755197e107603C139df6E709ed09EEC6b6bB3',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'NVC Fund'
-},
-{
-  // fake coindash
-  to:         '0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48',
-  gasLimit:   -1,
-  data:       '',
-  msg:        'fake coindash do not send pleaseeeeeeeee!'
-},
-{
-  // maybe fake coindash??
-  to:         '0x7da6955457b72fdd0e80709d704520ff85d79e39',
-  gasLimit:   -1,
-  data:       '',
-  msg:        'This may be a fake address promoted by phishers. go research first please.'
-},
-{
-  // Ohni
-  to:         '0x2a8a7afa955d8616e2e60e454e5a9c6b6c0a60fc',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'OHNI ICO. Restoration of our communities!'
-},
- {
-  // Relex
-  to:         '0xb306b47b36705332f48537b02b581ea36d108b79',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Developing real estate, at the speed of crowd. Relex ICO October 16, 2017'
-},
-{
-  // Avalon
-  to:         '0xeD247980396B10169BB1d36f6e278eD16700a60f',
-  gasLimit:   60000,
-  data:       '',
-  msg:        'Avalon ICO starts August 25, 2017 - avalon.nu'
-},
-{
-  // Maecenas
-  to:         '0x9B60874D7bc4e4fBDd142e0F5a12002e4F7715a6',
-  gasLimit:   400000,
-  data:       '',
-  msg:        'Maecenas ICO starts September 5, 2017 - www.maecenas.co'
-},
- {
-  // Easy Homes Token (EHT)
-  to:         '0xf9F0FC7167c311Dd2F1e21E9204F87EBA9012fB2',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Easy Homes ICO. Thank you!'
-},
- {
-  // Mitrav (MTR) ICO Sale
-  to:         '0x7FC408011165760eE31bE2BF20dAf450356692Af',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Mitrav ICO Sale. Thank you for your support!'
-},
-{
-  // BMCHAIN ICO
-  to:         '0x19d7a9ad3b49252fd2ef640d0e43dfd651168499',
-  gasLimit:   100000,
-  data:       '',
-  msg:        'BMChain ICO - Platform of digital reputation - Official site https://bmchain.io'
-},
-{
-  // Kin Token Sale
-  to:         '0x8BfE5EbB128eE82F4BA80f56bb32409CC87bC6fb',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Kin Token Sale'
-},
- {
-  // TBOT Token Sale
-  to:         '0xAFe60511341a37488de25Bef351952562E31fCc1',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Tbot ICO Sale.'
-},
-{
-  // Cobinhood Token Sale
-  to:         '0xb2f7eb1f2c37645be61d73953035360e768d81e6',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Cobinhood Token Sale'
-},
-{
-  // fake Santiment token last-sale
-  to:         '0xdccea2e783d873acb4ccfb7dead1004d90ad481d',
-  gasLimit:   -1,
-  data:       '',
-  msg:        'This may be a fake santiment address promoted by phishers. Go research first please.'
-},
-{
-  // Zeus exchange token sale
-  to:         '0xe386B139Ed3715Ca4B18Fd52671bDcea1cdFE4b1',
-  gasLimit:   200000,
-  data:       '',
-  msg:        'Zeus Exchange - The First Hybrid Trading Platform for Traditional Stock Investors and Crypto Traders. Official site https://zeus.exchange'
-}
-]
-
+  msg:        'Brickblock (BBK) Token Sale. Official sale website:https://www.brickblock.io'
+},{
+// Acorn Collective (OAK) Token Sale
+to:         '0x25Beb989d3ef4E6e0fEF8220944bb74E2AA6ff45',
+gasLimit:   150000,
+data:       '',
+msg:        'OAK Token Sale by The Acorn Collective - https://aco.ai/'
+},{
+// Distributed Credit Chain (DCC) Token Sale
+to:         '0x5f95c334f23eeab920ef753b995831a3c7138808',
+gasLimit:   210000,
+data:       '',
+msg:        'DCC Token Sale by The Distributed Credit Chain - https://dcc.finance/'
+}]

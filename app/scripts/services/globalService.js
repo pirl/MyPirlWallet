@@ -1,11 +1,13 @@
-'use strict';
+'use strict'
 var globalService = function($http, $httpParamSerializerJQLike) {
-  globalFuncs.checkAndRedirectHTTPS();
-  ajaxReq.http = $http;
-  ajaxReq.postSerializer = $httpParamSerializerJQLike;
-  ajaxReq.getETHvalue = nodes.ethPrice.getETHvalue;
-  ajaxReq.getRates = nodes.ethPrice.getRates;
-var tabs = {
+
+  globalFuncs.checkAndRedirectHTTPS()
+  ajaxReq.http = $http
+  ajaxReq.postSerializer = $httpParamSerializerJQLike
+  ajaxReq.getETHvalue = nodes.ethPrice.getETHvalue
+  ajaxReq.getRates = nodes.ethPrice.getRates
+
+  var tabs = {
   generateWallet: {
     id: 0,
     name: "NAV_GenerateWallet_alt",
@@ -56,49 +58,61 @@ var tabs = {
     cx: true
   },
   ens: {
-    id: 7,
+    id:7,
     name: "NAV_ENS",
     url: "ens",
-    mew: false,
+    mew: true,
+    cx: true
+  },
+  domainsale: {
+    id: 8,
+    name: "NAV_DomainSale",
+    url: "domainsale",
+    mew: true,
     cx: true
   },
   txStatus: {
-    id: 8,
+    id: 9,
     name: "NAV_CheckTxStatus",
     url: "check-tx-status",
     mew: true,
     cx: true
   },
   viewWalletInfo: {
-    id: 9,
+    id: 10,
     name: "NAV_ViewWallet",
     url: "view-wallet-info",
     mew: true,
     cx: false
   },
   signMsg: {
-    id: 10,
+    id: 11,
     name: "NAV_SignMsg",
     url: "sign-message",
     mew: false,
     cx: false
   },
   bulkGenerate: {
-    id: 11,
+    id: 12,
     name: "NAV_BulkGenerate",
     url: "bulk-generate",
     mew: false,
     cx: false
   }
-};
-var currentTab = 0;
-if(typeof chrome != 'undefined')
-  currentTab = chrome.windows === undefined ? 0 : 3;
-return {
-  tabs: tabs,
-  currentTab: currentTab
-};
-};
-module.exports = globalService;
+  }
+
+  var currentTab = 0
+  if(typeof chrome != 'undefined')
+    currentTab = chrome.windows === undefined ? 0 : 3
+  return {
+    tabs: tabs,
+    currentTab: currentTab
+  }
+
+  var tokensLoaded = false
+
+}
+
+module.exports = globalService
 
 

@@ -21,7 +21,7 @@ var addWalletCtrl = function($scope, $sce) {
         dPath: '',
         defaultDPath: "m/44'/60'/0'/0", // first address: m/44'/60'/0'/0/0
         alternativeDPath: "m/44'/60'/0'", // first address: m/44'/60'/0/0
-        customDPath: "m/44'/60'/1'/0", // first address: m/44'/60'/1'/0/0
+        customDPath: "m/44'/164'/1'/0", // first address: m/44'/164'/1'/0/0
         ledgerPath: "m/44'/60'/0'", // first address: m/44'/60'/0/0
         ledgerClassicPath: "m/44'/60'/160720'/0'", // first address: m/44'/60'/160720'/0/0
         trezorTestnetPath: "m/44'/1'/0'/0", // first address: m/44'/1'/0'/0/0
@@ -42,9 +42,6 @@ var addWalletCtrl = function($scope, $sce) {
                 case nodes.nodeTypes.ETC:
                     $scope.HDWallet.dPath = $scope.HDWallet.ledgerClassicPath;
                     break;
-                case nodes.nodeTypes.MUS:
-                    $scope.HDWallet.dPath = $scope.HDWallet.ledgerMusicPath;
-                    break;
                 default:
                     $scope.HDWallet.dPath = $scope.HDWallet.ledgerPath;
             }
@@ -55,9 +52,6 @@ var addWalletCtrl = function($scope, $sce) {
                     break;
                 case nodes.nodeTypes.ETC:
                     $scope.HDWallet.dPath = $scope.HDWallet.trezorClassicPath;
-                    break;
-                case nodes.nodeTypes.MUS:
-                    $scope.HDWallet.dPath = $scope.HDWallet.trezorMusicPath;
                     break;
                 case nodes.nodeTypes.Ropsten:
                     $scope.HDWallet.dPath = $scope.HDWallet.trezorTestnetPath;

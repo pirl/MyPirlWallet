@@ -3,14 +3,23 @@ var ensCtrl = function($scope, $sce, walletService) {
     $scope.ajaxReq = ajaxReq;
     $scope.hideEnsInfoPanel = false;
     walletService.wallet = null;
-    $scope.ensConfirmModalModal = new Modal(document.getElementById('ensConfirmModal'));
-    $scope.ensFinalizeModal = new Modal(document.getElementById('ensFinalizeConfirm'));
     $scope.Validator = Validator;
     $scope.wd = false;
     $scope.haveNotAlreadyCheckedLength = true;
     var ENS = new ens();
+    var DomainSale = new domainsale();
     $scope.ensModes = ens.modes;
     $scope.minNameLength = 7;
+    $scope.objDomainSale = {};
+    $scope.visibility = 'ens'
+    $scope.objSub = {
+        name: "",
+        inputDisabled: false,
+        validNames: [],
+        showNames: false,
+        showBuy: false,
+        buy: {}
+    }
     $scope.objENS = {
         bidValue: 0.01,
         dValue: 0.01,
@@ -27,6 +36,8 @@ var ensCtrl = function($scope, $sce, walletService) {
         timeRemainingReveal: null,
         txSent: false
     };
+    $scope.objENSClone = JSON.parse(JSON.stringify($scope.objENS));
+    $scope.objSubClone = JSON.parse(JSON.stringify($scope.objSub));
     $scope.gasLimitDefaults = {
         startAuction: '200000',
         newBid: '500000',
@@ -41,8 +52,35 @@ var ensCtrl = function($scope, $sce, walletService) {
         value: 0,
         gasPrice: null
     };
+    var resetToDefault = function() {
+        $scope.objENS = JSON.parse(JSON.stringify($scope.objENSClone));
+        $scope.objSub = JSON.parse(JSON.stringify($scope.objSubClone));
+        $scope.wallet = null;
+        walletService.wallet = null;
+        $scope.wd = false;
+    }
+    $scope.setVisibility = function(tab) {
+        $scope.visibility = tab
+    }
+    $scope.showSubDomain = function() {
+        return nodes.domainsaleNodeTypes.indexOf(ajaxReq.type) > -1;
+    }
     $scope.showENS = function() {
         return nodes.ensNodeTypes.indexOf(ajaxReq.type) > -1;
+    }
+    $scope.$watch('visibility', function(newValue, oldValue) {
+        resetToDefault()
+    });
+    var setSubDomainTx = function() {
+        if ($scope.wallet != null) {
+            $scope.parentTxConfig = {
+                to: $scope.objSub.buy.registrar,
+                value: $scope.objSub.buy.EthVal,
+                sendMode: 'ether',
+                data: ENS.getSubDomainBuyData($scope.objSub.buy.domain, $scope.objSub.buy.subdomain, $scope.wallet.getAddressString()),
+                readOnly: true
+            }
+        }
     }
     $scope.$watch(function() {
         if (walletService.wallet == null) return null;
@@ -54,6 +92,9 @@ var ensCtrl = function($scope, $sce, walletService) {
         $scope.objENS.nameReadOnly = true;
         $scope.wallet.setBalance();
         $scope.wallet.setTokens();
+        if ($scope.visibility == "subdomain") {
+            setSubDomainTx()
+        }
     });
     $scope.getCurrentTime = function() {
         return new Date().toString();
@@ -89,12 +130,46 @@ var ensCtrl = function($scope, $sce, walletService) {
         $scope.objENS.timeRemaining = null;
         clearInterval($scope.objENS.timer);
     }
+    $scope.checkSubName = function() {
+        $scope.objSub.name = ens.normalise($scope.objSub.name)
+        if ($scope.haveNotAlreadyCheckedLength && ($scope.objSub.name.length == 128 || $scope.objSub.name.length == 132 || $scope.objSub.name.length == 64 || $scope.objSub.name.length == 66)) {
+            $scope.notifier.danger("That looks an awful lot like a private key. Are you sure you would like to check if this name is available on the ENS network? If so, click `Check`. If it is your private key, click refresh & try again.");
+            $scope.haveNotAlreadyCheckedLength = false;
+        } else if ($scope.Validator.isValidSubName($scope.objSub.name) && $scope.objSub.name.indexOf('.') == -1) {
+            $scope.objSub.inputDisabled = true;
+            ENS.getValidDomains($scope.objSub.name).then((data) => {
+                var tld = data.tld;
+                var names = data.names;
+                names.forEach((name) => {
+                    $scope.objSub.validNames.push({
+                        available: name.data[0] != "",
+                        EthVal: etherUnits.toEther(name.data[1].toString(), 'wei'),
+                        weiBN: name.data[1],
+                        fullName: $scope.objSub.name + "." + name.domain.name + "." + tld,
+                        domain: name.domain,
+                        subdomain: $scope.objSub.name,
+                        registrar: name.domain.registrar
+                    })
+                })
+                $scope.objSub.showNames = true;
+                updateScope();
+            })
+        }
+    }
+    $scope.registerSubName = function(idx) {
+        $scope.objSub.buy = $scope.objSub.validNames[idx];
+        $scope.objSub.showBuy = true;
+        $scope.objSub.showNames = false;
+        setSubDomainTx();
+    }
     $scope.checkName = function() {
         // checks if it's the same length as a PK and if so, warns them.
         // If they confirm they can set haveNotAlreadyCheckedLength to true and carry on
-        if ( $scope.haveNotAlreadyCheckedLength && ($scope.objENS.name.length == 128 || $scope.objENS.name.length == 132 || $scope.objENS.name.length == 64 || $scope.objENS.name.length == 66) ) {
-          $scope.notifier.danger( "That looks an awful lot like a private key. Are you sure you would like to check if this name is available on the ENS network? If so, click `Check`. If it is your private key, click refresh & try again." );
-          $scope.haveNotAlreadyCheckedLength = false;
+        $scope.ensConfirmModalModal = new Modal(document.getElementById('ensConfirmModal'));
+        $scope.ensFinalizeModal = new Modal(document.getElementById('ensFinalizeConfirm'));
+        if ($scope.haveNotAlreadyCheckedLength && ($scope.objENS.name.length == 128 || $scope.objENS.name.length == 132 || $scope.objENS.name.length == 64 || $scope.objENS.name.length == 66)) {
+            $scope.notifier.danger("That looks an awful lot like a private key. Are you sure you would like to check if this name is available on the ENS network? If so, click `Check`. If it is your private key, click refresh & try again.");
+            $scope.haveNotAlreadyCheckedLength = false;
         } else if ($scope.Validator.isValidENSName($scope.objENS.name) && $scope.objENS.name.indexOf('.') == -1) {
             $scope.objENS.name = ens.normalise($scope.objENS.name);
             $scope.objENS.namehash = ens.getNameHash($scope.objENS.name + '.eth');
@@ -115,6 +190,9 @@ var ensCtrl = function($scope, $sce, walletService) {
                             })
                             ENS.getAddress($scope.objENS.name + '.eth', function(data) {
                                 $scope.objENS.resolvedAddress = data.data;
+                            })
+                            DomainSale.getSale($scope.objENS.name, function(data) {
+                                $scope.objDomainSale.sale = data.data;
                             })
                             break;
                         case $scope.ensModes.notAvailable:
@@ -296,7 +374,7 @@ var ensCtrl = function($scope, $sce, walletService) {
         var signedTx = $scope.generatedTxs.shift();
         uiFuncs.sendTx(signedTx, function(resp) {
             if (!resp.isError) {
-                var emailLink = '<a class="strong" href="mailto:support@myetherwallet.com?Subject=Issue%20regarding%20my%20ENS%20&Body=Hi%20Taylor%2C%20%0A%0AI%20have%20a%20question%20concerning%20my%20ENS%20transaction.%20%0A%0AI%20was%20attempting%20to%3A%0A-%20Start%20an%20ENS%20auction%0A-%20Bid%20on%20an%20ENS%20name%0A-%20Reveal%20my%20ENS%20bid%0A-%20Finalize%20my%20ENS%20name%0A%0AUnfortunately%20it%3A%0A-%20Never%20showed%20on%20the%20blockchain%0A-%20Failed%20due%20to%20out%20of%20gas%0A-%20Failed%20for%20another%20reason%0A-%20Never%20showed%20up%20in%20the%20account%20I%20was%20sending%20to%0A%0APlease%20see%20the%20below%20details%20for%20additional%20information.%0A%0AThank%20you.%20%0A%0A_%0A%0A%20name%3A%20' + $scope.objENS.name + '%0A%20timeRemaining%3A%20' + $scope.getRevealTime().toString() + '%0A%20revealDate%3A%20' + $scope.objENS.registrationDate.toString() + "%0A%20timer%3A%20" + $scope.objENS.timer + "%0A%20txSent%3A%20" + $scope.objENS.txSent + "%0A%20to%3A%20" + $scope.tx.to + "%0A%20from%20address%3A%20" + $scope.wallet.getAddressString() + "%0A%20data%3A%20" + $scope.tx.data + "%0A%20value%3A%20" + $scope.tx.value + '" target="_blank" rel="noopener">Confused? Email Us.</a>';
+                var emailLink = '<a class="strong" href="mailto:support@myetherwallet.com?Subject=Issue%20regarding%20my%20ENS%20&Body=Hi%20Taylor%2C%20%0A%0AI%20have%20a%20question%20concerning%20my%20ENS%20transaction.%20%0A%0AI%20was%20attempting%20to%3A%0A-%20Start%20an%20ENS%20auction%0A-%20Bid%20on%20an%20ENS%20name%0A-%20Reveal%20my%20ENS%20bid%0A-%20Finalize%20my%20ENS%20name%0A%0AUnfortunately%20it%3A%0A-%20Never%20showed%20on%20the%20blockchain%0A-%20Failed%20due%20to%20out%20of%20gas%0A-%20Failed%20for%20another%20reason%0A-%20Never%20showed%20up%20in%20the%20account%20I%20was%20sending%20to%0A%0APlease%20see%20the%20below%20details%20for%20additional%20information.%0A%0AThank%20you.%20%0A%0A_%0A%0A%20name%3A%20' + $scope.objENS.name + '%0A%20timeRemaining%3A%20' + $scope.getRevealTime().toString() + '%0A%20revealDate%3A%20' + $scope.objENS.registrationDate.toString() + "%0A%20timer%3A%20" + $scope.objENS.timer + "%0A%20txSent%3A%20" + $scope.objENS.txSent + "%0A%20to%3A%20" + $scope.tx.to + "%0A%20from%20address%3A%20" + $scope.wallet.getAddressString() + "%0A%20data%3A%20" + $scope.tx.data + "%0A%20value%3A%20" + $scope.tx.value + '" target="_blank" rel="noopener noreferrer">Confused? Email Us.</a>';
                 var bExStr = $scope.ajaxReq.type != nodes.nodeTypes.Custom ? "<a class='strong' href='" + $scope.ajaxReq.blockExplorerTX.replace("[[txHash]]", resp.data) + "' target='_blank' rel='noopener'> View your transaction </a>" : '';
                 $scope.sendTxStatus += globalFuncs.successMsgs[2] + "<p>" + resp.data + "</p><p>" + bExStr + "</p><p>" + emailLink + "</p>";
                 $scope.notifier.success($scope.sendTxStatus);

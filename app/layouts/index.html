@@ -1,4 +1,4 @@
-
+<!--email_off-->
 @@include( '../includes/header.tpl', { "site": "mew" } )
 
 <section class="container" style="min-height: 50%" ng-controller='viewCtrl'>
@@ -13,6 +13,10 @@
 
     @@include( '../includes/contracts.tpl',          { "site": "mew" } )
 
+    @@include( '../includes/ens.tpl',                { "site": "mew" } )
+
+    @@include( '../includes/domainsale.tpl',         { "site": "mew" } )
+
     @@include( '../includes/viewWalletInfo.tpl',     { "site": "mew" } )
 
     @@include( '../includes/txStatus.tpl',           { "site": "mew" } )
@@ -26,15 +30,7 @@
 
   @@include('../includes/alerts.tpl')
 
-
-  <!--
-  <section class="loading-wrap" ng-hide="1==1">
-    <div class="loading">
-      <img src="images/loading.gif" />
-      <h1> Loading... </h1>
-  </section>
-  -->
-
 </section>
 
 @@include( '../includes/footer.tpl', { "site": "mew" } )
+<!--/email_off-->
