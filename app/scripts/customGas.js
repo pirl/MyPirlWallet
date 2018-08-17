@@ -38,10 +38,10 @@ data:       '',
 msg:        'Aigang token sale contract. Autonomous insurance network - fully automated insurance for IoT devices and a platform for insurance innovation built around data: https://aigang.network . Ends 12/15/2017'
 },{
 // Confideal (CDL)
-to:         '0x22A97c80D7e0a9Ae616737E3B8b531248f4ef91d',
+to:         '0x17681500757628C7AA56d7E6546E119f94Dd9479',
 gasLimit:   170000,
 data:       '',
-msg:        'Confideal token sale. Confideal is a platform for making deals. https://confideal.io, NOV 2-22, 2017'
+msg:        'Confideal token sale. Confideal is a platform for making deals. https://confideal.io, ends Jan 31, 2018'
 },{
 // Flixxo (FLIXX)
 to:         '0x876359dCb1745073909CC810311EC3f119e8D5E8',
@@ -200,10 +200,10 @@ data:       '',
 msg:        'Game Token Sale'
 },{
 // Skrilla Token Sale
-to:         '0x4c382F8E09615AC86E08CE58266CC227e7d4D913',
-gasLimit:   200000,
+to:         '0x16662f73df3e79e54c6c5938b4313f92c524c120',
+gasLimit:   150000,
 data:       '',
-msg:        'Get SKR! Thanks for your support and remember only get the contract address from tokensale.skrilla.com'
+msg:        'Private Sale started, Public Sale from December 19th, 2017 to January 1st, 2018. First Lending program with instant payout to Payoneer prepaid card! JOIN NOW: https://ibiscoin.co'
 },{
 // Rebellious Token
 to:         '0x5f53f7a8075614b699baad0bc2c899f4bad8fbbf',
