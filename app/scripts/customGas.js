@@ -37,6 +37,12 @@ gasLimit:   300000,
 data:       '',
 msg:        ' Accord (ARD) ERC20 token sale - http://accordtoken.com'
 },{
+// DAV Token Sale
+to:         '0xBE2530028229198D2c383F2D3FB9f40EBf24dEed',
+gasLimit:   300000,
+data:       '',
+msg:        'DAV Token Sale - Must register on https://dav.network/ first to participate'
+},{
 // Primalbase Token (PBT)
 to:         '0xF4c07b1865bC326A3c01339492Ca7538FD038Cc0',
 gasLimit:   100000,
@@ -367,4 +373,10 @@ to:         '0xFc543bA94943DA77236D38D1CBE6Bd9C7B945dfC',
 gasLimit:   250000,
 data:       '',
 msg:        'GANA Token Sale. Green And Nature Association. - https://ganacoin.io/'
+},{
+// OS.University (EDU) Token Sale
+to:         '0x94d313feaee495466a23d97c87690ae33c0f0af6',
+gasLimit:   200000,
+data:       '',
+msg:        'EDU Token Sale by OS.University - https://os.university/'
 }]

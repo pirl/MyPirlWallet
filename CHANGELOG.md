@@ -1,3 +1,33 @@
+### Release v3.21.13
+### Update
+- Update HAV token [#1899](https://github.com/kvhnuke/etherwallet/pull/1899)
+- Update VRS token decimal [#1894](https://github.com/kvhnuke/etherwallet/pull/1894)
+- Update VEN to VET [#1885](https://github.com/kvhnuke/etherwallet/pull/1885)
+- Update UMKA token address [#1880](https://github.com/kvhnuke/etherwallet/pull/1880)
+- [Network] linting css & walletDecryptDrtv.html [#1878](https://github.com/kvhnuke/etherwallet/pull/1880)
+- Minor grammatical fixes [#1873](https://github.com/kvhnuke/etherwallet/pull/1873)
+- Update CLO explorer address [#1872](https://github.com/kvhnuke/etherwallet/pull/1872)
+- Fix network tab css [#1870](https://github.com/kvhnuke/etherwallet/pull/1870)
+
+### New
+- Add nUSD, BBK, DAV, RED and IAD tokens [#1899](https://github.com/kvhnuke/etherwallet/pull/1899)
+- Custom Gas for DAV token [#1897](https://github.com/kvhnuke/etherwallet/pull/1897)
+- Add UUU token. [#1895](https://github.com/kvhnuke/etherwallet/pull/1895)
+- Warn when MetaMask is locked [#1886](https://github.com/kvhnuke/etherwallet/pull/1886)
+- Add CEEK token [#1894](https://github.com/kvhnuke/etherwallet/pull/1894)
+- Update changelog, add 0xBTC token [#1892](https://github.com/kvhnuke/etherwallet/pull/1892)
+- Add NANJCOIN abi [#1890](https://github.com/kvhnuke/etherwallet/pull/1890)
+- Ensure kyber tx gas price is 50 gwei or less. [#1869](https://github.com/kvhnuke/etherwallet/pull/1869)
+- Update darklist, Update JBX token, and add MKT token. [#1889](https://github.com/kvhnuke/etherwallet/pull/1889)
+- Add ATMI token [#1888](https://github.com/kvhnuke/etherwallet/pull/1888)
+- Add CARD token [#1884](https://github.com/kvhnuke/etherwallet/pull/1884)
+- Add ORBS token [#1883](https://github.com/kvhnuke/etherwallet/pull/1883)
+- Add C8 token [#1881](https://github.com/kvhnuke/etherwallet/pull/1881)
+- Add COIN token [#1880](https://github.com/kvhnuke/etherwallet/pull/1880)
+- YAP Node [#1876](https://github.com/kvhnuke/etherwallet/pull/1876)
+- Add EGT, WYS, IOTX, BTCL, GZR and FYX tokens [#1874](https://github.com/kvhnuke/etherwallet/pull/1874)
+- Add OS.University EDU tokens to MEW [#1871](https://github.com/kvhnuke/etherwallet/pull/1871)
+
 ### Release v3.21.12
 ### Fixes
 - Ensure to address is empty when setting final kyber swap values [#1858](https://github.com/kvhnuke/etherwallet/pull/1858)
