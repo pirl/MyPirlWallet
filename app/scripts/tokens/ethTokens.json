@@ -810,6 +810,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0xc87c5dd86a3d567ff28701886fb0745aaa898da4",
+		"symbol": "CTG",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0xbf4cfd7d1edeeea5f6600827411b41a21eb08abd",
 		"symbol": "CTL",
 		"decimal": 2,
@@ -1008,6 +1014,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x386Faa4703a34a7Fdb19Bec2e14Fd427C9638416",
+		"symbol": "DoBETacceptBET(DCA)",
+		"decimals": 18,
+		"type": "default"
+	},
+	{
 		"address": "0x76974c7b79dc8a6a109fd71fd7ceb9e40eff5382",
 		"symbol": "DOW",
 		"decimal": 18,
@@ -1056,6 +1068,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x5adc961D6AC3f7062D2eA45FEFB8D8167d44b190",
+		"symbol": "DTH",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0xd234bf2410a0009df9c3c63b610c09738f18ccd7",
 		"symbol": "DTR",
 		"decimal": 8,
@@ -1080,7 +1098,7 @@
 		"type": "default"
 	},
 	{
-		"address": "0xd4cffeef10f60eca581b5e1146b5aca4194a4c3b",
+		"address": "0x9c6Fa42209169bCeA032e401188a6fc3e9C9f59c",
 		"symbol": "DUBI",
 		"decimal": 18,
 		"type": "default"
@@ -1182,6 +1200,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4",
+		"symbol": "ENG",
+		"decimal": 8,
+		"type": "default"
+	},
+	{
 		"address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
 		"symbol": "ENJ",
 		"decimal": 18,
@@ -1278,6 +1302,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x7f6715c3fc4740a02f70de85b9fd50ac6001fed9",
+		"symbol": "FANX",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0x009e864923b49263c7F10D19B7f8Ab7a9A5AAd33",
 		"symbol": "FKX",
 		"decimal": 18,
@@ -1335,6 +1365,12 @@
 		"address": "0xe6f74dcfa0e20883008d8c16b6d9a329189d0c30",
 		"symbol": "FTC",
 		"decimal": 2,
+		"type": "default"
+	},
+	{
+		"address": "0x2AEC18c5500f21359CE1BEA5Dc1777344dF4C0Dc",
+		"symbol": "FTT",
+		"decimal": 18,
 		"type": "default"
 	},
 	{
@@ -1461,6 +1497,12 @@
 		"address": "0x025abad9e518516fdaafbdcdb9701b37fb7ef0fa",
 		"symbol": "GTKT",
 		"decimal": 0,
+		"type": "default"
+	},
+	{
+		"address": "0xc5bbae50781be1669306b9e001eff57a2957b09d",
+		"symbol": "GTO",
+		"decimal": 5,
 		"type": "default"
 	},
 	{
@@ -1662,6 +1704,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x48e5413b73add2434e47504E2a22d14940dBFe78",
+		"symbol": "INRM",
+		"decimal": 3,
+		"type": "default"
+	},
+	{
 		"address": "0x5b2e4a700dfbc560061e957edec8f6eeeb74a320",
 		"symbol": "INS",
 		"decimal": 10,
@@ -1830,6 +1878,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x123ab195dd38b1b40510d467a6a359b201af056f",
+		"symbol": "LGO",
+		"decimal": 8,
+		"type": "default"
+	},
+	{
 		"address": "0x2eb86e8fc520e0f6bb5d9af08f924fe70558ab89",
 		"symbol": "LGR",
 		"decimal": 8,
@@ -1920,6 +1974,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x5dbe296f97b23c4a6aa6183d73e574d02ba5c719",
+		"symbol": "LUC",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0xFB12e3CcA983B9f59D90912Fd17F8D745A8B2953",
 		"symbol": "LUCK",
 		"decimal": 0,
@@ -1958,6 +2018,12 @@
 	{
 		"address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
 		"symbol": "MANA",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
+		"address": "0xfdcc07Ab60660de533b5Ad26e1457b565a9D59Bd",
+		"symbol": "MART",
 		"decimal": 18,
 		"type": "default"
 	},
@@ -2124,6 +2190,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x8a77e40936bbc27e80e9a3f526368c967869c86d",
+		"symbol": "MVP",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0x6425c6be902d692ae2db752b3c268afadb099d3b",
 		"symbol": "MWAT",
 		"decimal": 18,
@@ -2271,6 +2343,12 @@
 		"address": "0xb23be73573bc7e03db6e5dfc62405368716d28a8",
 		"symbol": "ONEK",
 		"decimal": 18,
+		"type": "default"
+	},
+	{
+		"address": "0xe9dE1C630753A15d7021Cc563429c21d4887506F",
+		"symbol": "OPEN",
+		"decimal": 8,
 		"type": "default"
 	},
 	{
@@ -2490,7 +2568,7 @@
 		"type": "default"
 	},
 	{
-		"address": "0x7641b2Ca9DDD58adDf6e3381c1F994Aac5f1A32f",
+		"address": "0xd94F2778e2B3913C53637Ae60647598bE588c570",
 		"symbol": "PRPS",
 		"decimal": 18,
 		"type": "default"
@@ -2541,6 +2619,12 @@
 		"address": "0xc14830e53aa344e8c14603a91229a0b925b0b262",
 		"symbol": "PXT",
 		"decimal": 8,
+		"type": "default"
+	},
+	{
+		"address": "0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6",
+		"symbol": "QASH",
+		"decimal": 6,
 		"type": "default"
 	},
 	{
@@ -2766,8 +2850,14 @@
 		"type": "default"
 	},
 	{
+		"address": "0x37427576324fE1f3625c9102674772d7CF71377d",
+		"symbol": "SGT (SelfieYo Gold Token)",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0xd248B0D48E44aaF9c49aea0312be7E13a6dc1468",
-		"symbol": "SGT",
+		"symbol": "SGT (StatusGenesis)",
 		"decimal": 1,
 		"type": "default"
 	},
@@ -2948,6 +3038,12 @@
 	{
 		"address": "0xB15fE5a123e647ba594CEa7A1E648646f95EB4AA",
 		"symbol": "SS",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
+		"address": "0xbbFF862d906E348E9946Bfb2132ecB157Da3D4b4",
+		"symbol": "SS (Sharder)",
 		"decimal": 18,
 		"type": "default"
 	},
@@ -3180,9 +3276,21 @@
 		"type": "default"
 	},
 	{
+		"address": "0x105d97ef2e723f1cfb24519bc6ff15a6d091a3f1",
+		"symbol": "UMKA",
+		"decimal": 4,
+		"type": "default"
+	},
+	{
 		"address": "0xd01db73e047855efb414e6202098c4be4cd2423b",
 		"symbol": "UQC",
 		"decimal": 18,
+		"type": "default"
+	},
+	{
+		"address": "0xD760ADdFb24D9C01Fe4Bfea7475C5e3636684058",
+		"symbol": "USDM",
+		"decimal": 2,
 		"type": "default"
 	},
 	{
@@ -3318,6 +3426,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x8f936fe0faf0604c9c0ef2406bde0a65365515d6",
+		"symbol": "WCN",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0x6a0a97e47d15aad1d132a1ac79a480e3f2079063",
 		"symbol": "WCT",
 		"decimal": 18,
@@ -3429,6 +3543,12 @@
 		"address": "0x4d829f8c92a6691c56300d020c9e0db984cfe2ba",
 		"symbol": "XCC",
 		"decimal": 18,
+		"type": "default"
+	},
+	{
+		"address": "0xf6b6aa0ef0f5edc2c1c5d925477f97eaf66303e7",
+		"symbol": "XGG",
+		"decimal": 8,
 		"type": "default"
 	},
 	{
@@ -3555,6 +3675,12 @@
 	{
 		"address": "0x6f7a4bac3315b5082f793161a22e26666d22717f",
 		"symbol": "YEED",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
+		"address": "0x554ffc77f4251a9fb3c0e3590a6a205f8d4e067d",
+		"symbol": "ZMN",
 		"decimal": 18,
 		"type": "default"
 	}

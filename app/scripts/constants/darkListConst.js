@@ -1,6 +1,17 @@
 const darklist = function() {
 	return [
 		{
+			address: "0x08389B19ad52f0d983609ab785b3a43A0E90355F",
+			comment:
+				"Scam address for various fake twitter accounts and fake giveaways",
+			date: "2018-05-01"
+		},
+		{
+			address: "0x4114FB8B1879f61b18f7d2E623569a847a03e15A",
+			comment: "Fake 'Atonomis' presale",
+			date: "2018-04-27"
+		},
+		{
 			address: "0x3c3b85b2ae785a8cc16c3d4df12cb27c6983dff5",
 			comment: "Fake ICO support",
 			date: "2018-04-08"
@@ -33,11 +44,6 @@ const darklist = function() {
 		{
 			address: "0x64c5971dd27ff063ee4bc5e4c231febd9fc228cd",
 			comment: "Fake Omnitude support",
-			date: "2018-04-08"
-		},
-		{
-			address: "0xd8b21816d4c25b2e5d60e544ba094a9d14c30d4f",
-			comment: "Fake ICO support",
 			date: "2018-04-08"
 		},
 		{
