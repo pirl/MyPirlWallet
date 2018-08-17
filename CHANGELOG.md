@@ -1,5 +1,25 @@
+### Release v3.21.18
+### New  
+- Cleanup nodeTypes [#1983](https://github.com/kvhnuke/etherwallet/pull/1983)
+- Connect Beta [#1966](https://github.com/kvhnuke/etherwallet/pull/1966)
+- Add EXY token [#1981](https://github.com/kvhnuke/etherwallet/pull/1981)
+- Add EDR token [#1977](https://github.com/kvhnuke/etherwallet/pull/1977)
+- Add HUR and ODEM tokens, remove inactive tokens. [See list here](https://github.com/MyEtherWallet/ethereum-lists/pull/764) [#1974](https://github.com/kvhnuke/etherwallet/pull/1974)
+- Add IST34 and NUG tokens [#1973](https://github.com/kvhnuke/etherwallet/pull/1973)
+- Add CRGO and TICO token, add Havven ABI [#1972](https://github.com/kvhnuke/etherwallet/pull/1972)
+- Add Kyber and MEW token contracts [#1971](https://github.com/kvhnuke/etherwallet/pull/1971)
+- Add CAR, and TSW token, remove WPC token and update AXP to AXPR [#1970](https://github.com/kvhnuke/etherwallet/pull/1970)
+- Add WNK token [#1967](https://github.com/kvhnuke/etherwallet/pull/1967)
+- Add HODL token [#1969](https://github.com/kvhnuke/etherwallet/pull/1969)
+- Adds DEPO (Depository Network) and CRMT token [#1965](https://github.com/kvhnuke/etherwallet/pull/1965)
+- Add DEPO custom gas limit [#1964](https://github.com/kvhnuke/etherwallet/pull/1964)
+- Hide warning for POA network [#1953](https://github.com/kvhnuke/etherwallet/pull/1953)
+- Add VDG token, Update LookRev token [#1963](https://github.com/kvhnuke/etherwallet/pull/1963)
+- Remove obsolete networks [#1940](https://github.com/kvhnuke/etherwallet/pull/1940)
+
 ### Release v3.21.17
 ### New
+- Add Simplex Link [#1961](https://github.com/kvhnuke/etherwallet/pull/1961) [#1960](https://github.com/kvhnuke/etherwallet/pull/1960)
 - Add SLY token [#1958](https://github.com/kvhnuke/etherwallet/pull/1958)
 - Added CFC Token sale address and gas limit [#1956](https://github.com/kvhnuke/etherwallet/pull/1956)
 - Add ELY and DRVH tokens [#1955](https://github.com/kvhnuke/etherwallet/pull/1955)
