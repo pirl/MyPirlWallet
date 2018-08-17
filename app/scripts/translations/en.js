@@ -211,6 +211,9 @@ ONBOARD_resume                  :  'It looks like you didn\'t finish reading thr
 ADD_DigitalBitbox_0a            :  'Re-open MyEtherWallet on a secure (SSL) connection',
 ADD_DigitalBitbox_0b            :  'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/)',
 ADD_DigitalBitbox_scan          :  'Connect your Digital Bitbox',
+ADD_Secalot_0a              : 'Re-open MyEtherWallet on a secure (SSL) connection ',
+ADD_Secalot_0b              : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
+ADD_Secalot_scan            : 'Connect your Secalot ',
 ADD_Label_1                     :  'What would you like to do?',
 ADD_Label_2                     :  'Create a Nickname',
 ADD_Label_3                     :  'Your wallet is encrypted. Good! Please enter the password.',
@@ -578,6 +581,7 @@ x_CancelReplaceTx               :  'Cancel or Replace Transaction',
 x_CancelTx                      :  'Cancel Transaction',
 x_CSV                           :  'CSV file (unencrypted)',
 x_DigitalBitbox                 :  'Digital Bitbox',
+x_Secalot                       : 'Secalot ',
 x_Download                      :  'Download',
 x_Json                          :  'JSON File (unencrypted)',
 x_JsonDesc                      :  'This is the unencrypted, JSON format of your private key. This means you do not need the password but anyone who finds your JSON can access your wallet & Ether without the password.',
@@ -801,7 +805,11 @@ HELP_SecCX_Title                :  'Security - MyEtherWallet CX',
 HELP_Warning                    :  'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details.',
 
 PHISHING_Warning_1              :  'This address has been flagged: ',
-PHISHING_Warning_2              :  'This address has been flagged in our Phishing list. Please make sure you are sending to the right address'
+PHISHING_Warning_2              :  'This address has been flagged in our Phishing list. Please make sure you are sending to the right address',
+APPLE_Mob_Notice_Head           :  "It seems like you're using an IPhone or an IPad.",
+APPLE_Mob_Notice_Body_1         :  "Just letting you know that generating wallets isn't supported in these devices because of Apple's storage restrictions.",
+APPLE_Mob_Notice_Body_2         :  'Please use the actual website on a laptop or computer.',
+APPLE_Mob_Notice_Understand     :  'I understand.'
 };
 
 module.exports = en;
