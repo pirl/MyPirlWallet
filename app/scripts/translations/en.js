@@ -341,7 +341,7 @@ FOOTER_3                        :  'Client-side wallet generation by',
 FOOTER_4                        :  'Disclaimer',
 
 GAS_LIMIT_Desc                  :  'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
-GAS_PRICE_Desc                  :  'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `50 GWEI`.',
+GAS_PRICE_Desc                  :  'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GWEI`.',
 
 GEN_desc                        :  'If you want to generate multiple wallets, you can do so here',
 GEN_Help_1                      :  'Use your',
@@ -491,7 +491,7 @@ sidebar_TransHistory            :  'Transaction History',
 
 SUCCESS_1                       :  'Valid address',
 SUCCESS_2                       :  'Wallet successfully decrypted',
-SUCCESS_3                       :  'Your TX has been broadcast to the network. It is waiting to be mined & confirmed. During ICOs, it may take 3+ hours to confirm. Use the Verify & Check buttons below to see. TX Hash: ',
+SUCCESS_3                       :  'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:  ',
 SUCCESS_4                       :  'Your wallet was successfully added',
 SUCCESS_5                       :  'File Selected',
 SUCCESS_6                       :  'You are successfully connected',
