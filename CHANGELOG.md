@@ -1,7 +1,21 @@
+### Release v3.21.16
+### New
+- Add ECP gas limit [#1947](https://github.com/kvhnuke/etherwallet/pull/1947)
+- Update LEMO token, Add OLT and ECP token [#1948](https://github.com/kvhnuke/etherwallet/pull/1948)
+- Add ethorse rewards abi [#1942](https://github.com/kvhnuke/etherwallet/pull/1942)
+- Add OWN, PURC, FXC and MFT tokens from ethereum-list [#1945](https://github.com/kvhnuke/etherwallet/pull/1945)
+- Add FAN, RING, AKC, PLS and OMT tokens from ethereum-list [#1941](https://github.com/kvhnuke/etherwallet/pull/1941)
+### Update
+- Update DGX token [#1939](https://github.com/kvhnuke/etherwallet/pull/1939)
+### Fixes
+- Correct Kyber Network address sourcing
+
 ### Release v3.21.15
-### Devop
+### Update
 - Remove console logs and rebuild [#1934](https://github.com/kvhnuke/etherwallet/pull/1934)
 - Change myetherapi nodes to myetherwallet nodes [Commit](https://github.com/kvhnuke/etherwallet/commit/29137ae373e7408322f82bc4f2cbc13fecf8298a)
+
+
 ### Release v3.21.14
 ### New
 - Add DCC and QNT tokens [#1932](https://github.com/kvhnuke/etherwallet/pull/1932)
@@ -87,7 +101,7 @@
 ### Update
 - Update VRS token [#1863](https://github.com/kvhnuke/etherwallet/pull/1863)
 - Update custom networks [#1850](https://github.com/kvhnuke/etherwallet/pull/1850)
-- Removed duplicate entries for IOST and DCA. Added BLZ, LEND, NCASH, and WTC. [#1853](https://github.com/kvhnuke/etherwallet/pull/1853)  
+- Removed duplicate entries for IOST and DCA. Added BLZ, LEND, NCASH, and WTC. [#1853](https://github.com/kvhnuke/etherwallet/pull/1853)
 
 ### Release v3.21.11
 ### Fixes
