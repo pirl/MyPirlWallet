@@ -666,6 +666,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0xE5f867dE1EA81346df5181b8b48DD6B0BB3357B0",
+		"symbol": "BTZ",
+		"decimal": 18,
+		"type": "default"
+	},
+	{
 		"address": "0xca3c18a65b802ec267f8f4802545e7f53d24c75e",
 		"symbol": "BUC",
 		"decimal": 18,
@@ -1920,6 +1926,12 @@
 		"type": "default"
 	},
 	{
+		"address": "0x5a567e28dbfa2bbd3ef13c0a01be114745349657",
+		"symbol": "HAPPY",
+		"decimal": 2,
+		"type": "default"
+	},
+	{
 		"address": "0x9002D4485b7594e3E850F0a206713B305113f69e",
 		"symbol": "HAT",
 		"decimal": 12,
@@ -1959,6 +1971,12 @@
 		"address": "0xba2184520A1cC49a6159c57e61E1844E085615B6",
 		"symbol": "HGT",
 		"decimal": 8,
+		"type": "default"
+	},
+	{
+		"address": "0x9bb1db1445b83213a56d90d331894b3f26218e4e",
+		"symbol": "HIBT",
+		"decimal": 18,
 		"type": "default"
 	},
 	{
@@ -4248,7 +4266,7 @@
 		"type": "default"
 	},
 	{
-		"address": "0x6f7a4bac3315b5082f793161a22e26666d22717f",
+		"address": "0xca2796f9f61dc7b238aab043971e49c6164df375",
 		"symbol": "YEED",
 		"decimal": 18,
 		"type": "default"
