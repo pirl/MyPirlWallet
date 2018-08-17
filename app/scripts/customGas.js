@@ -379,4 +379,22 @@ to:         '0x94d313feaee495466a23d97c87690ae33c0f0af6',
 gasLimit:   200000,
 data:       '',
 msg:        'EDU Token Sale by OS.University - https://os.university/'
+},{
+  // Brickblock (BBK) Token sale
+  to:         '0x4a6058666cf1057eac3cd3a5a614620547559fc9',
+  gasLimit:   210000,
+  data:       '',
+  msg:        'Brickblock (BBK) Token Sale. Official sale website:https://www.brickblock.io'
+},{
+// Acorn Collective (OAK) Token Sale
+to:         '0x25Beb989d3ef4E6e0fEF8220944bb74E2AA6ff45',
+gasLimit:   150000,
+data:       '',
+msg:        'OAK Token Sale by The Acorn Collective - https://aco.ai/'
+},{
+// Distributed Credit Chain (DCC) Token Sale
+to:         '0x5f95c334f23eeab920ef753b995831a3c7138808',
+gasLimit:   210000,
+data:       '',
+msg:        'DCC Token Sale by The Distributed Credit Chain - https://dcc.finance/'
 }]

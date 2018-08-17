@@ -1,3 +1,42 @@
+### Release v3.21.15
+### Devop
+- Remove console logs and rebuild [#1934](https://github.com/kvhnuke/etherwallet/pull/1934)
+- Change myetherapi nodes to myetherwallet nodes [Commit](https://github.com/kvhnuke/etherwallet/commit/29137ae373e7408322f82bc4f2cbc13fecf8298a)
+### Release v3.21.14
+### New
+- Add DCC and QNT tokens [#1932](https://github.com/kvhnuke/etherwallet/pull/1932)
+- Add DCC abi [#1931](https://github.com/kvhnuke/etherwallet/pull/1931)
+- Add DCC custom gas limit [#1930](https://github.com/kvhnuke/etherwallet/pull/1930)
+- Add DIP token [#1928](https://github.com/kvhnuke/etherwallet/pull/1928)
+- List up-to-date supported token from KyberNetwork [#1923](https://github.com/kvhnuke/etherwallet/pull/1923)
+- upgrade Cardstack CARD token to new address [#1927](https://github.com/kvhnuke/etherwallet/pull/1927)
+- Change RPC endpoint for POA.network [#1926](https://github.com/kvhnuke/etherwallet/pull/1926)
+- Add CTGC, CET and DGS token. Updated PAT to XPAT [#1922](https://github.com/kvhnuke/etherwallet/pull/1922)
+- Revert darklist update. [Commit](https://github.com/kvhnuke/etherwallet/commit/dc9eb0d85a1f5de046bbd58a1beba086c018cc2e)
+- Add GSE token and darklist [#1920](https://github.com/kvhnuke/etherwallet/pull/1920)
+- Kyber network updates [#1918](https://github.com/kvhnuke/etherwallet/pull/1918)
+- Add TOOR token [#1917](https://github.com/kvhnuke/etherwallet/pull/1917)
+- Add manual gas limit for upcoming BBK token [#1900](https://github.com/kvhnuke/etherwallet/pull/1900)
+- Add theCyber contract [#1914](https://github.com/kvhnuke/etherwallet/pull/1914)
+- Add STABIT token and update darklist [#1916](https://github.com/kvhnuke/etherwallet/pull/1916)
+- Add CLB token [#1912](https://github.com/kvhnuke/etherwallet/pull/1912)
+- Update EOS classic style [#1911](https://github.com/kvhnuke/etherwallet/pull/1911)
+- Add EOS classic node [#1903](https://github.com/kvhnuke/etherwallet/pull/1903)
+- Add $FFC token [#1910](https://github.com/kvhnuke/etherwallet/pull/1910)
+- Add OAK and RAO tokens [#1909](https://github.com/kvhnuke/etherwallet/pull/1909)
+- BBK abi [#1901](https://github.com/kvhnuke/etherwallet/pull/1901)
+- OAK custom Gas [#1907](https://github.com/kvhnuke/etherwallet/pull/1907)
+- OAK abi [#1908](https://github.com/kvhnuke/etherwallet/pull/1908)
+- Fix branding style [#1906](https://github.com/kvhnuke/etherwallet/pull/1906)
+- Add OJX, and BTT in eth list. Add CTGA to rin. [#1905](https://github.com/kvhnuke/etherwallet/pull/1905)
+- Add GoChain Node [#1904](https://github.com/kvhnuke/etherwallet/pull/1904)
+- Add WORK token [#1902](https://github.com/kvhnuke/etherwallet/pull/1902)
+
+### Update
+- Update Korean translations [#1875](https://github.com/kvhnuke/etherwallet/pull/1875)
+- Update error msgs [Commit](https://github.com/kvhnuke/etherwallet/commit/b0ae1a74a023c4e9cacc7e1652c60d6f399acd54)
+- Update checksum article on the error msg [Commit](https://github.com/kvhnuke/etherwallet/commit/ea4d61d13cd767804da6c0acf28fba70b3e384aa)
+
 ### Release v3.21.13
 ### Update
 - Update HAV token [#1899](https://github.com/kvhnuke/etherwallet/pull/1899)
