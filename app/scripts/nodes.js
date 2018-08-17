@@ -7,6 +7,7 @@ nodes.nodeTypes = {
     ETH: "PIRL"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
+nodes.ensSubNodeTypes = [nodes.nodeTypes.ETH];
 nodes.domainsaleNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
 nodes.customNodeObj = {
     'name': 'CUS',
