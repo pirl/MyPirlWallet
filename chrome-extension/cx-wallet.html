@@ -57,12 +57,12 @@
     
       <a class="brand" href="/cx-wallet.html" aria-label="Go to homepage">
         <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyEtherWallet" />
-        <p class="small visible-xs">3.10.9.9</p>
+        <p class="small visible-xs">3.11.0</p>
       </a>
     
     <div class="tagline">
 
-    <span class="hidden-xs">3.10.9.9</span>
+    <span class="hidden-xs">3.11.0</span>
 
     <span class="dropdown dropdown-lang" ng-cloak>
       <a tabindex="0"  aria-haspopup="true" aria-expanded="false" aria-label="change language. current language {{curLang}}" class="dropdown-toggle  btn btn-white" ng-click="dropdown = !dropdown">{{curLang}}<i class="caret"></i></a>
@@ -125,7 +125,7 @@
              rel="noopener noreferrer"></a>
         </div>
       </ul>
-      <p class="dropdown-gas__msg""
+      <p class="dropdown-gas__msg"
          ng-show="gasPriceMsg"
          ng-hide="ajaxReq.type!='ETH'">
         The network is really full right now. Check
@@ -1538,9 +1538,9 @@
               <li ng-repeat="token in wallet.tokenObjs track by $index"
                   ng-show="token.balance!=0 &&
                            token.balance!='loading' &&
-                          token.balance.trim()!='Not a valid ERC-20 token' ||
-                          token.type!=='default' ||
-                          tokenVisibility=='shown'" >
+                           token.balance!='Click to Load' &&
+                           token.balance.trim()!='Not a valid ERC-20 token' ||
+                           token.type!=='default'" >
                   <a ng-class="{true:'active'}[unitReadable == token.getSymbol()]"
                      ng-click="setSendMode('token', $index, token.getSymbol())" >
                       {{token.getSymbol()}}
@@ -1554,7 +1554,7 @@
 
       </div>
 
-      <!-- Amount to Send - Load Token Balances -->
+      <!-- Amount to Send - Load Token Balances
       <a class="col-sm-1 send__load-tokens"
          title="Load Token Balances"
          ng-click="wallet.setTokens(); globalService.tokensLoaded=true"
@@ -1564,6 +1564,7 @@
             Load Tokens
           </p>
       </a>
+      -->
 
       <!-- Amount to Send - Transfer Entire Balance -->
       <p class="col-xs-12" ng-hide="tx.readOnly">
@@ -4129,9 +4130,9 @@
               <li ng-repeat="token in wallet.tokenObjs track by $index"
                   ng-show="token.balance!=0 &&
                            token.balance!='loading' &&
-                          token.balance.trim()!='Not a valid ERC-20 token' ||
-                          token.type!=='default' ||
-                          tokenVisibility=='shown'" >
+                           token.balance!='Click to Load' &&
+                           token.balance.trim()!='Not a valid ERC-20 token' ||
+                           token.type!=='default'" >
                   <a ng-class="{true:'active'}[unitReadable == token.getSymbol()]"
                      ng-click="setSendMode('token', $index, token.getSymbol())" >
                       {{token.getSymbol()}}
@@ -4145,7 +4146,7 @@
 
       </div>
 
-      <!-- Amount to Send - Load Token Balances -->
+      <!-- Amount to Send - Load Token Balances
       <a class="col-sm-1 send__load-tokens"
          title="Load Token Balances"
          ng-click="wallet.setTokens(); globalService.tokensLoaded=true"
@@ -4155,6 +4156,7 @@
             Load Tokens
           </p>
       </a>
+      -->
 
       <!-- Amount to Send - Transfer Entire Balance -->
       <p class="col-xs-12" ng-hide="tx.readOnly">

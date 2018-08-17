@@ -14,7 +14,6 @@ var sendTxCtrl = function($scope, $sce, walletService, $rootScope) {
     $scope.tx.readOnly = globalFuncs.urlGet('readOnly') == null ? false : true;
     var currentTab = $scope.globalService.currentTab;
     var tabs = $scope.globalService.tabs;
-    $scope.tokenVisibility = "hidden";
     $scope.tokenTx = {
         to: '',
         value: 0,
@@ -89,7 +88,7 @@ var sendTxCtrl = function($scope, $sce, walletService, $rootScope) {
         $scope.wallet = walletService.wallet;
         $scope.wd = true;
         $scope.wallet.setBalance(applyScope);
-        //$scope.wallet.setTokens();
+        $scope.wallet.setTokens();
         if ($scope.parentTxConfig) {
             var setTxObj = function() {
                 $scope.addressDrtv.ensAddressField = $scope.parentTxConfig.to;
@@ -162,9 +161,9 @@ var sendTxCtrl = function($scope, $sce, walletService, $rootScope) {
         if ($scope.gasLimitChanged) return;
         for (var i in $scope.customGas) {
             if ($scope.tx.to.toLowerCase() == $scope.customGas[i].to.toLowerCase()) {
-                $scope.showAdvance = $scope.customGas[i].data != '' ? true : false;
+                $scope.showAdvance = $scope.tx.data != '' || $scope.customGas[i].data != '' ? true : false;
                 $scope.tx.gasLimit = $scope.customGas[i].gasLimit;
-                $scope.tx.data = $scope.customGas[i].data;
+                if ($scope.customGas[i].data != '') $scope.tx.data = $scope.customGas[i].data;
                 $scope.customGasMsg = $scope.customGas[i].msg != '' ? $scope.customGas[i].msg : ''
                 return;
             }
@@ -294,7 +293,7 @@ var sendTxCtrl = function($scope, $sce, walletService, $rootScope) {
       $scope.parsedSignedTx.txFee.gwei    = new BigNumber($scope.parsedSignedTx.txFee.wei).div(etherUnits.getValueOfUnit('gwei')).toString()
       $scope.parsedSignedTx.txFee.eth     = etherUnits.toEther( parseInt($scope.parsedSignedTx.txFee.wei), 'wei' ).toString()
       $scope.parsedSignedTx.nonce         = (txData.nonce=='0x'||txData.nonce==''||txData.nonce==null) ? '0' : new BigNumber(ethFuncs.sanitizeHex(txData.nonce.toString('hex'))).toString()
-      $scope.parsedSignedTx.data          = (txData.data=='0x'||txData.data==''||txData.data==null) ? '(none)' : new BigNumber(ethFuncs.sanitizeHex(txData.data.toString('hex'))).toString()
+      $scope.parsedSignedTx.data          = (txData.data=='0x'||txData.data==''||txData.data==null) ? '(none)' : ethFuncs.sanitizeHex(txData.data.toString('hex'))
 
 
     }

@@ -246,4 +246,22 @@ to:         '0x29AfA3443f752eb29d814d9042Fd88A4a2dc0F1e',
 gasLimit:   200000,
 data:       '',
 msg:        'SIRIN LABS official crowdsale address. Official website https://sirinlabs.com'
+},{
+// TRV Token Sale
+to:         '0xA671f2914Ba0e73979FFc47cD350801d1714b18f',
+gasLimit:   150000,
+data:       '',
+msg:        'TRV Ongoing Sale.'
+},{
+// Bitlle Token Sale (BTL)
+to:         '0x92685E93956537c25Bb75D5d47fca4266dd628B8',
+gasLimit:   200000,
+data:       '',
+msg:        'Bitlle Token. Official website https://bitlle.com'
+},{
+// EDU Token Sale (LiveEdu.tv)
+to:         '0x2097175d0abb8258f2468E3487F8db776E29D076',
+gasLimit:   200000,
+data:       '',
+msg:        'LiveEdu EDU token sale. Official website: https://tokensale.liveedu.tv/'
 }]
