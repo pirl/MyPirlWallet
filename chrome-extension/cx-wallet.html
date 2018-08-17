@@ -57,12 +57,12 @@
     
       <a class="brand" href="/cx-wallet.html" aria-label="Go to homepage">
         <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyEtherWallet" />
-        <p class="small visible-xs">3.21.0</p>
+        <p class="small visible-xs">3.21.01</p>
       </a>
     
     <div class="tagline">
 
-    <span class="hidden-xs">3.21.0</span>
+    <span class="hidden-xs">3.21.01</span>
 
     <span class="dropdown dropdown-lang" ng-cloak>
       <a tabindex="0"  aria-haspopup="true" aria-expanded="false" aria-label="change language. current language {{curLang}}" class="dropdown-toggle  btn btn-white" ng-click="dropdown = !dropdown">{{curLang}}<i class="caret"></i></a>
@@ -1854,7 +1854,7 @@
 
         <br />
 
-        <table class="table small table-condensed table-hover">
+        <table class="table small table-condensed table-hover transaction-modal">
           <tbody>
             <tr>
               <td class="small text-right">To Address:</td>
@@ -1902,7 +1902,7 @@
             </tr>
             <tr>
               <td class="small text-right">Data:</td>
-              <td class="small text-left mono">{{parsedSignedTx.data}}</td>
+              <td class="small text-left mono text-width-limit"><p>{{parsedSignedTx.data}}</p></td>
             </tr>
 
           </tbody>
@@ -4446,7 +4446,7 @@
 
         <br />
 
-        <table class="table small table-condensed table-hover">
+        <table class="table small table-condensed table-hover transaction-modal">
           <tbody>
             <tr>
               <td class="small text-right">To Address:</td>
@@ -4494,7 +4494,7 @@
             </tr>
             <tr>
               <td class="small text-right">Data:</td>
-              <td class="small text-left mono">{{parsedSignedTx.data}}</td>
+              <td class="small text-left mono text-width-limit"><p>{{parsedSignedTx.data}}</p></td>
             </tr>
 
           </tbody>
