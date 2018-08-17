@@ -42,6 +42,12 @@
     "type": "default"
   },
   {
+    "address": "0xE69a353b3152Dd7b706ff7dD40fe1d18b7802d31",
+    "symbol": "ADH",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0x8810C63470d38639954c6B41AaC545848C46484a",
     "symbol": "ADI",
     "decimal": 18,
@@ -140,6 +146,12 @@
   {
     "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
     "symbol": "ANT",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0x4c0fbe1bb46612915e7967d2c3213cd4d87257ad",
+    "symbol": "APIS",
     "decimal": 18,
     "type": "default"
   },
@@ -312,6 +324,12 @@
     "type": "default"
   },
   {
+    "address": "0x763186eb8d4856d536ed4478302971214febc6a9",
+    "symbol": "BETR",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0xb2bfeb70b903f1baac7f2ba2c62934c7e5b974c4",
     "symbol": "BKB",
     "decimal": 8,
@@ -369,6 +387,12 @@
     "address": "0xdD6Bf56CA2ada24c683FAC50E37783e55B57AF9F",
     "symbol": "BNC",
     "decimal": 12,
+    "type": "default"
+  },
+  {
+    "address": "0xdA2C424Fc98c741c2d4ef2f42897CEfed897CA75",
+    "symbol": "BNFT",
+    "decimal": 9,
     "type": "default"
   },
   {
@@ -450,6 +474,12 @@
     "type": "default"
   },
   {
+    "address": "0xa02e3bb9cebc03952601b3724b4940e0845bebcf",
+    "symbol": "BTHR",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0xdb8646f5b487b5dd979fac618350e85018f557d4",
     "symbol": "BTK",
     "decimal": 18,
@@ -519,6 +549,12 @@
     "address": "0x423e4322cdda29156b49a17dfbd2acc4b280600d",
     "symbol": "CAR",
     "decimal": 9,
+    "type": "default"
+  },
+  {
+    "address": "0xa517a46baad6b054a76bd19c46844f717fe69fea",
+    "symbol": "CARB",
+    "decimal": 8,
     "type": "default"
   },
   {
@@ -600,6 +636,12 @@
     "type": "default"
   },
   {
+    "address": "0xba9d4199fab4f26efe3551d490e3821486f135ba",
+    "symbol": "CHSB",
+    "decimal": 8,
+    "type": "default"
+  },
+  {
     "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
     "symbol": "CK",
     "decimal": 0,
@@ -639,6 +681,12 @@
     "address": "0xf85fEea2FdD81d51177F6b8F35F0e6734Ce45F5F",
     "symbol": "CMT",
     "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0xEBf2F9E8De960f64ec0fDCDa6Cb282423133347B",
+    "symbol": "CNB",
+    "decimal": 8,
     "type": "default"
   },
   {
@@ -864,6 +912,12 @@
     "type": "default"
   },
   {
+    "address": "0x7cF271966F36343Bf0150F25E5364f7961c58201",
+    "symbol": "DEPO",
+    "decimal": 0,
+    "type": "default"
+  },
+  {
     "address": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
     "symbol": "DGD",
     "decimal": 9,
@@ -1008,6 +1062,12 @@
     "type": "default"
   },
   {
+    "address": "0xfa1de2ee97e4c10c94c91cb2b5062b89fb140b82",
+    "symbol": "EDC",
+    "decimal": 6,
+    "type": "default"
+  },
+  {
     "address": "0x08711D3B02C8758F2FB3ab4e80228418a7F8e39c",
     "symbol": "EDG",
     "decimal": 0,
@@ -1113,6 +1173,18 @@
     "address": "0x3a26746Ddb79B1B8e4450e3F4FFE3285A307387E",
     "symbol": "ETHB",
     "decimal": 8,
+    "type": "default"
+  },
+  {
+    "address": "0xdd74a7a3769fa72561b3a69e65968f49748c690c",
+    "symbol": "ETCH",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0x6927C69fb4daf2043fbB1Cb7b86c5661416bea29",
+    "symbol": "ETR",
+    "decimal": 18,
     "type": "default"
   },
   {
@@ -1248,6 +1320,12 @@
     "type": "default"
   },
   {
+    "address": "0x6754e21b9EAa053c62d7854dD6561ae451B0cBCf",
+    "symbol": "GANA",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0x708876f486e448ee89eb332bfbc8e593553058b9",
     "symbol": "GAVEL",
     "decimal": 18,
@@ -1256,6 +1334,12 @@
   {
     "address": "0x7585F835ae2d522722d2684323a0ba83401f32f5",
     "symbol": "GBT",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0x12fCd6463E66974cF7bBC24FFC4d40d6bE458283",
+    "symbol": "GBX",
     "decimal": 18,
     "type": "default"
   },
@@ -1580,6 +1664,12 @@
   {
     "address": "0x773450335eD4ec3DB45aF74f34F2c85348645D39",
     "symbol": "JetCoins",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0x0D6DD9f68d24EC1d5fE2174f3EC8DAB52B52BaF5",
+    "symbol": "KC",
     "decimal": 18,
     "type": "default"
   },
@@ -1943,6 +2033,12 @@
     "type": "default"
   },
   {
+    "address": "0x17f8aFB63DfcDcC90ebE6e84F060Cc306A98257D",
+    "symbol": "NBAI",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0x9e46a38f5daabe8683e10793b06749eef7d733d1",
     "symbol": "NCT",
     "decimal": 18,
@@ -1987,6 +2083,12 @@
   {
     "address": "0xec46f8207d766012454c408de210bcbc2243e71c",
     "symbol": "NOX",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0x4ce6b362bc77a24966dda9078f9cef81b3b886a7",
+    "symbol": "NPER",
     "decimal": 18,
     "type": "default"
   },
@@ -2069,6 +2171,12 @@
     "type": "default"
   },
   {
+    "address": "0xfeDAE5642668f8636A11987Ff386bfd215F942EE",
+    "symbol": "PAL",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc",
     "symbol": "PARETO",
     "decimal": 18,
@@ -2077,6 +2185,12 @@
   {
     "address": "0x694404595e3075a942397f466aacd462ff1a7bd0",
     "symbol": "PATENTS",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0xF813F3902bBc00A6DCe378634d3B79D84F9803d7",
+    "symbol": "PATH",
     "decimal": 18,
     "type": "default"
   },
@@ -2090,6 +2204,12 @@
     "address": "0x55648de19836338549130b1af587f16bea46f66b",
     "symbol": "PBL",
     "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0xF4c07b1865bC326A3c01339492Ca7538FD038Cc0",
+    "symbol": "PBT",
+    "decimal": 4,
     "type": "default"
   },
   {
@@ -2243,6 +2363,12 @@
     "type": "default"
   },
   {
+    "address": "0xA3149E0fA0061A9007fAf307074cdCd290f0e2Fd",
+    "symbol": "PRON",
+    "decimal": 8,
+    "type": "default"
+  },
+  {
     "address": "0x7641b2Ca9DDD58adDf6e3381c1F994Aac5f1A32f",
     "symbol": "PRPS",
     "decimal": 18,
@@ -2327,6 +2453,12 @@
     "type": "default"
   },
   {
+    "address": "0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6",
+    "symbol": "RCN",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6",
     "symbol": "RDN",
     "decimal": 18,
@@ -2369,6 +2501,12 @@
     "type": "default"
   },
   {
+    "address": "0xd0929d411954c47438dc1d871dd6081f5c5e149c",
+    "symbol": "RFR",
+    "decimal": 4,
+    "type": "default"
+  },
+  {
     "address": "0xdd007278b667f6bef52fd0a4c23604aa1f96039a",
     "symbol": "RIPT",
     "decimal": 8,
@@ -2401,6 +2539,12 @@
   {
     "address": "0x0996bfb5d057faa237640e2506be7b4f9c46de0b",
     "symbol": "RNDR",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0xA40106134c5bF4c41411554e6db99B95A15ed9d8",
+    "symbol": "ROCK",
     "decimal": 18,
     "type": "default"
   },
@@ -2959,6 +3103,12 @@
   {
     "address": "0x519475b31653e46d20cd09f9fdcf3b12bdacb4f5",
     "symbol": "VIU",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0xc3bc9eb71f75ec439a6b6c8e8b746fcf5b62f703",
+    "symbol": "VOC",
     "decimal": 18,
     "type": "default"
   },
