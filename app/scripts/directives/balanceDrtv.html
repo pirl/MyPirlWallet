@@ -36,7 +36,7 @@
     <ul class="account-info">
       <li ng-show="ajaxReq.type != 'CUS'">
         <a href="{{ajaxReq.blockExplorerAddr.replace('[[address]]', wallet.getAddressString())}}" target="_blank" rel="noopener noreferrer">
-          {{ajaxReq.type}} ({{ajaxReq.blockExplorerTX.replace('/tx/[[txHash]]', '')}})
+          {{ajaxReq.type}} ({{ajaxReq.blockExplorerTX.match('://(.*?)/')[1]}})
         </a>
       </li>
       
@@ -116,7 +116,7 @@
   <!-- Token Balances -->
   <div class="block token-balances">
     <h5 translate="sidebar_TokenBal">Token Balances</h5>
-    <p class="text-danger" ng-hide="tokensLoaded"><small> Ahh! There are too many tokens for our poor nodes! Click "Load Token Balances" to see them all. You are limited to loading these once per minute. Try checking your balance on <span ng-show="ajaxReq.type != 'CUS'"><a href="{{ajaxReq.blockExplorerAddr.replace('[[address]]', wallet.getAddressString())}}" target="_blank" rel="noopener">{{ajaxReq.blockExplorerTX.replace('/tx/[[txHash]]', '')}}</a></span> or <a href="https://ethplorer.io/address/{{wallet.getAddressString()}}" target="_blank" rel="noopener">Ethplorer.io</a> instead. </small></p>
+    <p class="text-danger" ng-hide="tokensLoaded"><small> Ahh! There are too many tokens for our poor nodes! Click "Load Token Balances" to see them all. You are limited to loading these once per minute. Try checking your balance on <span ng-show="ajaxReq.type != 'CUS'"><a href="{{ajaxReq.blockExplorerAddr.replace('[[address]]', wallet.getAddressString())}}" target="_blank" rel="noopener">{{ajaxReq.blockExplorerTX.match('://(.*?)/')[1]}}</a></span> or <a href="https://ethplorer.io/address/{{wallet.getAddressString()}}" target="_blank" rel="noopener">Ethplorer.io</a> instead. </small></p>
     
     
     <div class="custom-token-fields" ng-show="customTokenField">
