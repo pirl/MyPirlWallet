@@ -37,6 +37,7 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
         hwAkromaPath:      "m/44'/200625'/0'/0",   // first address: m/44'/200625'/0'/0/0
         hwESNetworkPath:   "m/44'/31102'/0'/0",    // first address: m/44'/31102'/0'/0/0
         hwEther1Path:      "m/44'/1313114'/0'/0",  // first address: m/44'/1313114'/0'/0/0
+        hwAtheiosPath:     "m/44'/1620'/0'/0",     // first address: m/44'/1620'/0'/0/0
     };
     $scope.HDWallet.dPath = $scope.HDWallet.defaultDPath;
     $scope.mnemonicModel = new Modal(document.getElementById('mnemonicModel'));
@@ -56,6 +57,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
                 case nodes.nodeTypes.ETC:
                     $scope.HDWallet.dPath = $scope.HDWallet.ledgerClassicPath;
                     break;
+                case nodes.nodeTypes.CLO:
+                    $scope.HDWallet.dPath = $scope.HDWallet.hwCallistoPath;
+                    break;
                 case nodes.nodeTypes.EXP:
                     $scope.HDWallet.dPath = $scope.HDWallet.hwExpansePath;
                     break;
@@ -73,6 +77,12 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
                     break;
                 case nodes.nodeTypes.ETHO:
                     $scope.HDWallet.dPath = $scope.HDWallet.hwEther1Path;
+                    break;
+                case nodes.nodeTypes.ATH:
+                    $scope.HDWallet.dPath = $scope.HDWallet.hwAtheiosPath;
+                    break;
+                case nodes.nodeTypes.EGEM:
+                    $scope.HDWallet.dPath = $scope.HDWallet.hwEtherGemPath;
                     break;
                 default:
                     $scope.HDWallet.dPath = $scope.HDWallet.ledgerPath;
@@ -130,6 +140,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
                 case nodes.nodeTypes.PIRL:
                     $scope.HDWallet.dPath = $scope.HDWallet.hwPirlPath;
                     break;
+                case nodes.nodeTypes.ATH:
+                    $scope.HDWallet.dPath = $scope.HDWallet.hwAtheiosPath;
+                    break;
                 default:
                     $scope.HDWallet.dPath = $scope.HDWallet.trezorPath;
             }
@@ -182,6 +195,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
                     break;
                 case nodes.nodeTypes.ETHO:
                     $scope.HDWallet.dPath = $scope.HDWallet.hwEther1Path;
+                    break;
+                case nodes.nodeTypes.ATH:
+                    $scope.HDWallet.dPath = $scope.HDWallet.hwAtheiosPath;
                     break;
                 default:
                   $scope.HDWallet.dPath = $scope.HDWallet.defaultDPath;
