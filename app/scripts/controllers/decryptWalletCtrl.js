@@ -127,6 +127,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
                 case nodes.nodeTypes.ESN:
                     $scope.HDWallet.dPath = $scope.HDWallet.hwESNetworkPath;
                     break;
+                case nodes.nodeTypes.PIRL:
+                    $scope.HDWallet.dPath = $scope.HDWallet.hwPirlPath;
+                    break;
                 default:
                     $scope.HDWallet.dPath = $scope.HDWallet.trezorPath;
             }
