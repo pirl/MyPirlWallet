@@ -66,7 +66,7 @@
     "type": "default"
   },
   {
-    "address": "0xBDe8f7820b5544a49D34F9dDeaCAbEDC7C0B5adc",
+    "address": "0xBa7DCBa2Ade319Bc772DB4df75A76BA00dFb31b0",
     "symbol": "A18",
     "decimal": 0,
     "type": "default"
@@ -2298,6 +2298,12 @@
     "type": "default"
   },
   {
+    "address": "0x4a37a91eec4c97f9090ce66d21d3b3aadf1ae5ad",
+    "symbol": "LCT",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0x5102791ca02fc3595398400bfe0e33d7b6c82267",
     "symbol": "LDC",
     "decimal": 18,
@@ -3852,6 +3858,12 @@
     "type": "default"
   },
   {
+    "address": "0xb3616550abc8af79c7a5902def9efa3bc9a95200",
+    "symbol": "TLX",
+    "decimal": 8,
+    "type": "default"
+  },
+  {
     "address": "0x08f5a9235b08173b7569f83645d2c7fb55e8ccd8",
     "symbol": "TNT",
     "decimal": 8,
@@ -3930,9 +3942,21 @@
     "type": "default"
   },
   {
+    "address": "0x931684139f756C24eC0731E9F74FE50e5548dDeF",
+    "symbol": "URB",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
     "address": "0xD760ADdFb24D9C01Fe4Bfea7475C5e3636684058",
     "symbol": "USDM",
     "decimal": 2,
+    "type": "default"
+  },
+  {
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "symbol": "USDC",
+    "decimal": 6,
     "type": "default"
   },
   {
@@ -4064,6 +4088,12 @@
   {
     "address": "0x286BDA1413a2Df81731D4930ce2F862a35A609fE",
     "symbol": "WaBi",
+    "decimal": 18,
+    "type": "default"
+  },
+  {
+    "address": "0x829A4cA1303383F1082B6B1fB937116e4b3b5605",
+    "symbol": "WATT",
     "decimal": 18,
     "type": "default"
   },
