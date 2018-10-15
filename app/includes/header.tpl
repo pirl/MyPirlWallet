@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="mewApp">
+<html lang="en" ng-app="mewApp" class="PIRL">
 <head>
 <meta charset="utf-8">
 <link rel="manifest" href="images/fav/manifest.json">
@@ -59,7 +59,8 @@
   <section class="container">
     @@if (site === 'mew' ) {
       <a class="brand" href="/" aria-label="Go to homepage">
-        <img src="images/logo-myetherwallet.svg"   height="64px" width="245px" alt="MyPirlWallet" />
+        <img src="images/logo-pirl.svg" alt="MyPirlWallet" />
+        <span id="site-title">Pirl</span>
         <p class="small visible-xs">3.21.22</p>
       </a>
     }

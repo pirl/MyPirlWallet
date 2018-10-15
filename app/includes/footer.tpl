@@ -13,7 +13,7 @@
 
   <article class="block__wrap" style="max-width: 1780px; margin: auto;">
 
-    <section class="footer--left">
+    <section class="disclaimer">
 
       <a href="/"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
 
@@ -45,10 +45,7 @@
 
     </section>
 
-    <section class="footer--cent">
-
-        <!--
-        -->
+    <section>
         <h5 ng-hide="curLang=='en'">
           <i>🏅</i>
           <span translate="Translator_Desc"> Thank you to our translators </span>
@@ -82,17 +79,7 @@
                 </a></p>
 
     </section>
-
-    <section class="footer--righ">
-
-
-
-
-      <p><a aria-label="website via github URL" href="https://https://github.io/pirl/" target="_blank" rel="noopener" role="link" tabindex="0">
-        https://github.io/pirl
-      </a></p>
-
-      <p>
+    <section>
         <a aria-label="my ether wallet github" href="https://github.com/kvhnuke/etherwallet" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           Github: Current Site &amp; CX
         </a>
