@@ -338,7 +338,7 @@ PARITY_Old                      :  "(parity-07) There is already a transaction w
 PARITY_TooCheapToReplace        :  "(parity-08) TX Fee is too low. It does not satisfy your node's minimal fee (minimal: (d+), got: (d+)). Try increasing the gas price and/or gas limit. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 
 
-FOOTER_1                        :  'Free, open-source, client-side interface for generating Pirl wallets &amp; more. Interact with the Pirl blockchain easily &amp; securely. Double-check the URL ( wallet.pirl.io ) before unlocking your wallet.',
+FOOTER_1                        :  'Free, open-source, client-side interface for generating Pirl wallets &amp; more. Interact with the Pirl blockchain easily &amp; securely. Forked from [MyEtherWallet](https://www.myetherwallet.com/). Double-check the URL ( wallet.pirl.io ) before unlocking your wallet.',
 FOOTER_1b                       :  'Created by',
 FOOTER_2                        :  'Donations greatly appreciated',
 FOOTER_3                        :  'Client-side wallet generation by',
