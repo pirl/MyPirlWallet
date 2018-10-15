@@ -61,7 +61,6 @@
       <a class="brand" href="/" aria-label="Go to homepage">
         <img src="images/logo-pirl.svg" alt="MyPirlWallet" />
         <span id="site-title">Pirl</span>
-        <p class="small visible-xs">3.21.22</p>
       </a>
     }
     @@if (site === 'cx'  ) {
