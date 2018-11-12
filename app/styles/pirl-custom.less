@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Diavlo';
+  src: url('../fonts/Diavlo-Medium-Regular.woff') format('woff');
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Diavlo';
+  src: url('../fonts/Diavlo-Bold-Regular.woff') format('woff');
+
+  font-style: normal;
+  font-weight: bold;
+}
+
+.PIRL {
+    @import 'pirl-header';
+    @import 'pirl-footer';
+
+    /**
+    * Misc styles
+    */
+
+    .block__help {
+        a {
+            color: @brand-primary;
+        }
+    }
+}

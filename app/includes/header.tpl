@@ -1,23 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="mewApp">
+<html lang="en" ng-app="mewApp" class="PIRL">
 <head>
 <meta charset="utf-8">
 <link rel="manifest" href="images/fav/manifest.json">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>MyPirlWallet</title>
-<meta property="og:title" content="mywallet.pirl.io: Your Key to Pirl">
-<meta property="og:site_name" content="mywallet.pirl.io: Your Key to Pirl">
-<meta name="twitter:title" content="mywallet.pirl.io: Your Key to Pirl">
 <meta name="apple-mobile-web-app-title" content="mywallet.pirl.io: Your Key to Pirl">
-<link href="https://https://wallet.pirl.io" rel="canonical">
-<meta content="https://wallet.pirl.io" property="og:url">
-<meta content="https://wallet.pirl.io" name="twitter:url">
+<link href="https://wallet.pirl.io" rel="canonical">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
-<meta name="description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet.">
-<meta property="og:description"  content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="twitter:description" content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( wallet.pirl.io ) before unlocking your wallet.">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
@@ -32,15 +25,13 @@
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://mywallet.pirl.io" />
-<meta property="og:title" content="mywallet.pirl.io  &middot; Your Key to Pirl" />
+<meta property="og:url" content="https://wallet.pirl.io" />
+<meta property="og:title" content="wallet.pirl.io  &middot; Your Key to Pirl" />
 <meta property="og:type" content="website">
-<meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
-<meta property="og:image" content="/images/myetherwallet-logo.png" />
-<meta property="og:image" content="/images/myetherwallet-logo-square.png" />
-<meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
-<meta property="og:description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( .io ) before unlocking your wallet." />
-<meta name="twitter:image" content="/images/myetherwallet-logo-twitter.png">
+<meta property="og:image" content="/images/mypirlwallet-logo-banner.jpg" />
+<meta property="og:image" content="/images/mypirlwallet-logo-square.png" />
+<meta property="og:image" content="/images/mypirlwallet-banner-artistic.jpg" />
+<meta property="og:description" content="MyPirlWallet is a free, open-source, client-side interface for generating Pirl wallets &amp; interacting with the blockchain easily &amp; securely. Double-check the URL ( wallet.pirl.io ) before unlocking your wallet." />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@PirlOfficial">
 <meta name="twitter:creator" content="@PirlOfficial">
@@ -59,13 +50,13 @@
   <section class="container">
     @@if (site === 'mew' ) {
       <a class="brand" href="/" aria-label="Go to homepage">
-        <img src="images/logo-myetherwallet.svg"   height="64px" width="245px" alt="MyEtherWallet" />
-        <p class="small visible-xs">3.21.22</p>
+        <img src="images/logo-pirl.svg" alt="MyPirlWallet" />
+        <span id="site-title">Pirl</span>
       </a>
     }
     @@if (site === 'cx'  ) {
       <a class="brand" href="/cx-wallet.html" aria-label="Go to homepage">
-        <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyEtherWallet" />
+        <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyPirlWallet" />
         <p class="small visible-xs">3.21.22</p>
       </a>
     }
