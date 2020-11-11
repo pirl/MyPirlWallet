@@ -1,3 +1,6 @@
+# THIS REPO OF PIRL IS DEPRECIATED, WE HAVE MOVED TO NPOS PROTOCOL
+
+
 ### [https://www.MyEtherWallet.com](https://www.MyEtherWallet.com)
 
 ### [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
